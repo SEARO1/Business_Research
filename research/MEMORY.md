@@ -1,14 +1,14 @@
-# Business Research — Pain Points Memory
+# Business Research ??Pain Points Memory
 
 This file tracks validated B2B pain points identified through autonomous
 web research. Each entry is a high-friction signal found in concrete
 sources (customer case studies, named executive quotes, public reports)
-from 2025–2026.
+from 2025??026.
 
 Categories (per `AutoResearch.md` brief):
-- **Integration** — Data silos, API interoperability, manual data entry
-- **Security** — Data privacy, cross-border compliance, identity control
-- **Onboarding** — Time-to-value, deployment complexity, ROI transparency
+- **Integration** ??Data silos, API interoperability, manual data entry
+- **Security** ??Data privacy, cross-border compliance, identity control
+- **Onboarding** ??Time-to-value, deployment complexity, ROI transparency
 
 ---
 
@@ -16,16 +16,16 @@ Categories (per `AutoResearch.md` brief):
 
 | # | Category | Friction (one-line) | Source |
 |---|----------|---------------------|--------|
-| 1 | Onboarding | Vendor security review = 100 hrs/vendor × 50+ vendors = 5,000+ hrs/year | Vanta/Vibrent Health |
+| 1 | Onboarding | Vendor security review = 100 hrs/vendor ? 50+ vendors = 5,000+ hrs/year | Vanta/Vibrent Health |
 | 2 | Onboarding | Security review adds 3-4 weeks to enterprise sales cycles | Vanta/DocGo |
 | 3 | Onboarding | Manual compliance labor = 2,000+ hrs/year at major enterprises | Vanta/Snowflake |
-| 4 | Onboarding | 2 GRC employees maintaining 12+ frameworks — team too small | Vanta/Ramp |
+| 4 | Onboarding | 2 GRC employees maintaining 12+ frameworks ??team too small | Vanta/Ramp |
 | 5 | Onboarding | GRC work in 10+ disconnected spreadsheets per framework | Vanta/Ramp |
-| 6 | Security | Global compliance fragmentation: 40 currencies × 195 countries | Vanta/Ramp |
+| 6 | Security | Global compliance fragmentation: 40 currencies ? 195 countries | Vanta/Ramp |
 | 7 | Integration | Years of accumulated tool silos block global visibility at 76-country, 160k-employee enterprise | MuleSoft/Saint-Gobain |
 | 8 | Security | Batch-level traceability required by environmental regulations (CO2, recyclability) impossible in silos | MuleSoft/Saint-Gobain |
-| 9 | Integration | Enterprise integration must span cloud + on-prem + OT (SCADA) — most SaaS cannot reach OT | MuleSoft/Saint-Gobain |
-| 10 | Integration | Initial API reusability only 35% — takes 12+ months to lift to 57% with focused effort | MuleSoft/Saint-Gobain |
+| 9 | Integration | Enterprise integration must span cloud + on-prem + OT (SCADA) ??most SaaS cannot reach OT | MuleSoft/Saint-Gobain |
+| 10 | Integration | Initial API reusability only 35% ??takes 12+ months to lift to 57% with focused effort | MuleSoft/Saint-Gobain |
 | 11 | Integration | On-premise AD server sprawl: ~100 servers, each a patch/replication/DR burden | Okta/Hitachi |
 | 12 | Security | M&A identity integration = 6 months per acquired company on legacy on-prem infra | Okta/Hitachi |
 | 13 | Security | 480k identity inventory impossible manually; unused identities are top attack vector | Okta/Hitachi |
@@ -48,7 +48,7 @@ Categories (per `AutoResearch.md` brief):
   same security questionnaires are answered repeatedly with no shared
   industry response.
 - **Source:** https://www.vanta.com/customers (George Uzzle, CISO,
-  Vibrent Health — quoted on Vanta's customer page).
+  Vibrent Health ??quoted on Vanta's customer page).
 - **Severity:** High. Security review backlog blocks enterprise sales;
   engineering/security staff diverted to questionnaire responses.
 
@@ -75,8 +75,8 @@ Categories (per `AutoResearch.md` brief):
 - **Category:** Onboarding
 - **Friction:** 2 full-time GRC employees maintaining 12+ frameworks
   (PCI-DSS, FedRAMP, HIPAA, ISO 27001/27017/27018, NIST CSF, etc.).
-  New framework onboarding = manual download → review → spreadsheet
-  conversion → gap analysis.
+  New framework onboarding = manual download ??review ??spreadsheet
+  conversion ??gap analysis.
 - **Source:** https://www.vanta.com/customers/ramp
 - **Severity:** Critical. Linear team/framework mismatch.
 
@@ -87,7 +87,7 @@ Categories (per `AutoResearch.md` brief):
 - **Source:** https://www.vanta.com/customers/ramp
 - **Severity:** High. Audit prep = manual reconciliation.
 
-### 6. Global compliance: 40 currencies × 195 countries
+### 6. Global compliance: 40 currencies ? 195 countries
 - **Category:** Security
 - **Friction:** Financial platform operating in 40 currencies / 195
   countries must comply with framework requirements in each
@@ -168,7 +168,7 @@ Categories (per `AutoResearch.md` brief):
 ### 15. Carbon-neutrality constrains IT procurement
 - **Category:** Security
 - **Friction:** Hitachi's IT Strategy & Digital Integration Division
-  "selects products with carbon neutrality in mind" — sustainability
+  "selects products with carbon neutrality in mind" ??sustainability
   is now an IT procurement constraint. On-prem AD servers (~100) carry
   carbon-footprint liability.
 - **Source:** https://www.okta.com/customers/hitachi/
@@ -235,7 +235,7 @@ Categories (per `AutoResearch.md` brief):
 
 ## Research Session Notes
 
-### 2026-06-05 — Branch `research/pain-points-v1` — **COMPLETE (Mode A)**
+### 2026-06-05 ??Branch `research/pain-points-v1` ??**COMPLETE (Mode A)**
 - Initial setup: scaffolded `research/` dir with `MEMORY.md` and
   `research_log.jsonl` schema.
 - Scope: global digital services, B2B / enterprise / developer focus.
@@ -244,12 +244,12 @@ Categories (per `AutoResearch.md` brief):
   named-customer, named-executive, quantified sources.
 - Supplanted by Mode B switch on 2026-06-05.
 
-### 2026-06-05 — Branch `research/auth0-identity-v1` — **Mode B**
-- **Mode:** B (autonomous evaluation) — first session under the new
+### 2026-06-05 ??Branch `research/auth0-identity-v1` ??**Mode B**
+- **Mode:** B (autonomous evaluation) ??first session under the new
   operating mode.
 - **Vendor family:** Auth0 (Okta Customer Identity / CIAM).
 - **Customer case studies:** Dunelm, NHS Leadership Academy, GrandVision.
-- **Findings logged:** 5 (numbered 16–20).
+- **Findings logged:** 5 (numbered 16??0).
 - **Skipped vendors in this iteration:** Stripe (marketing page lacked
   pain-before-vendor patterns); Drata (Cloudflare block); Workato
   (404 on case study URL patterns). Logged to saturation heuristics.
@@ -257,7 +257,7 @@ Categories (per `AutoResearch.md` brief):
   - Auth0 case studies are written as **`.md` raw markdown** at
     predictable paths (`auth0.com/case-studies/<name>.md`). This is
     a great target shape.
-  - Skipped vendors are valuable negative data — they tell us where
+  - Skipped vendors are valuable negative data ??they tell us where
     not to spend time.
 
 ### Saturation note
@@ -267,3 +267,68 @@ Session 2 yielded 5/5 from 1 vendor (Auth0). Stripe yielded 0/5
 unreachable (Cloudflare + 404). The diminishing-returns threshold
 (>2 vendors yielding <3 findings) has not yet tripped, but I'm
 watching it.
+
+### 21. Tool sprawl kills roadmap visibility
+- **Category:** Integration
+- **Friction:** Engineering + product + design + ops teams on
+  disconnected tools (Jira + Atlas + Monday.com + spreadsheets) with
+  no single source of truth. "Navigating a maze of threads, channels,
+  tickets, different tools."
+- **Source:** https://linear.app/customers/brex
+- **Severity:** High. Tool sprawl directly undermines velocity.
+- Source: James Reggio, CTO, Brex.
+
+### 22. PM tools prioritize reporting over creation
+- **Category:** Onboarding
+- **Friction:** Most PM tools are designed for managers, not engineers.
+  "They prioritize reporting over creation, burdening engineers with
+  slow interfaces and mandatory fields."
+- **Source:** https://linear.app/customers/brex
+- **Severity:** High. Tools engineers don't enjoy aren't kept
+  up to date, which destroys the data managers need.
+- Source: James Reggio, CTO, Brex.
+
+### 23. Pilot-driven, metrics-based procurement
+- **Category:** Onboarding
+- **Friction:** Pilot-driven, metrics-based procurement is the new
+  enterprise norm. Brex ran a 4-month pilot with baseline + post
+  surveys across 6 dimensions. Improvements: 26%-63% per dimension.
+- **Source:** https://linear.app/customers/brex
+- **Severity:** Critical for vendors. Sales cycle now requires
+  3-6 month pilot with measurable before/after.
+- Source: Robert Kim, Engineering Manager, Brex.
+
+### 24. Engineering tools need UX, not mandates
+- **Category:** Onboarding
+- **Friction:** Engineering tools with slow / painful UX fail to
+  gain adoption even when mandated top-down. Brex pilot success
+  metric was "engineers enjoyed using it" �X 47% increase in daily
+  usage, 63% increase in satisfaction.
+- **Source:** https://linear.app/customers/brex
+- **Severity:** High. Top-down mandates without engineer buy-in
+  create shadow IT.
+- Source: James Reggio, CTO, Brex.
+
+### 25. Ticket backlogs grow without triage/ownership
+- **Category:** Integration
+- **Friction:** Engineering ticket backlogs grow without
+  triage/ownership, leading to issues that "get lost in the ether"
+  instead of being worked. Scale AI had 3 independent teams attempt
+  to switch tools before org-wide momentum, indicating pre-pilot
+  fragmentation.
+- **Source:** https://linear.app/customers/scale
+- **Severity:** High. Without rotation/scheduled ownership, every
+  team has orphaned tickets.
+- Source: Sam Sipe, Head of Engineering Public Sector, Scale AI.
+
+### 26. Bottom-up adoption beats top-down for engineering tools
+- **Category:** Onboarding
+- **Friction:** Bottom-up adoption beats top-down procurement for
+  engineering tools. Scale AI "planned for 50 seats initially, but
+  suddenly, hundreds more signed up" after 3 teams independently
+  adopted Linear.
+- **Source:** https://linear.app/customers/scale
+- **Severity:** High. Engineering teams will adopt tools that
+  solve their pain without IT/management sign-off; vendors who can
+  land one team get free expansion.
+- Source: Clemens Viernickel, Staff Product Manager, Scale AI.
