@@ -72,17 +72,46 @@ findings side-by-side. The `.md` table is the form humans actually
 read; the `.jsonl` is the form tools consume. Both are first-class
 artifacts, neither is the "real" one and the other a derivative.
 
-## 5. Constraints & Boundaries
+## 5. Operating Modes
 
-- **No Hallucinations:** Only log pain points explicitly found in
-  search results.
-- **B2B Focus:** Ignore B2C complaints (e.g., individual consumer
-  refund issues). Focus on enterprise, developer, and organizational
-  friction.
-- **Tone:** Analytical, concise, and focused on actionable technical
-  or business process bottlenecks.
-- **Iteration Limit:** Pause and request human review after compiling
-  15 distinct, high-quality pain points.
+There are two operating modes, switchable per-session:
+
+### 5.1 Mode A — Supervised (legacy default, 2026-06-04)
+
+- Pause and request human review after compiling 15 distinct,
+  high-quality pain points.
+- Used for early sessions where the researcher is calibrating
+  with the human reviewer.
+
+### 5.2 Mode B — Autonomous Evaluation (active 2026-06-05)
+
+- No human-review checkpoint per session.
+- The researcher self-evaluates each candidate finding against the
+  §6 Source-Quality Bar before logging it.
+- Sessions run continuously. Each session targets **5–10
+  high-quality findings** (one vendor family typically).
+- At the end of each session:
+  1. Commit the session's findings to `research/<topic>-v<n>`
+     branch.
+  2. Self-audit the batch against the §6 bar; drop any that fail.
+  3. Merge to `main` directly (no PR gate).
+  4. Update `RESEARCH.md` master index with the new session row.
+  5. Pick the next vendor family and start the next session on a
+     fresh branch.
+- Human review is opt-in only — the researcher surfaces findings to
+  the human only when a finding is unusual, surprising, or where
+  source verification is borderline. Routine progression does not
+  require a check-in.
+- Expected cadence: 1 vendor family per session, 1 session every
+  1–3 hours of agent runtime. Target: **100+ sessions** before
+  declaring the topic space "saturated."
+
+### 5.3 Mode toggling
+
+The active mode is recorded in the header of `RESEARCH.md`. Mode
+changes are documented in `Project.md`-style log entries inside
+`AutoResearch.md` (or `RESEARCH.md`) with a date stamp and the
+rationale.
 
 ## 6. Source-Quality Bar (added 2026-06-05)
 
@@ -177,3 +206,34 @@ Findings that do NOT clear the bar (do not log, do not pad to hit
 - "Users complain about onboarding" (no source, no quote).
 - Quotes from vendor marketing pages that read like ad copy
   ("Vanta is the one-stop shop" — discard).
+- "Based on my knowledge of the industry..." style speculation
+  (no source at all).
+
+### 7.5 Mode-B session loop (autonomous, active)
+
+Per session, with no human-in-the-loop:
+
+1. **Pick next vendor family** from the working queue
+   (see `RESEARCH.md` → "Working Vendor Queue"). Avoid duplicating
+   vendors covered in earlier sessions.
+2. **`web_fetch` the vendor's customer-stories index.** Score each
+   link by the 3 §6 criteria (named source, exec, metric) without
+   opening it; only deep-fetch the ones that look like they pass.
+3. **Self-evaluate each candidate finding against §6.** Drop without
+   mercy if any criterion fails.
+4. **Synthesize and append** to `research_log.jsonl` + update
+   `MEMORY.md` per §4.1.
+5. **After 5–10 findings, end the session.** Commit on the session
+   branch with a clear message.
+6. **Self-audit the batch.** Re-read each entry; if any one fails
+   §6 in retrospect, drop it from both files and update the count.
+7. **Merge session branch to main directly** (no PR).
+8. **Update `RESEARCH.md` master index** with the new session row
+   and updated category/vendor tally.
+9. **Push main** with both the session changes and the index update
+   as separate commits (so the diff is reviewable).
+10. **Pick the next vendor family** from the queue. Repeat.
+
+Sessions run until the queue is empty or the topic space is
+saturated (signaled by diminishing returns: >2 vendor families in a
+row producing <3 valid findings each).
