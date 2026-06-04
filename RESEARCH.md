@@ -31,19 +31,21 @@ for review, what's the next direction.
 
 | # | Branch | Date | Findings | Status | Top sources |
 |---|--------|------|----------|--------|-------------|
-| 1 | `research/pain-points-v1` | 2026-06-05 | 15 | ✅ Paused (Mode-A default; superseded by Mode-B switch) | Vanta, MuleSoft, Okta customer stories |
+| 1 | `research/pain-points-v1` | 2026-06-05 | 15 | ✅ Merged to main | Vanta, MuleSoft, Okta customer stories |
+| 2 | `research/auth0-identity-v1` | 2026-06-05 | 5 | ✅ Merged to main | Auth0 customer stories (Dunelm, NHS, GrandVision) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 15
+- **Total findings:** 20
 - **By category:**
-  - Integration: 7
-  - Security: 5
+  - Integration: 11
+  - Security: 6
   - Onboarding: 3
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
   - Okta (identity): 5
+  - Auth0 (CIAM): 5
 
 See `research/MEMORY.md` for the full per-finding detail.
 
