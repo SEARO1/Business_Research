@@ -1,5 +1,10 @@
 # Research — Master Index
 
+> **Active Mode:** **B — Autonomous Evaluation** (set 2026-06-05 by Kenny).
+> No per-session human review. Researcher self-evaluates against
+> `research/AutoResearch.md` §6 Source-Quality Bar. See "Open Items"
+> for opt-in review triggers.
+
 This is the **cross-session** master index for the autonomous B2B
 research program defined in
 [`research/AutoResearch.md`](research/AutoResearch.md). Session
@@ -12,7 +17,7 @@ for review, what's the next direction.
 ## Program State
 
 - **Brief:** `research/AutoResearch.md` (the rules, the focus areas,
-  the iteration limit, the play style).
+  iteration limit, the play style).
 - **Findings ledger:** `research/MEMORY.md` (human-readable index +
   detailed subsections).
 - **Machine mirror:** `research/research_log.jsonl` (one JSON object
@@ -20,12 +25,13 @@ for review, what's the next direction.
 - **Owner:** Kenny Cheung
 - **Researcher:** Nova (autonomous agent)
 - **Started:** 2026-06-05
+- **Operating mode:** B — Autonomous Evaluation
 
 ## Session Log
 
 | # | Branch | Date | Findings | Status | Top sources |
 |---|--------|------|----------|--------|-------------|
-| 1 | `research/pain-points-v1` | 2026-06-05 | 15 | ✅ Paused (hit §5 limit, awaiting human review) | Vanta, MuleSoft, Okta customer stories |
+| 1 | `research/pain-points-v1` | 2026-06-05 | 15 | ✅ Paused (Mode-A default; superseded by Mode-B switch) | Vanta, MuleSoft, Okta customer stories |
 
 ## Findings Tally (all sessions)
 
@@ -41,18 +47,82 @@ for review, what's the next direction.
 
 See `research/MEMORY.md` for the full per-finding detail.
 
-## Open Items for Human Review
+## Working Vendor Queue (for next sessions)
 
-Awaiting Kenny's review of Session 1 (15 findings on
-`research/pain-points-v1`):
+Prioritized list of vendor families to scout in upcoming sessions.
+Roughly grouped by likely category of findings; re-prioritize as
+the queue evolves.
 
-- **Quality OK?** Any to drop or rewrite?
-- **Next direction?** (proposed: Workato/Tray.io for more Integration
-  findings; Drata/Tugboat Logic for Onboarding; Auth0/1Password for
-  Security; or vertical-specific: HealthTech, FinTech, public-sector
-  SaaS.)
-- **PR / merge?** Session 1 is on a feature branch; want it merged to
-  `main` or kept separate?
+**Compliance / GRC:**
+- Drata — competitor to Vanta, likely similar pain
+- Tugboat Logic — compliance automation
+- Secureframe — compliance automation
+- Vanta (second pass for vertical-specific stories)
+
+**Integration / iPaaS:**
+- Workato — modern iPaaS, customer stories
+- Tray.io — iPaaS
+- Celigo — iPaaS
+- Zapier (enterprise) — long-tail SMB pain
+- Boomi — legacy iPaaS
+- SnapLogic — iPaaS
+- Make (Integromat) — iPaaS
+
+**Identity / SSO:**
+- Auth0 (Okta) — customer identity
+- Microsoft Entra ID (Azure AD) — identity at scale
+- JumpCloud — identity / directory
+- CyberArk — privileged access
+- BeyondTrust — privileged access
+- 1Password (enterprise) — secrets management
+- HashiCorp Vault — secrets management
+- Duo Security — MFA
+
+**Onboarding / deployment:**
+- Hex — data workspace onboarding
+- Retool — internal-tool deployment
+- Linear — SaaS product onboarding
+- Notion (enterprise) — workspace rollout
+- Stripe — payment integration
+- Twilio (Segment) — customer data platform
+- Postman — API tooling
+- Snowflake — data platform
+
+**Security / governance (beyond identity):**
+- Wiz — cloud security
+- Snyk — developer security
+- CrowdStrike — endpoint security
+- Vanta Trust Center — vendor review automation
+- Drata Trust Center — vendor review automation
+
+**Vertical-specific (when mainstream is saturated):**
+- HealthTech: Veeva, Epic integration pain
+- FinTech: Plaid, Modern Treasury, Marqeta
+- Public sector: FedRAMP-specific pain (e.g., Kion, ShardSecure)
+- Developer tools: GitLab, CircleCI, Buildkite
+
+> **Saturation rule:** if 2+ consecutive vendors in the queue yield
+> <3 valid findings each, rotate to a different category and revisit
+> this queue later. Document saturation triggers in
+> `research/MEMORY.md` session notes.
+
+## Opt-in Review Triggers
+
+The researcher surfaces a finding to Kenny only when:
+
+- A finding contradicts conventional wisdom (e.g., "GDPR is NOT a
+  top enterprise pain in 2026").
+- Source quality is borderline (named exec but no metric, or vice
+  versa) and the researcher is leaning toward logging it.
+- A vendor / industry exhibits a pattern that the researcher thinks
+  needs human sanity-check (e.g., 5 of last 7 findings from the same
+  family — confirmation bias risk).
+- A session's findings cluster around a single new theme not yet in
+  the `AutoResearch.md` focus areas.
+- The queue is exhausted or saturation is detected.
+
+Otherwise, the researcher merges to `main` directly and proceeds
+to the next session.
 
 ## File Layout
 
@@ -66,11 +136,15 @@ research/
 
 ## Update Discipline
 
-- `RESEARCH.md` updates go to `main` via a PR from a session branch.
+- `RESEARCH.md` updates go to `main` directly when merged from a
+  session branch (no separate PR).
 - `research/AutoResearch.md` is updated when the brief / rules /
-  play style change. New rules land here first; the master index
-  references them.
+  play style / mode change. New rules land here first; the master
+  index references them.
 - Session branches (`research/<topic>-v<n>`) hold the
   `MEMORY.md` + `research_log.jsonl` changes for that session.
-  They do not get deleted — they're the audit trail of how each
-  finding was sourced.
+  They are not deleted after merge — they're the audit trail of
+  how each finding was sourced.
+- Mode changes are documented in `AutoResearch.md` (§5) with a date
+  stamp and the rationale. The active mode is reflected in the
+  `RESEARCH.md` header.
