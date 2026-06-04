@@ -31,6 +31,11 @@ Categories (per `AutoResearch.md` brief):
 | 13 | Security | 480k identity inventory impossible manually; unused identities are top attack vector | Okta/Hitachi |
 | 14 | Integration | Hub-and-spoke IT fails due to time-zone gaps and M&A-acquired independent systems | Okta/Hitachi |
 | 15 | Security | Carbon-neutrality is now a constraint on IT infrastructure procurement | Okta/Hitachi |
+| 16 | Integration | In-house identity needs 8-10 dedicated FTE to maintain ("patch, secure, update") | Auth0/Dunelm |
+| 17 | Integration | Legacy identity without industry auth standards blocks integration at 200+ downstream entities | Auth0/NHS Leadership Academy |
+| 18 | Onboarding | Public-sector procurement for new identity vendor = 5+ months of formal business case | Auth0/NHS Leadership Academy |
+| 19 | Integration | Identity must serve B2B + B2E + B2C + M2M; "in the millions" of M2M connections at Dunelm | Auth0/Dunelm |
+| 20 | Security | Vendor API rate limits surface at runtime without warning, mid-production incident | Auth0/GrandVision |
 
 ---
 
@@ -170,25 +175,95 @@ Categories (per `AutoResearch.md` brief):
 - **Severity:** Medium. New decision dimension that traditional IT
   evaluation frameworks don't capture.
 
+### 16. In-house identity needs 8-10 FTE
+- **Category:** Integration
+- **Friction:** Homegrown identity solutions require multi-team
+  ongoing maintenance ("a couple of teams" to keep it "always secure,
+  patched, and up to date"). Estimated cost: **8-10 dedicated
+  security experts and developers**.
+- **Source:** https://auth0.com/case-studies/dunelm
+- **Severity:** High. Hidden FTE tax of 8-10 employees just to
+  maintain identity infrastructure.
+- Source: Antony Sohal, Head of Data Platforms, Dunelm.
+
+### 17. Legacy identity blocks integration at 200+ NHS trusts
+- **Category:** Integration
+- **Friction:** Legacy apps without industry auth standards cannot
+  integrate with 200+ downstream trusts' varied identity systems.
+  NHS Leadership Academy's old system "didn't follow any of the
+  industry authentication and authorization standards" and was
+  "tough to integrate."
+- **Source:** https://auth0.com/case-studies/nhs-leadership-academy
+- **Severity:** Critical for regulated, multi-stakeholder orgs. SSO
+  absence forces per-trust bespoke integration.
+- Source: Ishani Vardhan, Digital Delivery Lead, NHS Leadership Academy.
+
+### 18. 5-month procurement cycles in public sector
+- **Category:** Onboarding
+- **Friction:** Public-sector procurement for new identity vendors
+  takes 5+ months. "Formal business case" required "user stories and
+  cost-benefit analyses showing what we'd do with the product."
+- **Source:** https://auth0.com/case-studies/nhs-leadership-academy
+- **Severity:** High. Time-to-value dominated by procurement, not
+  technical onboarding.
+- Source: Ishani Vardhan, Digital Delivery Lead, NHS Leadership Academy.
+
+### 19. Identity must span B2B / B2E / B2C / M2M
+- **Category:** Integration
+- **Friction:** Identity must serve multiple audiences with separate
+  requirements: B2B (external suppliers), B2E (internal staff +
+  ADFS), B2C (customer checkout), M2M (microservice auth). Dunelm
+  has "in the millions" of M2M connections alone.
+- **Source:** https://auth0.com/case-studies/dunelm
+- **Severity:** High. Single product that can't span all four
+  forces 2-4 separate identity systems per org.
+- Source: Antony Sohal, Head of Data Platforms, Dunelm.
+
+### 20. Vendor API rate limits surface at runtime without warning
+- **Category:** Security
+- **Friction:** Vendor API rate limits surface at runtime without
+  warning, forcing mid-production incident response. GrandVision
+  "encountered an API limit that they were previously unaware of"
+  and needed vendor support to resolve in hours.
+- **Source:** https://auth0.com/case-studies/grandvision
+- **Severity:** Medium. Unannounced rate limits can cause
+  customer-facing outages misattributed to buyer's implementation.
+- Source: Kunal Chakraborty, Global VP Customer Experience & Digital,
+  GrandVision.
+
 ---
 
 ## Research Session Notes
 
-### 2026-06-05 — Branch `research/pain-points-v1` — **COMPLETE**
+### 2026-06-05 — Branch `research/pain-points-v1` — **COMPLETE (Mode A)**
 - Initial setup: scaffolded `research/` dir with `MEMORY.md` and
   `research_log.jsonl` schema.
 - Scope: global digital services, B2B / enterprise / developer focus.
 - **Iteration count:** 3 vendor families (Vanta, MuleSoft, Okta).
 - **Findings logged:** 15 distinct pain points, all from
   named-customer, named-executive, quantified sources.
-- **Hitting the 15-finding limit per brief** — pausing for human
-  review per `AutoResearch.md` §5.
+- Supplanted by Mode B switch on 2026-06-05.
 
-### Search quality notes
-- Free-text `web_search` (e.g. generic queries) returned mostly
-  marketing copy / unrelated content. Disregarded per brief.
-- `web_fetch` on known-vendor customer story pages yielded concrete
-  metrics and named-executive quotes. This was the working approach.
-- Vendors touched: Vanta (compliance automation), MuleSoft
-  (integration), Okta (identity).
-- Categories covered: 7 Integration, 5 Security, 3 Onboarding.
+### 2026-06-05 — Branch `research/auth0-identity-v1` — **Mode B**
+- **Mode:** B (autonomous evaluation) — first session under the new
+  operating mode.
+- **Vendor family:** Auth0 (Okta Customer Identity / CIAM).
+- **Customer case studies:** Dunelm, NHS Leadership Academy, GrandVision.
+- **Findings logged:** 5 (numbered 16–20).
+- **Skipped vendors in this iteration:** Stripe (marketing page lacked
+  pain-before-vendor patterns); Drata (Cloudflare block); Workato
+  (404 on case study URL patterns). Logged to saturation heuristics.
+- **Search quality notes:**
+  - Auth0 case studies are written as **`.md` raw markdown** at
+    predictable paths (`auth0.com/case-studies/<name>.md`). This is
+    a great target shape.
+  - Skipped vendors are valuable negative data — they tell us where
+    not to spend time.
+
+### Saturation note
+Session 1 yielded 15/15 high-quality findings from 3 vendors (avg 5/session).
+Session 2 yielded 5/5 from 1 vendor (Auth0). Stripe yielded 0/5
+(marketing page, no pain-before patterns). Drata & Workato were
+unreachable (Cloudflare + 404). The diminishing-returns threshold
+(>2 vendors yielding <3 findings) has not yet tripped, but I'm
+watching it.
