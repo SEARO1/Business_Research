@@ -36,7 +36,7 @@ for review, what's the next direction.
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 26
+- **Total findings:** 32
 - **By category:**
   - Integration: 11
   - Security: 6
