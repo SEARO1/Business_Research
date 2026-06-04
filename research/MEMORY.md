@@ -332,3 +332,20 @@ watching it.
   solve their pain without IT/management sign-off; vendors who can
   land one team get free expansion.
 - Source: Clemens Viernickel, Staff Product Manager, Scale AI.
+
+### 2026-06-05 ¡X Branch `research/notion-enterprise-v1` ¡X **Mode B session 4**
+- **Mode:** B (autonomous evaluation).
+- **Vendor family:** Notion (enterprise workspace).
+- **Customer case study:** Ramp (consolidation + AI operating
+  system for work).
+- **Findings logged:** 6 (numbered 27¡V32).
+- **Search quality notes:**
+  - Notion's customer URLs follow `/customers/<slug>` (same shape
+    as Linear). Working shape confirmed.
+  - Ramp's case is unusually rich: a year-long narrative
+    (mid-2024 ¡÷ mid-2025 ¡÷ forward) with named execs, quantified
+    outcomes, and a clear "before vs. after" arc.
+  - Six findings extracted from a single case study. Other Notion
+    case studies (Vercel, Braintrust, Equals Money) likely yield
+    another 10-15 findings, so Notion alone could fuel 2-3 more
+    sessions.
