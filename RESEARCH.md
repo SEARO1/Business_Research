@@ -58,16 +58,17 @@ for review, what's the next direction.
 | 25 | `research/wrike-v1` | 2026-06-05 | 2 | · Merged to main | Wrike customer stories (Walmart Canada, Blue Yonder) |
 | 26 | `research/clickup-v1` | 2026-06-05 | 2 | · Merged to main | ClickUp customer stories (Miami University, Lids) |
 | 27 | `research/linear-v1` | 2026-06-05 | 2 | · Merged to main | Linear customer stories (Oscar Health, Scale AI) |
-| 28 | `research/docusign-v1` | 2026-06-05 | 2 | · Pending merge | Docusign customer stories (Adeva, Goosehead Insurance) |
+| 28 | `research/docusign-v1` | 2026-06-05 | 2 | · Merged to main | Docusign customer stories (Adeva, Goosehead Insurance) |
+| 29 | `research/shopify-v2` | 2026-06-05 | 2 | · Pending merge | Shopify additional stories (SNOCKS, Maggy London) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 105
+- **Total findings:** 107
 - **By category:**
-  - Integration: 54
+  - Integration: 55
   - Security: 20
-  - Onboarding: 31
+  - Onboarding: 32
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -100,6 +101,7 @@ for review, what's the next direction.
   - ClickUp (project management): 2
   - Linear (issue tracking): 2
   - Docusign (agreement workflow): 2
+  - Shopify Plus (additional stories): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
