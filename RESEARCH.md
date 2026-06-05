@@ -54,14 +54,15 @@ for review, what's the next direction.
 | 21 | `research/hubspot-v1` | 2026-06-05 | 2 | · Merged to main | HubSpot customer stories (Sticos, Morehouse College) |
 | 22 | `research/airtable-v1` | 2026-06-05 | 2 | · Merged to main | Airtable customer stories (dormakaba, OpenAI) |
 | 23 | `research/outreach-v1` | 2026-06-05 | 2 | · Merged to main | Outreach customer stories (Siemens, Avis Budget) |
-| 24 | `research/lattice-v1` | 2026-06-05 | 2 | · Pending merge | Lattice customer stories (Peaksware, Guinness World Records) |
+| 24 | `research/lattice-v1` | 2026-06-05 | 2 | · Merged to main | Lattice customer stories (Peaksware, Guinness World Records) |
+| 25 | `research/wrike-v1` | 2026-06-05 | 2 | · Pending merge | Wrike customer stories (Walmart Canada, Blue Yonder) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 97
+- **Total findings:** 99
 - **By category:**
-  - Integration: 49
+  - Integration: 51
   - Security: 20
   - Onboarding: 28
 - **By source vendor family:**
@@ -92,6 +93,7 @@ for review, what's the next direction.
   - Airtable (no-code platform): 2
   - Outreach (sales engagement): 2
   - Lattice (people management): 2
+  - Wrike (project management): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
