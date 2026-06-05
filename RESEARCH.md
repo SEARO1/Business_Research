@@ -1,6 +1,6 @@
-# Research ??Master Index
+# Research · Master Index
 
-> **Active Mode:** **B ??Autonomous Evaluation** (set 2026-06-05 by Kenny).
+> **Active Mode:** **B · Autonomous Evaluation** (set 2026-06-05 by Kenny).
 > No per-session human review. Researcher self-evaluates against
 > `research/AutoResearch.md` §6 Source-Quality Bar. See "Open Items"
 > for opt-in review triggers.
@@ -25,27 +25,28 @@ for review, what's the next direction.
 - **Owner:** Kenny Cheung
 - **Researcher:** Nova (autonomous agent)
 - **Started:** 2026-06-05
-- **Operating mode:** B ??Autonomous Evaluation
+- **Operating mode:** B · Autonomous Evaluation
 
 ## Session Log
 
 | # | Branch | Date | Findings | Status | Top sources |
 |---|--------|------|----------|--------|-------------|
-| 1 | `research/pain-points-v1` | 2026-06-05 | 15 | ??Merged to main | Vanta, MuleSoft, Okta customer stories |
-| 2 | `research/auth0-identity-v1` | 2026-06-05 | 5 | ??Merged to main | Auth0 customer stories (Dunelm, NHS, GrandVision) |
-| 3 | `research/linear-onboarding-v1` | 2026-06-05 | 6 | ??Merged to main | Linear customer stories (Brex, Scale AI) |
-| 4 | `research/notion-enterprise-v1` | 2026-06-05 | 6 | ??Merged to main | Notion customer story (Ramp) |
-| 5 | `research/vault-secrets-v1` | 2026-06-05 | 6 | ??Merged to main | GitGuardian 2022/2024, CVE-2025-6000, Cyata 0-day, Codecov, KuppingerCole 2025 |
-| 6 | `research/doppler-secrets-v1` | 2026-06-05 | 5 | ??Merged to main | Doppler customer story (Paradox/Dan Steen VP Infrastructure) |
-| 7 | `research/1password-business-v1` | 2026-06-05 | 5 | ??Merged to main | 1Password customer stories (Reddit, Oracle Red Bull Racing, Airwallex, Intercom, Flo) |
+| 1 | `research/pain-points-v1` | 2026-06-05 | 15 | · Merged to main | Vanta, MuleSoft, Okta customer stories |
+| 2 | `research/auth0-identity-v1` | 2026-06-05 | 5 | · Merged to main | Auth0 customer stories (Dunelm, NHS, GrandVision) |
+| 3 | `research/linear-onboarding-v1` | 2026-06-05 | 6 | · Merged to main | Linear customer stories (Brex, Scale AI) |
+| 4 | `research/notion-enterprise-v1` | 2026-06-05 | 6 | · Merged to main | Notion customer story (Ramp) |
+| 5 | `research/vault-secrets-v1` | 2026-06-05 | 6 | · Merged to main | GitGuardian 2022/2024, CVE-2025-6000, Cyata 0-day, Codecov, KuppingerCole 2025 |
+| 6 | `research/doppler-secrets-v1` | 2026-06-05 | 5 | · Merged to main | Doppler customer story (Paradox/Dan Steen VP Infrastructure) |
+| 7 | `research/1password-business-v1` | 2026-06-05 | 5 | · Merged to main | 1Password customer stories (Reddit, Oracle Red Bull Racing, Airwallex, Intercom, Flo) |
+| 8 | `research/aws-secrets-v1` | 2026-06-05 | 4 | · Merged to main | Brian Krebs/KrebsOnSecurity (CISA breach), Ponemon Institute/CyberArk (PKI at scale, machine identity) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 48
+- **Total findings:** 52
 - **By category:**
-  - Integration: 18
-  - Security: 14
-  - Onboarding: 16
+  - Integration: 20
+  - Security: 18
+  - Onboarding: 14
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -56,6 +57,7 @@ for review, what's the next direction.
   - Secrets management ecosystem (GitGuardian, KuppingerCole, CVE/Cyata disclosures): 6
   - Doppler (secrets management): 5
   - 1Password (secrets/credential management): 5
+  - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
 
 See `research/MEMORY.md` for the full per-finding detail.
 
@@ -66,48 +68,48 @@ Roughly grouped by likely category of findings; re-prioritize as
 the queue evolves.
 
 **Compliance / GRC:**
-- Drata ??competitor to Vanta, likely similar pain
-- Tugboat Logic ??compliance automation
-- Secureframe ??compliance automation
+- Drata · competitor to Vanta, likely similar pain
+- Tugboat Logic · compliance automation
+- Secureframe · compliance automation
 - Vanta (second pass for vertical-specific stories)
 
 **Integration / iPaaS:**
-- Workato ??modern iPaaS, customer stories
-- Tray.io ??iPaaS
-- Celigo ??iPaaS
-- Zapier (enterprise) ??long-tail SMB pain
-- Boomi ??legacy iPaaS
-- SnapLogic ??iPaaS
-- Make (Integromat) ??iPaaS
+- Workato · modern iPaaS, customer stories
+- Tray.io · iPaaS
+- Celigo · iPaaS
+- Zapier (enterprise) · long-tail SMB pain
+- Boomi · legacy iPaaS
+- SnapLogic · iPaaS
+- Make (Integromat) · iPaaS
 
 **Identity / SSO:**
-- Auth0 (Okta) ??customer identity
-- Microsoft Entra ID (Azure AD) ??identity at scale
-- JumpCloud ??identity / directory
-- CyberArk ??privileged access
-- BeyondTrust ??privileged access
-- Akeyless ??secrets management
-- HashiCorp Vault ??secrets management
-- AWS Secrets Manager ??secrets management
-- Azure Key Vault ??secrets management
-- Duo Security ??MFA
+- Auth0 (Okta) · customer identity
+- Microsoft Entra ID (Azure AD) · identity at scale
+- JumpCloud · identity / directory
+- CyberArk · privileged access
+- BeyondTrust · privileged access
+- Akeyless · secrets management
+- HashiCorp Vault · secrets management
+- AWS Secrets Manager · secrets management
+- Azure Key Vault · secrets management
+- Duo Security · MFA
 
 **Onboarding / deployment:**
-- Hex ??data workspace onboarding
-- Retool ??internal-tool deployment
-- Linear ??SaaS product onboarding
-- Notion (enterprise) ??workspace rollout
-- Stripe ??payment integration
-- Twilio (Segment) ??customer data platform
-- Postman ??API tooling
-- Snowflake ??data platform
+- Hex · data workspace onboarding
+- Retool · internal-tool deployment
+- Linear · SaaS product onboarding
+- Notion (enterprise) · workspace rollout
+- Stripe · payment integration
+- Twilio (Segment) · customer data platform
+- Postman · API tooling
+- Snowflake · data platform
 
 **Security / governance (beyond identity):**
-- Wiz ??cloud security
-- Snyk ??developer security
-- CrowdStrike ??endpoint security
-- Vanta Trust Center ??vendor review automation
-- Drata Trust Center ??vendor review automation
+- Wiz · cloud security
+- Snyk · developer security
+- CrowdStrike · endpoint security
+- Vanta Trust Center · vendor review automation
+- Drata Trust Center · vendor review automation
 
 **Vertical-specific (when mainstream is saturated):**
 - HealthTech: Veeva, Epic integration pain
@@ -130,7 +132,7 @@ The researcher surfaces a finding to Kenny only when:
   versa) and the researcher is leaning toward logging it.
 - A vendor / industry exhibits a pattern that the researcher thinks
   needs human sanity-check (e.g., 5 of last 7 findings from the same
-  family ??confirmation bias risk).
+  family · confirmation bias risk).
 - A session's findings cluster around a single new theme not yet in
   the `AutoResearch.md` focus areas.
 - The queue is exhausted or saturation is detected.
@@ -141,11 +143,11 @@ to the next session.
 ## File Layout
 
 ```
-RESEARCH.md                          ??this file (master index, stays on main)
+RESEARCH.md                          · this file (master index, stays on main)
 research/
-  ?? AutoResearch.md                  ??the brief, rules, play style
-  ?? MEMORY.md                        ??per-session human-readable findings
-  ?? research_log.jsonl               ??per-session machine-readable mirror
+  · AutoResearch.md                  · the brief, rules, play style
+  · MEMORY.md                        · per-session human-readable findings
+  · research_log.jsonl               · per-session machine-readable mirror
 ```
 
 ## Update Discipline
@@ -157,7 +159,7 @@ research/
   index references them.
 - Session branches (`research/<topic>-v<n>`) hold the
   `MEMORY.md` + `research_log.jsonl` changes for that session.
-  They are not deleted after merge ??they're the audit trail of
+  They are not deleted after merge · they're the audit trail of
   how each finding was sourced.
 - Mode changes are documented in `AutoResearch.md` (§5) with a date
   stamp and the rationale. The active mode is reflected in the
