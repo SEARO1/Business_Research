@@ -39,12 +39,13 @@ for review, what's the next direction.
 | 6 | `research/doppler-secrets-v1` | 2026-06-05 | 5 | · Merged to main | Doppler customer story (Paradox/Dan Steen VP Infrastructure) |
 | 7 | `research/1password-business-v1` | 2026-06-05 | 5 | · Merged to main | 1Password customer stories (Reddit, Oracle Red Bull Racing, Airwallex, Intercom, Flo) |
 | 8 | `research/aws-secrets-v1` | 2026-06-05 | 4 | · Merged to main | Brian Krebs/KrebsOnSecurity (CISA breach), Ponemon Institute/CyberArk (PKI at scale, machine identity) |
+| 9 | `research/twilio-segment-v1` | 2026-06-05 | 3 | · Merged to main | Twilio Segment customer stories (FOX, IBM, Vista) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 52
+- **Total findings:** 55
 - **By category:**
-  - Integration: 20
+  - Integration: 23
   - Security: 18
   - Onboarding: 14
 - **By source vendor family:**
@@ -58,6 +59,7 @@ for review, what's the next direction.
   - Doppler (secrets management): 5
   - 1Password (secrets/credential management): 5
   - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
+  - Twilio Segment (CDP/integration): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
