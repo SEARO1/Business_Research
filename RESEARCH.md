@@ -62,7 +62,7 @@ for review, what's the next direction.
 | 29 | `research/shopify-v2` | 2026-06-05 | 2 | · Merged to main | Shopify additional stories (SNOCKS, Maggy London) |
 | 30 | `research/braintrust-v1` | 2026-06-05 | 2 | · Merged to main | Braintrust (Morgane Palomares, Ankur Goyal), Brex/Boston Celtics (Patrick Lynch) |
 | 31 | `research/retool-v1` | 2026-06-05 | 2 | · Merged to main | Brex additional stories (Canva + ONEflight International) |
-| 32 | `research/freshbooks-v1` | 2026-06-05 | 2 | · In progress | Airtable/Wondery (Neel Ketkar, Marshall Lewy), TeamViewer/Henkel (Adrian van Zyl) |
+| 32 | `research/freshbooks-v1` | 2026-06-05 | 2 | · Merged to main | Airtable/Wondery (Neel Ketkar, Marshall Lewy), TeamViewer/Henkel (Adrian van Zyl) |
 
 ## Findings Tally (all sessions)
 
