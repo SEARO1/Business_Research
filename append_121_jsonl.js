@@ -1,0 +1,6 @@
+const fs = require('fs');
+const path = 'C:\\Users\\cheun\\.openclaw\\workspace\\Business_Research\\research\\research_log.jsonl';
+let data = fs.readFileSync(path, 'utf8');
+const newLine = '{"Pain_Point_Category":"Infrastructure","Specific_Friction":"Media companies at scale face a serverless-database mismatch where Aurora read replicas take 3-4 minutes to add while Lambda scales in seconds — creating a bottleneck that causes prolonged outages costing millions per incident. Without a database that can handle serverless-scale traffic, engineering teams face frequent outages that cost real money and require constant DevOps attention instead of product development.","Source_URL":"https://planetscale.com/case-studies/barstool-sports","Severity_Impact":"Critical. Named exec: Andrew Barba (iOS Engineer/Team Lead, Barstool Sports). Quantified: 45-minute outage = couple million dollars; 20-30% cost savings vs Aurora; 15-minute cutover; had to scale resources to 4x for a single migration with Aurora."}';
+fs.writeFileSync(path, data.trim() + '\n' + newLine + '\n');
+console.log('Appended 121 to jsonl');

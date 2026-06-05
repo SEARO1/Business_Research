@@ -86,21 +86,25 @@ for review, what's the next direction.
 | 53 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/Lightspeed (Yamine Gluchow, VP Information Systems), Intercom/Rocket Money (Michelle McGowan, Director of Operations) |
 | 54 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/WHOOP (Emily Shirley, Business Manager Growth Product), Intercom/MPB (Chris Beattie, Head of Global CX; Gideon Knight, Customer Ops Manager) |
 | 55 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/Topstep (Dennis O'Connor, Former Director of Support), Intercom/Consensys (Dror Avieli, Managing Director & VP CS; Yair Gal, Support Lead) |
+| 56 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/Jukebox (Loredo Rucchin, CEO & Founder), Intercom/Clay (Jess Bergson, Head of CX; George Dilthey, Head of Support) |
+| 57 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/MONY Group (Lee Burkhill, Project Manager), Intercom/Nuuly (Natalie Hurst, Sr. Director of Customer Success) |
+| 58 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Amplitude/Cisco (VP of Product), Amplitude/Hostinger (Artur Bielaczyk, Product Analytics Team Lead) |
+| 59 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Amplitude/Temporal (Director of Growth), Notion/Ramp (Ben Levick, Head of Ops & Internal AI; Cameron Leavenworth, Corp IT) |
+| 60 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Figma/NAB (Lance Thornswood, CDO; Daniel Fisher, Head of Design; Nik Hannay, Design Director), Figma/Grab (Grab design teams) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 148
+- **Total findings:** 158
 - **By category:**
-  - Integration: 67
+  - Integration: 71
   - Security: 24
-  - Onboarding: 40
+  - Onboarding: 49
 - **By source vendor family:**
-  - Vanta (compliance automation): 10
   - Intercom (AI customer support agent): 14
-  - Twilio Segment (CDP/integration): 9
-- **By source vendor family:**
   - Vanta (compliance automation): 10
+  - Twilio Segment (CDP/integration): 9
+  - Amplitude (product analytics): 6
   - MuleSoft (integration): 4
   - Okta (identity): 5
   - Auth0 (CIAM): 5
@@ -109,19 +113,16 @@ for review, what's the next direction.
   - Secrets management ecosystem (GitGuardian, KuppingerCole, CVE/Cyata disclosures): 6
   - Doppler (secrets management): 5
   - 1Password (secrets/credential management): 5
+  - Figma (design collaboration): 5
   - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
-  - Twilio Segment (CDP/integration): 9
   - Cloudflare (edge/security/CDN): 5
-  - MuleSoft (integration): 4
   - Fastly (edge cloud/CDN): 3
   - GitLab (DevOps platform): 1
   - ServiceNow (workflow automation): 1
   - Asana (work management): 3
-  - Figma (design collaboration): 3
   - Salesforce (enterprise CRM): 3
   - Datadog (infrastructure monitoring): 3
   - Shopify (enterprise ecommerce): 3
-  - Amplitude (product analytics): 3
   - Yotpo (loyalty & reviews): 3
   - Notion (collaboration workspace): 3
   - HubSpot (marketing/sales CRM): 2

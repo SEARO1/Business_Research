@@ -1,0 +1,30 @@
+const fs = require('fs');
+
+const memPath = 'C:\\Users\\cheun\\.openclaw\\workspace\\Business_Research\\research\\MEMORY.md';
+let memData = fs.readFileSync(memPath, 'utf8');
+
+const newFindings = `
+### 152. Growing B2B SaaS platforms with global user bases face a support scaling bottleneck where 20,000+ monthly conversations across multiple time zones and languages overwhelm lean support teams — and without an AI agent that can handle resolution end-to-end, the choice is between hiring exponentially or accepting long wait times and burning out support agents
+- **Category:** Integration
+- **Friction:** Growing B2B SaaS platforms with global user bases face a support scaling bottleneck where 20,000+ monthly conversations across multiple time zones and languages overwhelm lean support teams. 'We were getting hammered with incoming conversations. The team's median first-response time had climbed to 90 minutes, and their CSAT had dropped to around 69%. Wait times were long, customers were getting frustrated, and our support agents were burning out.' With 50 million users and a lean team of just 20 outsourced agents, 2 internal engineers, and 1 community manager, manual handling at scale is structurally impossible — the only path to quality support is AI-first automation.
+- **Source:** https://fin.ai/customers/gamma
+- **Severity:** High. Named exec: Hilary Dudek (Head of Customer Experience, Gamma). Quantified: 18,000+ monthly Fin resolutions; 72% Fin resolution rate; 100% Fin involvement rate (in every conversation); 50 million users supported; manual handling dropped from 94% to 24%; CSAT steady at 84%; median first-response time improved dramatically from 90 minutes; supports multiple languages 24/7. Quote: 'Fin doesn't just respond. It acts. It adapts. And it does it at a scale we never could have imagined.'
+
+### 153. AI companies with consumer and enterprise product lines face a dual challenge of supporting diverse customer tiers at scale while managing sharp volume spikes from product releases — and without an AI agent built on reliable AI, the choice is between failing to represent the brand's AI quality bar or spending months building a custom solution that delays time-to-value
+- **Category:** Integration
+- **Friction:** AI companies with consumer and enterprise product lines face a dual challenge of supporting diverse customer tiers at scale while managing sharp volume spikes from product releases. 'We knew we needed to smooth out that volume curve and make sure that our team could weather those peaks and remain focused on the most complex issues.' With free Claude accounts through enterprise API customers, support needs span from transactional queries to complex technical investigations — and as an AI company, poor AI implementation in customer service directly undermines the brand promise of safe, reliable AI.
+- **Source:** https://fin.ai/customers/anthropic
+- **Severity:** High. Named execs: Emily Lampert (Head of Product Support, Anthropic), Isabel Larrow (Product Support Operations, Anthropic). Quantified: 96% Fin involvement rate; 50.8% resolution rate (achieved in just over a month); 1,700 hours saved in first month; tens of thousands of queries resolved in first month; doubled snippet count in one week through internal hackathon → 5.5% resolution rate increase. Quote: 'We\'re an AI company, so if someone contacting us has a poor experience with our implementation of AI, we\'re failing to represent ourselves in the right way.'
+`;
+
+fs.writeFileSync(memPath, memData + newFindings);
+console.log('Appended findings 152 and 153 to MEMORY.md');
+
+const jsonlPath = 'C:\\Users\\cheun\\.openclaw\\workspace\\Business_Research\\research\\research_log.jsonl';
+let jsonlData = fs.readFileSync(jsonlPath, 'utf8');
+
+const newLines = `{"Pain_Point_Category":"Integration","Specific_Friction":"Growing B2B SaaS platforms with global user bases face a support scaling bottleneck where 20,000+ monthly conversations across multiple time zones and languages overwhelm lean support teams. 'We were getting hammered with incoming conversations. The team's median first-response time had climbed to 90 minutes, and their CSAT had dropped to around 69%. Wait times were long, customers were getting frustrated, and our support agents were burning out.' With 50 million users and a lean team, manual handling at scale is structurally impossible — the only path to quality support is AI-first automation.","Source_URL":"https://fin.ai/customers/gamma","Severity_Impact":"High. Named exec: Hilary Dudek (Head of Customer Experience, Gamma). Quantified: 18,000+ monthly Fin resolutions; 72% Fin resolution rate; 100% Fin involvement rate; 50 million users; manual handling 94%→24%; CSAT steady at 84%; supports multiple languages 24/7."}
+{"Pain_Point_Category":"Integration","Specific_Friction":"AI companies with consumer and enterprise product lines face a dual challenge of supporting diverse customer tiers at scale while managing sharp volume spikes from product releases. 'We knew we needed to smooth out that volume curve and make sure that our team could weather those peaks and remain focused on the most complex issues.' With free Claude accounts through enterprise API customers, support needs span from transactional to complex — and as an AI company, poor AI implementation directly undermines the brand promise.","Source_URL":"https://fin.ai/customers/anthropic","Severity_Impact":"High. Named execs: Emily Lampert (Head of Product Support, Anthropic), Isabel Larrow (Product Support Operations, Anthropic). Quantified: 96% Fin involvement rate; 50.8% resolution rate in just over a month; 1,700 hours saved in first month; doubled snippet count in one week through hackathon → 5.5% resolution rate increase."}`;
+
+fs.writeFileSync(jsonlPath, jsonlData.trim() + '\n' + newLines.split('\n').join('\n') + '\n');
+console.log('Appended findings 152 and 153 to jsonl');
