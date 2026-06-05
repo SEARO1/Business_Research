@@ -51,14 +51,15 @@ for review, what's the next direction.
 | 18 | `research/amplitude-v1` | 2026-06-05 | 3 | · Merged to main | Amplitude customer stories (The Economist, Coca-Cola FEMSA, Salt Bank) |
 | 19 | `research/yotpo-v1` | 2026-06-05 | 3 | · Merged to main | Yotpo customer stories (Third Love, Goodr, Revolution Beauty) |
 | 20 | `research/notion-v1` | 2026-06-05 | 3 | · Merged to main | Notion customer stories (Ramp, Vercel, Equals Money) |
-| 21 | `research/hubspot-v1` | 2026-06-05 | 2 | · Pending merge | HubSpot customer stories (Sticos, Morehouse College) |
+| 21 | `research/hubspot-v1` | 2026-06-05 | 2 | · Merged to main | HubSpot customer stories (Sticos, Morehouse College) |
+| 22 | `research/airtable-v1` | 2026-06-05 | 2 | · Pending merge | Airtable customer stories (dormakaba, OpenAI) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 91
+- **Total findings:** 93
 - **By category:**
-  - Integration: 46
+  - Integration: 48
   - Security: 20
   - Onboarding: 25
 - **By source vendor family:**
@@ -86,6 +87,7 @@ for review, what's the next direction.
   - Yotpo (loyalty & reviews): 3
   - Notion (collaboration workspace): 3
   - HubSpot (marketing/sales CRM): 2
+  - Airtable (no-code platform): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
