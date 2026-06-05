@@ -53,16 +53,17 @@ for review, what's the next direction.
 | 20 | `research/notion-v1` | 2026-06-05 | 3 | · Merged to main | Notion customer stories (Ramp, Vercel, Equals Money) |
 | 21 | `research/hubspot-v1` | 2026-06-05 | 2 | · Merged to main | HubSpot customer stories (Sticos, Morehouse College) |
 | 22 | `research/airtable-v1` | 2026-06-05 | 2 | · Merged to main | Airtable customer stories (dormakaba, OpenAI) |
-| 23 | `research/outreach-v1` | 2026-06-05 | 2 | · Pending merge | Outreach customer stories (Siemens, Avis Budget) |
+| 23 | `research/outreach-v1` | 2026-06-05 | 2 | · Merged to main | Outreach customer stories (Siemens, Avis Budget) |
+| 24 | `research/lattice-v1` | 2026-06-05 | 2 | · Pending merge | Lattice customer stories (Peaksware, Guinness World Records) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 95
+- **Total findings:** 97
 - **By category:**
   - Integration: 49
   - Security: 20
-  - Onboarding: 26
+  - Onboarding: 28
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -90,6 +91,7 @@ for review, what's the next direction.
   - HubSpot (marketing/sales CRM): 2
   - Airtable (no-code platform): 2
   - Outreach (sales engagement): 2
+  - Lattice (people management): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
