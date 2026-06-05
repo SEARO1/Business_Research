@@ -68,11 +68,12 @@ for review, what's the next direction.
 | 35 | `research/sentry-v1` | 2026-06-05 | 2 | · Merged to main | New Relic/William Hill (Stephen Wild), New Relic/Toyota (Mitsuhiro Mabuchi) |
 | 36 | `research/newrelic-v1` | 2026-06-05 | 2 | · Merged to main | Fivetran/HubSpot (Sandro Frattura), Fivetran/Group 1001 (Gu Xie) |
 | 37 | `research/fivetran-v1` | 2026-06-05 | 2 | · Merged to main | PlanetScale/Cash App (Aaron Young), PlanetScale/Barstool Sports (Andrew Barba) |
+| 38 | `research/planetscale-v1` | 2026-06-05 | 2 | · Merged to main | CockroachDB/Route (Bryan Call), CockroachDB/Netflix (Shengwei Wang) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 123
+- **Total findings:** 125
 - **By category:**
   - Integration: 59
   - Security: 20
