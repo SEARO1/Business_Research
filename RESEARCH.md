@@ -64,11 +64,12 @@ for review, what's the next direction.
 | 31 | `research/retool-v1` | 2026-06-05 | 2 | · Merged to main | Brex additional stories (Canva + ONEflight International) |
 | 32 | `research/freshbooks-v1` | 2026-06-05 | 2 | · Merged to main | Airtable/Wondery (Neel Ketkar, Marshall Lewy), TeamViewer/Henkel (Adrian van Zyl) |
 | 33 | `research/freshbooks-v2` | 2026-06-05 | 2 | · Merged to main | Sumo Logic/Endowus (Alvin Lim), Sumo Logic/Samsung (Youngjip Kim) |
+| 34 | `research/sumo-v1` | 2026-06-05 | 2 | · Merged to main | Sentry/Anthropic (Nova DasSarma), Sentry/Bolt (Albert Pai) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 115
+- **Total findings:** 117
 - **By category:**
   - Integration: 59
   - Security: 20
