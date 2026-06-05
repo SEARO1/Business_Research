@@ -61,13 +61,14 @@ for review, what's the next direction.
 | 28 | `research/docusign-v1` | 2026-06-05 | 2 | · Merged to main | Docusign customer stories (Adeva, Goosehead Insurance) |
 | 29 | `research/shopify-v2` | 2026-06-05 | 2 | · Merged to main | Shopify additional stories (SNOCKS, Maggy London) |
 | 30 | `research/braintrust-v1` | 2026-06-05 | 2 | · Merged to main | Braintrust (Morgane Palomares, Ankur Goyal), Brex/Boston Celtics (Patrick Lynch) |
+| 31 | `research/retool-v1` | 2026-06-05 | 2 | · Pending merge | Brex additional stories (Canva + ONEflight International) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 109
+- **Total findings:** 111
 - **By category:**
-  - Integration: 57
+  - Integration: 59
   - Security: 20
   - Onboarding: 32
 - **By source vendor family:**
@@ -103,7 +104,7 @@ for review, what's the next direction.
   - Linear (issue tracking): 2
   - Docusign (agreement workflow): 2
   - Shopify Plus (additional stories): 2
-  - Brex (financial automation): 1
+  - Brex (financial automation): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
