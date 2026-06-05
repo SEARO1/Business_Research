@@ -40,14 +40,15 @@ for review, what's the next direction.
 | 7 | `research/1password-business-v1` | 2026-06-05 | 5 | · Merged to main | 1Password customer stories (Reddit, Oracle Red Bull Racing, Airwallex, Intercom, Flo) |
 | 8 | `research/aws-secrets-v1` | 2026-06-05 | 4 | · Merged to main | Brian Krebs/KrebsOnSecurity (CISA breach), Ponemon Institute/CyberArk (PKI at scale, machine identity) |
 | 9 | `research/twilio-segment-v1` | 2026-06-05 | 3 | · Merged to main | Twilio Segment customer stories (FOX, IBM, Vista) |
+| 10 | `research/cloudflare-v1` | 2026-06-05 | 5 | · Merged to main | Cloudflare customer stories (Fullscript, NYC Govt Financial Agency, Stack Overflow) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 55
+- **Total findings:** 60
 - **By category:**
-  - Integration: 23
-  - Security: 18
-  - Onboarding: 14
+  - Integration: 28
+  - Security: 19
+  - Onboarding: 13
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -60,6 +61,7 @@ for review, what's the next direction.
   - 1Password (secrets/credential management): 5
   - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
   - Twilio Segment (CDP/integration): 3
+  - Cloudflare (edge/security/CDN): 5
 
 See `research/MEMORY.md` for the full per-finding detail.
 
