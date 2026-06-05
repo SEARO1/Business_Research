@@ -33,19 +33,25 @@ for review, what's the next direction.
 |---|--------|------|----------|--------|-------------|
 | 1 | `research/pain-points-v1` | 2026-06-05 | 15 | ??Merged to main | Vanta, MuleSoft, Okta customer stories |
 | 2 | `research/auth0-identity-v1` | 2026-06-05 | 5 | ??Merged to main | Auth0 customer stories (Dunelm, NHS, GrandVision) |
+| 3 | `research/linear-onboarding-v1` | 2026-06-05 | 6 | ??Merged to main | Linear customer stories (Brex, Scale AI) |
+| 4 | `research/notion-enterprise-v1` | 2026-06-05 | 6 | ??Merged to main | Notion customer story (Ramp) |
+| 5 | `research/vault-secrets-v1` | 2026-06-05 | 6 | ??Merged to main | GitGuardian 2022/2024, CVE-2025-6000, Cyata 0-day, Codecov, KuppingerCole 2025 |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 32
+- **Total findings:** 38
 - **By category:**
-  - Integration: 11
-  - Security: 6
-  - Onboarding: 3
+  - Integration: 12
+  - Security: 12
+  - Onboarding: 14
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
   - Okta (identity): 5
   - Auth0 (CIAM): 5
+  - Linear (engineering PM): 6
+  - Notion (workspace): 6
+  - Secrets management ecosystem (GitGuardian, KuppingerCole, CVE/Cyata disclosures): 6
 
 See `research/MEMORY.md` for the full per-finding detail.
 
@@ -131,9 +137,9 @@ to the next session.
 ```
 RESEARCH.md                          ??this file (master index, stays on main)
 research/
-?œâ??€ AutoResearch.md                  ??the brief, rules, play style
-?œâ??€ MEMORY.md                        ??per-session human-readable findings
-?”â??€ research_log.jsonl               ??per-session machine-readable mirror
+?ï¿½ï¿½??ï¿½ AutoResearch.md                  ??the brief, rules, play style
+?ï¿½ï¿½??ï¿½ MEMORY.md                        ??per-session human-readable findings
+?ï¿½ï¿½??ï¿½ research_log.jsonl               ??per-session machine-readable mirror
 ```
 
 ## Update Discipline

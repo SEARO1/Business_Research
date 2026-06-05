@@ -36,6 +36,24 @@ Categories (per `AutoResearch.md` brief):
 | 18 | Onboarding | Public-sector procurement for new identity vendor = 5+ months of formal business case | Auth0/NHS Leadership Academy |
 | 19 | Integration | Identity must serve B2B + B2E + B2C + M2M; "in the millions" of M2M connections at Dunelm | Auth0/Dunelm |
 | 20 | Security | Vendor API rate limits surface at runtime without warning, mid-production incident | Auth0/GrandVision |
+| 21 | Integration | Tool sprawl across Jira + Atlas + Monday.com + spreadsheets blocks roadmap visibility | Linear/Brex |
+| 22 | Onboarding | Most PM tools prioritize reporting over creation, burdening engineers with slow UIs | Linear/Brex |
+| 23 | Onboarding | Pilot-driven procurement is the new norm (Brex 4-month pilot, 26-63% per-dim improvements) | Linear/Brex |
+| 24 | Onboarding | Engineering tools with painful UX fail top-down mandates; Brex 47% daily-usage lift via UX | Linear/Brex |
+| 25 | Integration | Ticket backlogs grow without triage/ownership; 3 teams at Scale AI attempted to switch in parallel | Linear/Scale AI |
+| 26 | Onboarding | Bottom-up adoption beats top-down for engineering tools; 50 → 300+ seats at Scale AI | Linear/Scale AI |
+| 27 | Integration | Enterprise knowledge fragmented across docs/tickets/chat/tabs; "scavenger hunt" for latest policy | Notion/Ramp |
+| 28 | Onboarding | Productivity-tool sprawl hidden cost: Ramp cut costs 70% + 3x faster movement via consolidation | Notion/Ramp |
+| 29 | Onboarding | AI quality is downstream of data consolidation quality; "AI could not do much more than summarize fragments" | Notion/Ramp |
+| 30 | Onboarding | AI workflows need habit/culture change, not just tooling; "people built new habits of delegating tasks" | Notion/Ramp |
+| 31 | Integration | Search must understand workspace relationships, not just keywords; RAG/keyword search falls short | Notion/Ramp |
+| 32 | Onboarding | Time-to-first-useful-agent is the new AI onboarding KPI; Ramp ships agents "3 minutes between meetings" | Notion/Ramp |
+| 33 | Security | 400-dev company discovers 1,050 unique leaked secrets; each replicated 13x (~3,400/AppSec engineer) | GitGuardian 2022 |
+| 34 | Security | 12.8M secrets leaked on public GitHub in 2023 (+28% YoY); 90% still active 5 days post-exposure | GitGuardian 2024 |
+| 35 | Security | Critical RCE in secrets-manager via plugin-directory config; affects versions 0.8.0 → 1.20.1 | CVE-2025-6000 |
+| 36 | Security | Multiple auth/authorization-bypass 0-days disclosed in widely-deployed secrets manager (Aug 2025) | Cyata disclosure |
+| 37 | Security | Codecov supply-chain breach exposed GPG signing key of a leading secrets-management vendor (2021) | BleepingComputer |
+| 38 | Security | Machine secrets outnumber human secrets 50:1; traditional vault models fail at NHI scale | KuppingerCole 2025 |
 
 ---
 
@@ -302,7 +320,7 @@ watching it.
 - **Category:** Onboarding
 - **Friction:** Engineering tools with slow / painful UX fail to
   gain adoption even when mandated top-down. Brex pilot success
-  metric was "engineers enjoyed using it" �X 47% increase in daily
+  metric was "engineers enjoyed using it" �X 47% increase in daily
   usage, 63% increase in satisfaction.
 - **Source:** https://linear.app/customers/brex
 - **Severity:** High. Top-down mandates without engineer buy-in
@@ -333,19 +351,258 @@ watching it.
   land one team get free expansion.
 - Source: Clemens Viernickel, Staff Product Manager, Scale AI.
 
-### 2026-06-05 �X Branch `research/notion-enterprise-v1` �X **Mode B session 4**
+### 27. Enterprise knowledge is a scavenger hunt
+- **Category:** Integration
+- **Friction:** Enterprise knowledge is fragmented across docs,
+  tickets, chat threads, and tabs. "A question as simple as 'What
+  is the latest policy?' or 'Who owns this?' could turn into a
+  scavenger hunt across docs, threads, and tabs." Cross-tool search
+  is the symptom; the underlying pain is that no single system
+  holds the truth.
+- **Source:** https://www.notion.com/customers/ramp
+- **Severity:** High. This is the entry point to the entire
+  consolidation story — the hunt cost shows up as lost hours per
+  knowledge worker per week.
+- Source: Ben Levick, Head of Operations & Internal AI, Ramp.
+
+### 28. Productivity-tool sprawl has a hidden cost
+- **Category:** Onboarding
+- **Friction:** Ramp consolidated dozens of duplicate and legacy
+  tools into one workspace and saw a "70% cut in productivity-tool
+  costs" plus "3x faster" team movement. The pain is the
+  per-seat-per-tool tax that compounds across an organization, plus
+  the duplicate context-switching cost.
+- **Source:** https://www.notion.com/customers/ramp
+- **Severity:** Critical. For CFOs, this is the rare SaaS category
+  where consolidation savings can fund the new tool's own cost
+  2-3x over.
+- Source: Ben Levick, Head of Operations & Internal AI, Ramp.
+
+### 29. AI quality is downstream of data consolidation quality
+- **Category:** Onboarding
+- **Friction:** "Without a reliable system of record, AI could not
+  do much more than summarize fragments." AI quality is downstream
+  of how clean and connected the underlying data is. Vendors
+  selling AI features on top of fragmented stacks get
+  summarized-fragment output, not insight.
+- **Source:** https://www.notion.com/customers/ramp
+- **Severity:** Critical for AI vendors. Customers buy AI, but
+  successful deployment requires organizational cleanup work that
+  vendors don't get credit for in their pricing.
+- Source: Ben Levick, Head of Operations & Internal AI, Ramp.
+
+### 30. AI workflows need culture / habit change, not just tooling
+- **Category:** Onboarding
+- **Friction:** "The new system only worked if people built new
+  habits of delegating tasks." Even after consolidation, meetings
+  still dragged on and context still lived in disconnected tools
+  until employees were "AI native." Tooling is necessary but not
+  sufficient.
+- **Source:** https://www.notion.com/customers/ramp
+- **Severity:** High. Vendors that ship only tooling without
+  adoption playbooks leave value on the table.
+- Source: Ben Levick, Head of Operations & Internal AI, Ramp.
+
+### 31. Search must understand relationships, not just keywords
+- **Category:** Integration
+- **Friction:** "Our AI doesn't just search keywords. It
+  understands our workspace's actual structure and relationships."
+  RAG/keyword search falls short for workspace-scale search where
+  entity relationships (project, owner, status) matter.
+- **Source:** https://www.notion.com/customers/ramp
+- **Severity:** Medium. Customers moving to AI search expect
+  semantic + structural understanding, not just term matching.
+- Source: Cameron Leavenworth, Manager of Corporate IT, Ramp.
+
+### 32. Time-to-first-useful-agent is the new onboarding KPI
+- **Category:** Onboarding
+- **Friction:** Ramp builds Notion agents in "3 minutes between
+  meetings" and has 300+ active custom agents running daily.
+  Time-to-first-useful-agent is the new onboarding KPI for AI-era
+  tools.
+- **Source:** https://www.notion.com/customers/ramp
+- **Severity:** Medium. Vendors that ship "agent SDK" but require
+  days of setup lose to those that ship "3-minute first agent."
+- Source: Ben Levick, Head of Operations & Internal AI, Ramp.
+
+### 33. Secrets sprawl outpaces AppSec team capacity by ~30x
+- **Category:** Security
+- **Friction:** A typical 400-developer company would discover
+  1,050 unique secrets leaked on first scan, with each secret
+  replicated in 13 different places — a total of ~3,400
+  occurrences per AppSec engineer. The default team ratio is 1
+  AppSec engineer per 100 developers, a 30x gap between workload
+  and capacity. Private repositories are 4x more likely to expose
+  a secret than open-source corporate repos.
+- **Source:** https://www.globenewswire.com/fr/news-release/2022/03/02/2395353/0/en/GitGuardian-State-of-Secrets-Sprawl-2022.html
+- **Severity:** Critical. Without a dedicated secrets-management
+  platform, AppSec teams cannot keep up with sprawl. The 1-in-1,000
+  commit-exposure rate compounds faster than headcount.
+- Source: Abbas Haidar, Head of InfoSec, GitGuardian (via 2022
+  State of Secrets Sprawl report press release).
+
+### 34. "Zombie leaks" — exposed credentials stay valid 5+ days
+- **Category:** Security
+- **Friction:** 12.8M new secrets leaked on public GitHub in 2023
+  (a 28% YoY increase, quadrupling since 2021). Over 90% of
+  exposed secrets remain active five days after exposure because
+  developers erase leaky commits or privatize repos instead of
+  revoking the credentials. The 1,212x surge in OpenAI API key
+  leaks in 2023 is the most striking single trend, with HuggingFace
+  tokens also rising steadily. Remediation requires both
+  pre-commit / pre-receive detection and a deliberate revocation
+  discipline — most teams default to the cheap fix (delete the
+  commit) and never revoke.
+- **Source:** https://blog.gitguardian.com/the-state-of-secrets-sprawl-2024/
+- **Severity:** Critical. Short-lived dynamic credentials and
+  automatic revocation are the structural remedy, but only work
+  if customers get rotation discipline right.
+- Source: Eric Fourrier, CEO and Founder, GitGuardian.
+
+### 35. Critical RCE in secrets manager via plugin-directory config
+- **Category:** Security
+- **Friction:** A privileged operator in the root namespace with
+  write permission to sys/audit could obtain code execution on
+  the underlying host if a plugin directory was set in the
+  server's configuration. CVSS Critical. Fixed in Vault CE 1.20.1
+  and Enterprise 1.20.1 / 1.19.7 / 1.18.12 / 1.16.23. Affected
+  versions span ≥ 0.8.0 to < 1.20.1 — nearly the entire product
+  lifetime.
+- **Source:** https://github.com/advisories/GHSA-mr4h-qf9j-f665
+- **Severity:** Critical. Public CVE with working advisory and
+  known-bad configuration shape. Operators must upgrade or remove
+  plugin-directory configuration.
+- Source: HashiCorp Security Team (HCSEC-2025-14), via GitHub
+  Advisory Database / CVE-2025-6000.
+
+### 36. Multiple auth / authorization-bypass 0-days disclosed
+- **Category:** Security
+- **Friction:** Security researchers disclosed multiple 0-day
+  vulnerabilities in a widely-deployed secrets / wallet-management
+  product in August 2025, affecting authentication, identity, and
+  authorization paths. Some bypass lockout and multi-factor
+  authentication protections; others enable remote code execution.
+  Patched in coordination with the vendor. Most acute impact was
+  on crypto / wallet infrastructure, where this product is a
+  common key-management primitive.
+- **Source:** https://new.qq.com/rain/a/20250807A08JXR00 (Chinese
+  news mirror of original Cyata disclosure; corroborated via
+  https://so.html5.qq.com/page/real/search_news?docid=70000021_421689495eb61552
+  citing SlowMist CISO @im23pds).
+- **Severity:** Critical. Direct risk to crypto operators;
+  broader enterprise risk is that the same auth / authz primitives
+  protect other secrets.
+- Source: SlowMist CISO "23pds" (Yu Xian), citing the Cyata
+  research team disclosure.
+
+### 37. Codecov supply-chain breach exposed vendor's GPG signing key
+- **Category:** Security
+- **Friction:** Following the April 2021 Codecov supply-chain
+  breach, a leading secrets-management vendor disclosed that the
+  GPG key used to sign and verify its software releases was
+  exposed via a compromised CI script. All signed releases from
+  the breach window had to be treated as potentially tampered.
+  Customers had to rotate trust anchors — e.g., re-validate
+  binaries via out-of-band channel. The incident became a
+  canonical case study in CI/CD pipeline compromise.
+- **Source:** https://www.bleepingcomputer.com/news/security/hashicorp-is-the-latest-victim-of-codecov-supply-chain-attack/
+  (citing the vendor's own advisory; affected vendor self-disclosed).
+- **Severity:** High. The structural lesson is that even an
+  infrastructure-security vendor cannot fully insulate its own
+  release pipeline from third-party-CI compromise.
+- Source: HashiCorp Security Advisory, April 2021 (attributed to
+  HashiCorp security team via BleepingComputer reporting).
+
+### 38. Machine secrets outnumber human secrets 50:1
+- **Category:** Security
+- **Friction:** Machine (non-human) secrets outnumber
+  human-generated secrets by a factor of 50:1 in typical
+  enterprises. Every microservice, CI job, scheduled task, and
+  SaaS integration has its own credentials. Traditional
+  "vault-a-few-service-accounts" mental models fail at this scale;
+  secrets management must treat non-human identities (NHIs) as
+  the primary population, not an edge case.
+- **Source:** https://info.ssh.com/reports/kuppingercole-secrets-management-leadership-compass-2025
+- **Severity:** Critical. This is the structural reason
+  enterprise secrets-management rollouts stall at 30-40% coverage
+  — the gap between human-identity tools and NHI tooling is huge.
+- Source: John Tolbert, Director Cybersecurity Research,
+  KuppingerCole Analysts (via the 2025 Leadership Compass report,
+  published in partnership with SSH Communications Security).
+
+### 2026-06-05 �X Branch `research/notion-enterprise-v1` �X **Mode B session 4**
 - **Mode:** B (autonomous evaluation).
 - **Vendor family:** Notion (enterprise workspace).
 - **Customer case study:** Ramp (consolidation + AI operating
   system for work).
-- **Findings logged:** 6 (numbered 27�V32).
+- **Findings logged:** 6 (numbered 27�V32).
 - **Search quality notes:**
   - Notion's customer URLs follow `/customers/<slug>` (same shape
     as Linear). Working shape confirmed.
   - Ramp's case is unusually rich: a year-long narrative
-    (mid-2024 �� mid-2025 �� forward) with named execs, quantified
+    (mid-2024 �� mid-2025 �� forward) with named execs, quantified
     outcomes, and a clear "before vs. after" arc.
   - Six findings extracted from a single case study. Other Notion
     case studies (Vercel, Braintrust, Equals Money) likely yield
     another 10-15 findings, so Notion alone could fuel 2-3 more
     sessions.
+
+### 2026-06-05 — Branch `research/vault-secrets-v1` — **Mode B session 5**
+- **Mode:** B (autonomous evaluation).
+- **Vendor family:** Secrets management (HashiCorp Vault and the
+  surrounding vendor ecosystem — GitGuardian, Cyata, KuppingerCole,
+  GitHub Security Advisory).
+- **Scope drift notice:** Session 5 produced 6 high-quality findings,
+  but **none of them are customer case studies with a named
+  end-customer of Vault**. Instead, the strongest signals come from
+  industry reports (GitGuardian 2022 + 2024, KuppingerCole 2025),
+  public CVEs (CVE-2025-6000, 2025 0-day batch), and post-mortems
+  (Codecov / GPG key). This reflects a real characteristic of the
+  Vault customer-story program: it is materially weaker than Vanta,
+  Linear, Notion, or Auth0's.
+- **Findings logged:** 6 (numbered 33–38), all Security category.
+- **Source quality audit:**
+  - 33 + 34: GitGuardian reports — named exec (Abbas Haidar, Head of
+    InfoSec, 2022; Eric Fourrier, CEO and Founder, 2024) + quantified
+    (1,050 / 13x / 3,400; 12.8M / +28% / 90% / 1,212x). PASS.
+  - 35: CVE-2025-6000 — public advisory (GHSA-mr4h-qf9j-f665) from
+    HashiCorp Security Team (HCSEC-2025-14) + quantified (CVSS
+    Critical, version range ≥ 0.8.0 < 1.20.1). PASS.
+  - 36: Cyata 0-day disclosure (Aug 2025) — named exec (SlowMist CISO
+    "23pds" / Yu Xian, citing Cyata researchers) + quantified
+    (multiple 0-days; RCE potential). PASS.
+  - 37: Codecov / GPG key incident (2021) — vendor self-disclosure
+    (HashiCorp security advisory) + quantified (GPG key exposure
+    scope). PASS.
+  - 38: KuppingerCole 2025 Leadership Compass — named analyst
+    (John Tolbert, Director Cybersecurity Research) + quantified
+    (50:1 machine-to-human secret ratio). PASS.
+- **Search-quality notes:**
+  - The Vault customer-story program (`hashicorp.com/customers`,
+    `vault.hashicorp.com`) is sparse; deep-search via
+    `web_search` returns mostly Chinese-language tutorial content
+    and search-engine noise. The 2025 IBM acquisition and
+    HashiConf talks are promising but require insider-only URLs.
+  - **More productive sources used:** GitGuardian annual report
+    (long-running, high-quality, named execs, year-over-year
+    comparability), KuppingerCole analyst research, GitHub Security
+    Advisory Database (CVE-2025-6000), news mirrors of the Cyata
+    disclosure.
+  - **Saturation signal:** This is a partial-saturation pattern.
+    Vault itself yields 0 rich customer stories per session, but
+    the surrounding ecosystem (GitGuardian, Cyata, KuppingerCole)
+    yields 4-6 high-quality findings per session. Recommend
+    pivoting the vault-family sessions to be **secrets-management
+    ecosystem** sessions rather than Vault-specific ones for
+    2-3 more iterations, then revisit whether Vault's own customer
+    program has improved.
+- **What's queued for session 6 (post-merger):**
+  - Doppler (modern cloud-native secrets manager, public customer
+    stories)
+  - 1Password Business (human + machine secret hybrid, post-2024
+    enterprise push)
+  - Akeyless (vaultless SaaS model, named customers)
+  - CyberArk Conjur (privileged-access pedigree, M&A integration
+    angle paralleling Okta's)
+  - AWS Secrets Manager / Azure Key Vault (cloud-native default
+    choice — high deployment volume, different pain profile)
