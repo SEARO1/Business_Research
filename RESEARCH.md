@@ -43,14 +43,15 @@ for review, what's the next direction.
 | 10 | `research/cloudflare-v1` | 2026-06-05 | 5 | · Merged to main | Cloudflare customer stories (Fullscript, NYC Govt Financial Agency, Stack Overflow) |
 | 11 | `research/fastly-v1` | 2026-06-05 | 3 | · Merged to main | Fastly customer stories (The RealReal, Bukalapak, Shutterstock) |
 | 12 | `research/gitlab-servicenow-v1` | 2026-06-05 | 2 | · Merged to main | GitLab (Ericsson), ServiceNow (AstraZeneca) customer stories |
+| 13 | `research/asana-v1` | 2026-06-05 | 3 | · Merged to main | Asana customer stories (Parfums Christian Dior, DIRECTV, Morningstar) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 65
+- **Total findings:** 68
 - **By category:**
-  - Integration: 31
+  - Integration: 32
   - Security: 20
-  - Onboarding: 12
+  - Onboarding: 16
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -67,6 +68,7 @@ for review, what's the next direction.
   - Fastly (edge cloud/CDN): 3
   - GitLab (DevOps platform): 1
   - ServiceNow (workflow automation): 1
+  - Asana (work management): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
