@@ -74,11 +74,12 @@ for review, what's the next direction.
 | 41 | `research/lattice-v2` | 2026-06-05 | 2 | · Merged to main | Zendesk/Uber (Michael Mizrahi, Ashley Bradford), Zendesk/Carousell (Chloe Ng, Lavone Toh) |
 | 42 | `research/zendesk-v1` | 2026-06-05 | 2 | · Merged to main | Intercom/solidcore (Shane McCarthy), Intercom/Vanta (Margarita Wilshire, Kelly Bray) |
 | 43 | `research/intercom-v1` | 2026-06-05 | 2 | · Merged to main | Salesforce/FedEx (Terrell Goldsmith, Carlos Gonzalez), Salesforce/FedEx Data (Carlos Gonzalez) |
+| 44 | `research/salesforce-v2` | 2026-06-05 | 2 | · Merged to main | Salesforce/Pandora (Baltazar Hasselsteen Ozonek, David Walmsley), Salesforce/PepsiCo (Dave Dohnalik) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 135
+- **Total findings:** 137
 - **By category:**
   - Integration: 59
   - Security: 20
