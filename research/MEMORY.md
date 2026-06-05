@@ -1044,3 +1044,22 @@ esearch/asana-v1 �X **Mode B session 13**
   - Datadog (infrastructure monitoring, try different URL pattern)
   - Zapier (automation/iPaaS)
   - Miro (visual collaboration)
+
+
+### 72. Disconnected healthcare systems create operational inefficiencies that get in the way of seamless patient experiences
+- **Category:** Integration
+- **Friction:** Disconnected systems create operational inefficiencies that get in the way of delivering connected, seamless patient experiences. The Access Center with 150+ reps handles 2.5M inquiries/year but patients were often routed to voicemail or transferred without full access to real-time information. Even simple tasks like prescription refills or finding parking took an average of 4 minutes. The gap between consumer-grade service and healthcare is described as 'staggering and unacceptable.' Without unified data, marketing teams send broad unfocused messages instead of targeted outreach.
+- **Source:** https://www.salesforce.com/customer-stories/uchicago-medicine/
+- **Severity:** Critical. Healthcare operational inefficiency at enterprise scale. Named execs: Andrew Chang (Chief Marketing Officer), Kalee Hildreth (Executive Director of Marketing Operations), Tyler Bauer (SVP for Ambulatory Operations), UChicago Medicine. Quantified: 2.5M inquiries/year handled by Access Center;4 minutes average for simple tasks; 100 unique marketing segments built in 4 months; 60% campaign conversion rate; ROI in less than 1 year; 1M+ outpatient visits, 220K ER visits, 34K surgeries annually.
+
+### 73. Multi-brand retailers with disconnected data across brands and regions face complex integration overhead
+- **Category:** Integration
+- **Friction:** Multi-brand retailers with disconnected data across brands and regions face complex integration overhead. Without unified CRM and data platform, teams manage 27+ third-party integrations separately, creating data silos that prevent a single view of the customer. Scaling personalization across 9 brands and international sites means marketing teams must manually coordinate fragmented customer data. Personalization is described as 'table stakes' but achieving it at scale across multiple brands with disconnected systems is operationally complex.
+- **Source:** https://www.salesforce.com/customer-stories/williams-sonoma/
+- **Severity:** Critical. Multi-brand integration complexity at enterprise retail scale. Named execs: Laura Alber (CEO), Sameer Hassan (SVP Technology), Abby Teisch (SVP Marketing), Williams-Sonoma Inc. Quantified: 7.5 months to implement a 12-18-month Marketing Cloud engagement; ~21M new subscribers; 27 third-party system integrations; millions of personalized emails daily; 9 brands; thousands of hours saved per year by reducing meeting lengths; serves millions of global customers.
+
+### 74. Siloed regional data models create fragmented consumer and retailer visibility at global scale
+- **Category:** Integration
+- **Friction:** Siloed regional data models create fragmented consumer and retailer visibility at global scale. With 120,000 field sales reps operating across different go-to-market models (direct store delivery in North America, 'down the street' model with 25,000+ routes in Latin America, third-party distributors in other markets), consumer and retailer data stays fragmented by region and system. Without a unified data platform, teams lack a single view of the consumer and can't effectively segment by preference, location, or buying habits in real time.
+- **Source:** https://www.salesforce.com/customer-stories/pepsico-data-360/
+- **Severity:** Critical. Global scale with siloed data models across regions and channels. Named exec: Dave Dohnalik (SVP Technology Strategy and Enterprise Products), PepsiCo. Quantified: 120,000 field sales reps; 25,000+ routes in Latin America serving 1M+ smaller shops; products enjoyed in 200+ countries; nearly  revenue; 320,000 employees. Without unified data: trade promotions less targeted, field teams lack real-time store-level insights, one rep can't manage both snack and beverage product lines efficiently.
