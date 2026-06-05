@@ -72,11 +72,12 @@ for review, what's the next direction.
 | 39 | `research/cockroach-v1` | 2026-06-05 | 2 | · Merged to main | Vercel/Sonos (Jonathan Lemon), Vercel/Stripe (Sam McAllister) |
 | 40 | `research/vercel-v1` | 2026-06-05 | 2 | · Merged to main | Lattice/LiveRamp (Steven Pham), Lattice/Guinness World Records (Stephanie Lunn) |
 | 41 | `research/lattice-v2` | 2026-06-05 | 2 | · Merged to main | Zendesk/Uber (Michael Mizrahi, Ashley Bradford), Zendesk/Carousell (Chloe Ng, Lavone Toh) |
+| 42 | `research/zendesk-v1` | 2026-06-05 | 2 | · Merged to main | Intercom/solidcore (Shane McCarthy), Intercom/Vanta (Margarita Wilshire, Kelly Bray) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 131
+- **Total findings:** 133
 - **By category:**
   - Integration: 59
   - Security: 20
