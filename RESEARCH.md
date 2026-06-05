@@ -65,11 +65,12 @@ for review, what's the next direction.
 | 32 | `research/freshbooks-v1` | 2026-06-05 | 2 | · Merged to main | Airtable/Wondery (Neel Ketkar, Marshall Lewy), TeamViewer/Henkel (Adrian van Zyl) |
 | 33 | `research/freshbooks-v2` | 2026-06-05 | 2 | · Merged to main | Sumo Logic/Endowus (Alvin Lim), Sumo Logic/Samsung (Youngjip Kim) |
 | 34 | `research/sumo-v1` | 2026-06-05 | 2 | · Merged to main | Sentry/Anthropic (Nova DasSarma), Sentry/Bolt (Albert Pai) |
+| 35 | `research/sentry-v1` | 2026-06-05 | 2 | · Merged to main | New Relic/William Hill (Stephen Wild), New Relic/Toyota (Mitsuhiro Mabuchi) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 117
+- **Total findings:** 119
 - **By category:**
   - Integration: 59
   - Security: 20
