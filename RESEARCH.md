@@ -71,11 +71,12 @@ for review, what's the next direction.
 | 38 | `research/planetscale-v1` | 2026-06-05 | 2 | · Merged to main | CockroachDB/Route (Bryan Call), CockroachDB/Netflix (Shengwei Wang) |
 | 39 | `research/cockroach-v1` | 2026-06-05 | 2 | · Merged to main | Vercel/Sonos (Jonathan Lemon), Vercel/Stripe (Sam McAllister) |
 | 40 | `research/vercel-v1` | 2026-06-05 | 2 | · Merged to main | Lattice/LiveRamp (Steven Pham), Lattice/Guinness World Records (Stephanie Lunn) |
+| 41 | `research/lattice-v2` | 2026-06-05 | 2 | · Merged to main | Zendesk/Uber (Michael Mizrahi, Ashley Bradford), Zendesk/Carousell (Chloe Ng, Lavone Toh) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 129
+- **Total findings:** 131
 - **By category:**
   - Integration: 59
   - Security: 20
