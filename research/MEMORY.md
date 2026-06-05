@@ -59,6 +59,11 @@ Categories (per `AutoResearch.md` brief):
 | 41 | Integration | Vault + AWS Secrets Manager require dedicated ops bandwidth: "both required a lot of manual configuration" ??small DevOps team supporting 250+ developers lacks capacity | Doppler/Paradox |
 | 42 | Integration | Vault K8s integration is overly opinionated; dynamic access is complex and configuration is cumbersome: "needed something that didn't require a dedicated team to manage it" | Doppler/Paradox |
 | 43 | Onboarding | Building own secrets solution with Vault would add 6-8 months to MVP + 1 year to full feature set; Doppler cut MVP time 50% and accelerated full feature set 75% | Doppler/Paradox |
+| 44 | Security | Credential chaos at scale: "all over the place" — browser managers, Slack/email sharing, no visibility; 3,000-person remote workforce | 1Password/Reddit |
+| 45 | Integration | Developer secrets: plaintext in code → encrypt in 1Password; eliminated plaintext passwords in code; "revolutionary for developers" | 1Password/Oracle Red Bull Racing |
+| 46 | Integration | 1Password as passwordless bridge: "bridge between the password and passwordless worlds"; Secrets Automation for CI/CD pipelines | 1Password/Airwallex |
+| 47 | Onboarding | 1Password as critical as MDM/IdM: "impact on par with identity management and MDM systems" | 1Password/Intercom |
+| 48 | Integration | Automation reduces project tasks from weeks to hours: 1Password + Terraform + AWS Parameter Store integration | 1Password/Flo |
 
 ---
 
@@ -640,7 +645,7 @@ watching it.
   that maps to real team structures, not a binary allow/deny.
 - **Source:** https://www.doppler.com/case-studies/paradox
 - **Severity:** High. Without fine-grained RBAC, organizations
-  either over-restrict or under-restrict �X both are security
+  either over-restrict or under-restrict �X both are security
   failures.
 - Source: Dan Steen, VP of Infrastructure, Paradox.
 
@@ -681,13 +686,14 @@ watching it.
   for the full feature set." By adopting Doppler instead, they
   reduced time-to-MVP by 50% and accelerated the full feature set
   by 75%. The opportunity cost of Vault's complexity is not just
-  operational �X it is a direct delay to product delivery.
+  operational �X it is a direct delay to product delivery.
 - **Source:** https://www.doppler.com/case-studies/paradox
 - **Severity:** Critical. For startups and growth-stage companies,
   a 6-8 month delay to MVP is a competitive existential risk.
 - Source: Dan Steen, VP of Infrastructure, Paradox.
 
-### 2026-06-05 �X Branch esearch/doppler-secrets-v1 �X **Mode B session 6**
+### 2026-06-05 �X Branch 
+esearch/doppler-secrets-v1 �X **Mode B session 6**
 - **Mode:** B (autonomous evaluation).
 - **Vendor family:** Doppler (cloud-native secrets management).
 - **Customer case study:** Paradox (conversational AI hiring platform;
@@ -707,6 +713,116 @@ watching it.
     sessions before rotating to another vendor family.
 - **What's queued for session 7:**
   - 1Password Business (human + machine secret hybrid)
+  - Akeyless (vaultless SaaS, named customers)
+  - CyberArk Conjur (privileged-access M&A integration angle)
+  - AWS Secrets Manager / Azure Key Vault (cloud-native defaults)
+
+
+### 44. Credential chaos at scale — no visibility across the org
+- **Category:** Security
+- **Friction:** Reddit had 3,000 employees and contractors
+  spread across a mostly remote workforce. "It was sort of all over
+  the place" — some used browser-based password managers, others
+  shared passwords over Slack and email, and most had inconsistent
+  habits. There was no central visibility into what employees had
+  access to or where secrets were being stored. A previous password
+  manager breach triggered the urgency to get control.
+- **Source:** https://1password.com/customer-stories/reddit
+- **Severity:** Critical. Without a unified credential manager,
+  companies cannot answer basic questions: who has access to what?
+  Where are credentials stored? What happens when someone leaves?
+- Source: Nick Fohs, Corporate Technology Systems and
+  Infrastructure Manager, Reddit.
+
+### 45. Developer secrets in plaintext — a structural risk in code
+- **Category:** Integration
+- **Friction:** Oracle Red Bull Racing's engineering team was
+  storing credentials in code or ad hoc files. The F1 environment
+  (milliseconds matter, cost-cap regulations) made this a direct
+  performance and compliance risk. "With 1Password, we eliminated
+  plaintext passwords in code. Developers now use secure references,
+  which has been revolutionary for them." Secrets like Kubernetes
+  deployment credentials, CFD simulation keys, and connection
+  strings are now centrally stored, encrypted, and easy to rotate.
+- **Source:** https://1password.com/customer-stories/oracle-red-bull-racing
+- **Severity:** Critical. Plaintext secrets in code are a top
+  supply-chain risk. Even small teams accumulate these over time;
+  at 1,800 people across 10 sites, the blast radius is large.
+- Source: Nimesh Kotecha, Group Head of End User Services,
+  Oracle Red Bull Racing.
+
+### 46. Passwordless as a journey, not a switch — 1Password as the bridge
+- **Category:** Integration
+- **Friction:** Airwallex (1,300 employees, 19 international
+  offices) uses 1Password as "a bridge between the password and
+  passwordless worlds." Unlock with Okta (biometrics + SSO) means
+  employees use one password for Okta and 1Password auto-unlocks
+  on-site. Meanwhile, developer workflows previously relied on
+  Chrome's password manager or custom tools — "our developers were
+  trying to engineer a solution to their own problems." 1Password
+  SSH Agent and Secrets Automation now secure CI/CD pipelines and
+  git commit signing.
+- **Source:** https://1password.com/customer-stories/airwallex
+- **Severity:** High. Passwordless is a multi-year journey.
+  Organizations that skip the bridging phase create gaps where
+  credentials fall through the cracks.
+- Source: David Baverstock, Senior IT Engineer, Airwallex.
+
+### 47. 1Password is as critical as MDM — a first-class infrastructure layer
+- **Category:** Onboarding
+- **Friction:** Intercom evaluates tools by user-friendliness:
+  "User-friendliness of a tool is a key driver when we evaluate
+  them." 1Password is treated as an infrastructure layer on par
+  with identity management and MDM — "Looking at our IT tech stack,
+  1Password has an impact on par with our identity management and
+  MDM systems." Automated provisioning means every new hire has
+  1Password on day one, and security culture is embedded from
+  onboarding.
+- **Source:** https://1password.com/customer-stories/intercom
+- **Severity:** High. Organizations that treat password managers
+  as optional or personal tools miss the organizational-scale
+  security and efficiency gains.
+- Source: Joao Fernandes, IT Systems Engineer, Intercom.
+
+### 48. Automation reduces security project timelines from weeks to hours
+- **Category:** Integration
+- **Friction:** Flo (165M women users, privacy-first healthcare)
+  stored all passwords for third-party services in 1Password, then
+  used a Terraform script to safely export them into AWS Parameter
+  Store. "The process takes place with no human involvement — it's
+  fast and secure. Without 1Password, we would need to generate a
+  ticket for the project listing all relevant passwords. And several
+  people would need to see that ticket." Project task timelines went
+  from weeks to hours. 100% adoption rate across the company.
+- **Source:** https://1password.com/customer-stories/flo
+- **Severity:** High. Security automation that removes human
+  bottlenecks is the only path to scale; manual approval gates
+  create delays that compound.
+- Source: Dmitry Yackevich, Infrastructure Lead, Flo. (Leo
+  Cunningham, CISO, Flo, also cited on security and privacy
+  principles.)
+
+### 2026-06-05 — Branch `research/1password-business-v1` — **Mode B session 7**
+- **Mode:** B (autonomous evaluation).
+- **Vendor family:** 1Password Business (human + machine secret
+  hybrid, post-2024 enterprise push).
+- **Customer case studies:** Reddit (Nick Fohs), Oracle Red Bull
+  Racing (Nimesh Kotecha), Airwallex (David Baverstock), Intercom
+  (Joao Fernandes), Flo (Dmitry Yackevich, Leo Cunningham).
+- **Findings logged:** 5 (numbered 44-48).
+- **Search-quality notes:**
+  - 1password.com/customer-stories has a well-structured case
+    study library (30+ stories). Most have named execs, quantified
+    outcomes, and distinct use-case categories. URL pattern:
+    /customer-stories/<company-name>. Some company names on the
+    index page don't resolve (404) — try alternative URL formats.
+  - 5 findings extracted from 5 different customer case studies.
+    More available (Under Armour, Drift, Canva, etc.) for 1-2
+    additional sessions before saturation.
+  - **Saturation signal:** None yet. 1Password has a strong
+    customer story program with distinct pain points per case.
+    Recommend 1-2 more 1Password sessions before rotating.
+- **What's queued for session 8:**
   - Akeyless (vaultless SaaS, named customers)
   - CyberArk Conjur (privileged-access M&A integration angle)
   - AWS Secrets Manager / Azure Key Vault (cloud-native defaults)

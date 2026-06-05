@@ -37,14 +37,15 @@ for review, what's the next direction.
 | 4 | `research/notion-enterprise-v1` | 2026-06-05 | 6 | ??Merged to main | Notion customer story (Ramp) |
 | 5 | `research/vault-secrets-v1` | 2026-06-05 | 6 | ??Merged to main | GitGuardian 2022/2024, CVE-2025-6000, Cyata 0-day, Codecov, KuppingerCole 2025 |
 | 6 | `research/doppler-secrets-v1` | 2026-06-05 | 5 | ??Merged to main | Doppler customer story (Paradox/Dan Steen VP Infrastructure) |
+| 7 | `research/1password-business-v1` | 2026-06-05 | 5 | ??Merged to main | 1Password customer stories (Reddit, Oracle Red Bull Racing, Airwallex, Intercom, Flo) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 43
+- **Total findings:** 48
 - **By category:**
-  - Integration: 15
-  - Security: 13
-  - Onboarding: 15
+  - Integration: 18
+  - Security: 14
+  - Onboarding: 16
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -54,6 +55,7 @@ for review, what's the next direction.
   - Notion (workspace): 6
   - Secrets management ecosystem (GitGuardian, KuppingerCole, CVE/Cyata disclosures): 6
   - Doppler (secrets management): 5
+  - 1Password (secrets/credential management): 5
 
 See `research/MEMORY.md` for the full per-finding detail.
 
@@ -84,8 +86,10 @@ the queue evolves.
 - JumpCloud ??identity / directory
 - CyberArk ??privileged access
 - BeyondTrust ??privileged access
-- 1Password (enterprise) ??secrets management
+- Akeyless ??secrets management
 - HashiCorp Vault ??secrets management
+- AWS Secrets Manager ??secrets management
+- Azure Key Vault ??secrets management
 - Duo Security ??MFA
 
 **Onboarding / deployment:**
@@ -139,9 +143,9 @@ to the next session.
 ```
 RESEARCH.md                          ??this file (master index, stays on main)
 research/
-?��??� AutoResearch.md                  ??the brief, rules, play style
-?��??� MEMORY.md                        ??per-session human-readable findings
-?��??� research_log.jsonl               ??per-session machine-readable mirror
+  ?? AutoResearch.md                  ??the brief, rules, play style
+  ?? MEMORY.md                        ??per-session human-readable findings
+  ?? research_log.jsonl               ??per-session machine-readable mirror
 ```
 
 ## Update Discipline
