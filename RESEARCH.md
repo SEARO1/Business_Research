@@ -59,14 +59,15 @@ for review, what's the next direction.
 | 26 | `research/clickup-v1` | 2026-06-05 | 2 | · Merged to main | ClickUp customer stories (Miami University, Lids) |
 | 27 | `research/linear-v1` | 2026-06-05 | 2 | · Merged to main | Linear customer stories (Oscar Health, Scale AI) |
 | 28 | `research/docusign-v1` | 2026-06-05 | 2 | · Merged to main | Docusign customer stories (Adeva, Goosehead Insurance) |
-| 29 | `research/shopify-v2` | 2026-06-05 | 2 | · Pending merge | Shopify additional stories (SNOCKS, Maggy London) |
+| 29 | `research/shopify-v2` | 2026-06-05 | 2 | · Merged to main | Shopify additional stories (SNOCKS, Maggy London) |
+| 30 | `research/braintrust-v1` | 2026-06-05 | 2 | · Merged to main | Braintrust (Morgane Palomares, Ankur Goyal), Brex/Boston Celtics (Patrick Lynch) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 107
+- **Total findings:** 109
 - **By category:**
-  - Integration: 55
+  - Integration: 57
   - Security: 20
   - Onboarding: 32
 - **By source vendor family:**
@@ -102,6 +103,7 @@ for review, what's the next direction.
   - Linear (issue tracking): 2
   - Docusign (agreement workflow): 2
   - Shopify Plus (additional stories): 2
+  - Brex (financial automation): 1
 
 See `research/MEMORY.md` for the full per-finding detail.
 
