@@ -45,13 +45,15 @@ for review, what's the next direction.
 | 12 | `research/gitlab-servicenow-v1` | 2026-06-05 | 2 | · Merged to main | GitLab (Ericsson), ServiceNow (AstraZeneca) customer stories |
 | 13 | `research/asana-v1` | 2026-06-05 | 3 | · Merged to main | Asana customer stories (Parfums Christian Dior, DIRECTV, Morningstar) |
 | 14 | `research/figma-v1` | 2026-06-05 | 3 | · Merged to main | Figma customer stories (Grab, PhonePe, Accor) |
-| 15 | `research/salesforce-v1` | 2026-06-05 | 3 | · Pending merge | Salesforce customer stories (UChicago Medicine, Williams Sonoma, PepsiCo) |
+| 15 | `research/salesforce-v1` | 2026-06-05 | 3 | · Merged to main | Salesforce customer stories (UChicago Medicine, Williams Sonoma, PepsiCo) |
+| 16 | `research/datadog-v1` | 2026-06-05 | 3 | · Pending merge | Datadog customer stories (Auth0, Porsche Informatik, Toyota) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 74
+
+- **Total findings:** 77
 - **By category:**
-  - Integration: 37
+  - Integration: 40
   - Security: 20
   - Onboarding: 17
 - **By source vendor family:**
@@ -73,6 +75,7 @@ for review, what's the next direction.
   - Asana (work management): 3
   - Figma (design collaboration): 3
   - Salesforce (enterprise CRM): 3
+  - Datadog (infrastructure monitoring): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
