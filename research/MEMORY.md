@@ -81,6 +81,9 @@ Categories (per `AutoResearch.md` brief):
 | 63 | Integration | Multi-cloud storage costs at petabyte scale: 68% cost reduction, $100K/month object storage savings, $500K delivery savings | Jefferson Frazer, Director Cloud Infrastructure, Shutterstock |
 | 64 | Integration | Legacy deployment cadence (3-4 month cycles, 3-4 year major updates) vs cloud-native speed â€” competitive imperative for telecom cloud migration | Daniel Costa Soares, Head of Software Automation and Support, Ericsson OSS/BSS |
 | 65 | Onboarding | Manual lab supply ordering (30 min/order) and manual onboarding (50+ hrs/manager) consume researcher/manager time that should go to science and people leadership | Cindy Hoots (CDO/CIO), Dinesh Krishnan (Global Head of Enterprise Platforms), Jackie Crockford (VP Global Business Services), AstraZeneca |
+| 66 | Onboarding | Manual spreadsheets + disconnected email = delayed product launches, no cross-dept visibility at 350+ employee organizations | Thibault Delavault, Marketing Planning & Process Manager, Parfums Christian Dior (LVMH) |
+| 67 | Onboarding | Multiple intake forms + siloed PM model + constant 'where do we stand?' questions = operational chaos at 20+ teams scale | Amiena Murad (Sr Dir Business Ops) + Keeley Sylvester (Dir Customer Care PM), DIRECTV |
+| 68 | Integration | Siloed tools + complex tech stack + no standardized resource management = overworked resources, missed deadlines, leadership blind spots | Laura Kohl (CIO) + Michael Allen (Global Head of Retirement Tech/Product), Morningstar |
 
 ---
 
@@ -911,6 +914,24 @@ esearch/doppler-secrets-v1 ï¿½X **Mode B session 6**
 - **Source:** https://www.servicenow.com/customers/astrazeneca.html
 - **Severity:** High. Named execs: Cindy Hoots (CDO/CIO), Dinesh Krishnan (Global Head of Enterprise Platforms), Jackie Crockford (VP Global Business Services), AstraZeneca. Quantified: 30,000 hours saved annually (60,000+ requests); 30 min/order â†’ seconds; 50+ hrs manager onboarding eliminated; 20,000 new hires by 2030; 20 medicines by 2030 target.
 
+### 66. Manual spreadsheets and disconnected email create process opacity that delays product launches at scale
+- **Category:** Onboarding
+- **Friction:** Manual spreadsheets and disconnected email communication create process opacity that delays product launches. At organizations with 350+ employees, without a centralized workspace, departments can't see what others are working on (ops can't see formula dev, digital can't see merchandising), creating handoff friction and approval bottlenecks. Every new product requires coordination across fundamentally different work types (formula, packaging, marketing, advertising) that spreadsheets can't capture.
+- **Source:** https://asana.com/case-study/parfums-christian-dior
+- **Severity:** High. Product launch velocity is a competitive differentiator in luxury/retail. Spreadsheet-based tracking means status updates require manual compilation, files are hard to find, and approvals fall through the cracks. Named exec: Thibault Delavault, Marketing Planning & Process Manager, Parfums Christian Dior (LVMH). Quote: 'If you're developing perfume, it's not the same as developing skincare. And if you're developing a product, it's not the same as developing advertising. We needed a tool that could adjust.' Outcome: two-click mobile approvals speed up development time.
+
+### 67. Multiple intake forms and siloed PM model create operational chaos at 20+ team scale
+- **Category:** Onboarding
+- **Friction:** Multiple intake forms and siloed project management model create operational chaos at scale. Without centralized intake and standardized templates, work is hard to prioritize, track, and align to strategic goals. Constant 'where do we stand?' questions consume team bandwidth that should go to actual work. At 20+ team organizations, fragmented intake creates duplicated efforts, reduces visibility, and makes governance impossible. Status meetings and PowerPoint decks replace actual work.
+- **Source:** https://asana.com/case-study/directv
+- **Severity:** Critical. Operational overhead scales with team count. Named execs: Amiena Murad (Senior Director, Business Operations), Keeley Sylvester (Director, Customer Care Operations Project Management), DIRECTV. Amiena Murad: 'What began as a work intake solution has evolved into a fundamental shift in how we operate. The visibility and accountability Asana provides has eliminated countless status meetings, PowerPoint presentations, and email chains.' Quantified: $600K-$800K annual savings; 80% intake volume increase; status prep 3hrs â†’ 5min/week (150 hrs/year saved); 85-115 fewer keystrokes per intake submission.
+
+### 68. Siloed tools and complex tech stack create organizational blind spots at enterprise scale
+- **Category:** Integration
+- **Friction:** Siloed tools, complex tech stack, and no standardized resource management create organizational blind spots and operational inefficiency. At enterprises with 10,000+ employees across multiple functions, leadership lacks visibility into end-to-end roadmaps, making risk management and informed decision-making difficult. Different teams use different tools, keeping information siloed and priorities unclear. Resources get overcommitted, deadlines get missed, and strategic alignment suffers.
+- **Source:** https://asana.com/case-study/morningstar
+- **Severity:** Critical. Cross-functional complexity compounds at enterprise scale. Named execs: Laura Kohl (CIO), Michael Allen (Global Head of Retirement Technology and Product), Morningstar. Laura Kohl: 'Asana helps us drive efficiencies that scale and foster the growth that's needed. We've broken down barriers for collaboration across the organization.' Quantified: $600K annual savings (Research AI pipeline); 14,976 hours saved annually; 2 weeks eliminated from request review timelines; 1,972 work days saved/year (Central Tech team); $758,600 estimated cost savings. 11,000 employees, 29 countries.
+
 ### 2026-06-05 â€” Branch `research/aws-secrets-v1` â€” **Mode B session 8**
 - **Mode:** B (autonomous evaluation).
 - **Vendor families attempted:** Akeyless, CyberArk Conjur, AWS
@@ -954,18 +975,35 @@ esearch/doppler-secrets-v1 ï¿½X **Mode B session 6**
   - GitGuardian (direct, 2024 State of Secrets report)
 
 
-### 2026-06-05 ¡X Branch esearch/gitlab-servicenow-v1 ¡X **Mode B session 12**
+### 2026-06-05 ï¿½X Branch 
+esearch/gitlab-servicenow-v1 ï¿½X **Mode B session 12**
 - **Mode:** B (autonomous evaluation).
 - **Vendor families attempted:** GitLab, ServiceNow.
 - **Findings logged:** 2 (numbered 64-65).
 - **Search-quality notes:**
-  - **GitLab:** Excellent customer stories page (about.gitlab.com/customers/). Case studies include Ericsson (50% deployment time cut), Thales (in-flight entertainment), Siemens (open source DevOps culture), Nasdaq (cloud transformation). Ericsson is the standout ¡±6 pass: named exec (Daniel Costa Soares), quantified metrics (50% reduction, 10x test coverage, 300+ CSPs). Thales and Siemens lack quantified metrics in their quotes.
-  - **ServiceNow:** Large customer story database (298 results). AstraZeneca is the standout ¡±6 pass: three named execs (Cindy Hoots/CDO/CIO, Dinesh Krishnan/Global Head of Enterprise Platforms, Jackie Crockford/VP Global Business Services), quantified metrics (30,000 hrs/yr saved, 30 min¡÷sec processes, 50+ hrs onboarding time eliminated). Others (FedEx, CVS Health, Bell Canada) are video-centric with no accessible case study content.
+  - **GitLab:** Excellent customer stories page (about.gitlab.com/customers/). Case studies include Ericsson (50% deployment time cut), Thales (in-flight entertainment), Siemens (open source DevOps culture), Nasdaq (cloud transformation). Ericsson is the standout ï¿½ï¿½6 pass: named exec (Daniel Costa Soares), quantified metrics (50% reduction, 10x test coverage, 300+ CSPs). Thales and Siemens lack quantified metrics in their quotes.
+  - **ServiceNow:** Large customer story database (298 results). AstraZeneca is the standout ï¿½ï¿½6 pass: three named execs (Cindy Hoots/CDO/CIO, Dinesh Krishnan/Global Head of Enterprise Platforms, Jackie Crockford/VP Global Business Services), quantified metrics (30,000 hrs/yr saved, 30 minï¿½ï¿½sec processes, 50+ hrs onboarding time eliminated). Others (FedEx, CVS Health, Bell Canada) are video-centric with no accessible case study content.
   - **Search quality:** Web search for 'Rippling customer story' returned Chinese-language unrelated content. Rippling's customer page returns HTTP 200 but content is JS-rendered (shell HTML). CrowdStrike customer stories page returned 404 (July 2024 outage dominates search results). Fetch tool more reliable than search for vendor websites.
 - **Saturation signal:** Enterprise DevOps platforms (GitLab, ServiceNow) have strong documented customer evidence programs. Cloud-native transformation and workflow automation are well-covered categories with many named executive quotes and quantified metrics.
 - **What's queued for session 13:**
   - Workato or Tray.io (iPaaS integration pain points)
   - Drata (compliance automation)
-  - Snyk (developer security, second-pass after session 8 notes indicated borderline ¡±6 content)
+  - Snyk (developer security, second-pass after session 8 notes indicated borderline ï¿½ï¿½6 content)
   - Datadog (infrastructure monitoring, customer stories)
 
+
+
+### 2026-06-05 ¡X Branch esearch/asana-v1 ¡X **Mode B session 13**
+- **Mode:** B (autonomous evaluation).
+- **Vendor families attempted:** Asana.
+- **Findings logged:** 3 (numbered 66-68).
+- **Search-quality notes:**
+  - **Asana:** Excellent case study pages (asana.com/case-study/[name]). Discovered URL pattern via search. Case studies with strong ¡±6 passes: Parfums Christian Dior (LVMH), DIRECTV, Morningstar. All have named execs and quantified metrics. Key pain points across all three: manual spreadsheets, siloed tools, lack of cross-functional visibility, operational overhead at scale.
+  - **URL pattern:** asana.com/case-study/[company-name-lowercase]
+  - **Asana customer story page:** asana.com/customers ¡X lists 16 customer stories with headline metrics (FedEx 9x, Indeed , Morningstar , DIRECTV , Palo Alto Networks 40%). Individual case study URLs follow asana.com/case-study/[name] pattern.
+- **Saturation signal:** Work management / project orchestration platforms (Asana, Monday.com) have strong documented customer evidence. The 'spreadsheet to unified workspace' migration story is a consistent pattern across different company sizes and industries.
+- **What's queued for session 14:**
+  - Monday.com (project management, Monday.com/customers page)
+  - Drata (compliance automation, second attempt after search issues)
+  - Snyk (developer security)
+  - Datadog (infrastructure monitoring, individual case study URLs unknown)
