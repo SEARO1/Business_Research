@@ -75,11 +75,12 @@ for review, what's the next direction.
 | 42 | `research/zendesk-v1` | 2026-06-05 | 2 | · Merged to main | Intercom/solidcore (Shane McCarthy), Intercom/Vanta (Margarita Wilshire, Kelly Bray) |
 | 43 | `research/intercom-v1` | 2026-06-05 | 2 | · Merged to main | Salesforce/FedEx (Terrell Goldsmith, Carlos Gonzalez), Salesforce/FedEx Data (Carlos Gonzalez) |
 | 44 | `research/salesforce-v2` | 2026-06-05 | 2 | · Merged to main | Salesforce/Pandora (Baltazar Hasselsteen Ozonek, David Walmsley), Salesforce/PepsiCo (Dave Dohnalik) |
+| 45 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Snowflake/Penske (Vishwa Ram), Stripe/Twilio (Chris Nasson) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 137
+- **Total findings:** 128
 - **By category:**
   - Integration: 59
   - Security: 20
