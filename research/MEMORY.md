@@ -79,6 +79,8 @@ Categories (per `AutoResearch.md` brief):
 | 61 | Integration | Security vs developer velocity: change windows + late-night maintenance at legacy orgs; frictionless multi-deploy/day with Fastly | Kevin Ponds, Director Cybersecurity Engineering, The RealReal |
 | 62 | Security | Legacy security tooling: manual UI config vs IaC, poor attack visibility, fragmented tooling at 100+ domains scale | Sugandi Tio, VP Engineering, Bukalapak |
 | 63 | Integration | Multi-cloud storage costs at petabyte scale: 68% cost reduction, $100K/month object storage savings, $500K delivery savings | Jefferson Frazer, Director Cloud Infrastructure, Shutterstock |
+| 64 | Integration | Legacy deployment cadence (3-4 month cycles, 3-4 year major updates) vs cloud-native speed â€” competitive imperative for telecom cloud migration | Daniel Costa Soares, Head of Software Automation and Support, Ericsson OSS/BSS |
+| 65 | Onboarding | Manual lab supply ordering (30 min/order) and manual onboarding (50+ hrs/manager) consume researcher/manager time that should go to science and people leadership | Cindy Hoots (CDO/CIO), Dinesh Krishnan (Global Head of Enterprise Platforms), Jackie Crockford (VP Global Business Services), AstraZeneca |
 
 ---
 
@@ -897,6 +899,18 @@ esearch/doppler-secrets-v1 ï¿½X **Mode B session 6**
 - **Severity:** High. Named source: Ponemon Institute via Kevin
   Bocek, SVP Innovation, CyberArk.
 
+### 64. Legacy deployment cadence blocks telecom cloud migration at scale
+- **Category:** Integration
+- **Friction:** Legacy deployment methodology (3-4 month cycles, major updates every 3-4 years) creates a structural mismatch with cloud-native speed expectations. For telecom OSS/BSS providers, this is a competitive imperative: without automation, customers simply won't migrate to cloud infrastructure, effectively shutting vendors out of next-gen opportunities. Critical billing systems mean downtime = revenue stop, raising the stakes for any migration.
+- **Source:** https://about.gitlab.com/customers/ericsson/
+- **Severity:** Critical. Named exec: Daniel Costa Soares, Head of Software Automation and Support, Ericsson OSS/BSS. Quantified: 50% deployment time reduction; 2,000-3,000 test scenarios per deployment (10x coverage increase); monthly feature/security deployments vs 3-4 year upgrade cycles; 300+ global CSPs served.
+
+### 65. Manual lab ordering and onboarding consume researcher/manager time that should go to science and people
+- **Category:** Onboarding
+- **Friction:** Manual lab supply ordering (handwritten notebook, 30 min/order) and manual manager onboarding (50+ hrs/manager) represent systematic time waste in organizations where speed-to-patient is existential. For life sciences companies, 'every minute matters' is literal â€” time spent on admin is time not spent on drug development. At AstraZeneca, 20,000 new hires are planned by 2030 to support the goal of 20 new medicines, making onboarding efficiency a strategic bottleneck.
+- **Source:** https://www.servicenow.com/customers/astrazeneca.html
+- **Severity:** High. Named execs: Cindy Hoots (CDO/CIO), Dinesh Krishnan (Global Head of Enterprise Platforms), Jackie Crockford (VP Global Business Services), AstraZeneca. Quantified: 30,000 hours saved annually (60,000+ requests); 30 min/order â†’ seconds; 50+ hrs manager onboarding eliminated; 20,000 new hires by 2030; 20 medicines by 2030 target.
+
 ### 2026-06-05 â€” Branch `research/aws-secrets-v1` â€” **Mode B session 8**
 - **Mode:** B (autonomous evaluation).
 - **Vendor families attempted:** Akeyless, CyberArk Conjur, AWS
@@ -938,3 +952,20 @@ esearch/doppler-secrets-v1 ï¿½X **Mode B session 6**
   - Workato or Tray.io (iPaaS customer stories)
   - Wiz or Snyk (security posture / developer security)
   - GitGuardian (direct, 2024 State of Secrets report)
+
+
+### 2026-06-05 ¡X Branch esearch/gitlab-servicenow-v1 ¡X **Mode B session 12**
+- **Mode:** B (autonomous evaluation).
+- **Vendor families attempted:** GitLab, ServiceNow.
+- **Findings logged:** 2 (numbered 64-65).
+- **Search-quality notes:**
+  - **GitLab:** Excellent customer stories page (about.gitlab.com/customers/). Case studies include Ericsson (50% deployment time cut), Thales (in-flight entertainment), Siemens (open source DevOps culture), Nasdaq (cloud transformation). Ericsson is the standout ¡±6 pass: named exec (Daniel Costa Soares), quantified metrics (50% reduction, 10x test coverage, 300+ CSPs). Thales and Siemens lack quantified metrics in their quotes.
+  - **ServiceNow:** Large customer story database (298 results). AstraZeneca is the standout ¡±6 pass: three named execs (Cindy Hoots/CDO/CIO, Dinesh Krishnan/Global Head of Enterprise Platforms, Jackie Crockford/VP Global Business Services), quantified metrics (30,000 hrs/yr saved, 30 min¡÷sec processes, 50+ hrs onboarding time eliminated). Others (FedEx, CVS Health, Bell Canada) are video-centric with no accessible case study content.
+  - **Search quality:** Web search for 'Rippling customer story' returned Chinese-language unrelated content. Rippling's customer page returns HTTP 200 but content is JS-rendered (shell HTML). CrowdStrike customer stories page returned 404 (July 2024 outage dominates search results). Fetch tool more reliable than search for vendor websites.
+- **Saturation signal:** Enterprise DevOps platforms (GitLab, ServiceNow) have strong documented customer evidence programs. Cloud-native transformation and workflow automation are well-covered categories with many named executive quotes and quantified metrics.
+- **What's queued for session 13:**
+  - Workato or Tray.io (iPaaS integration pain points)
+  - Drata (compliance automation)
+  - Snyk (developer security, second-pass after session 8 notes indicated borderline ¡±6 content)
+  - Datadog (infrastructure monitoring, customer stories)
+

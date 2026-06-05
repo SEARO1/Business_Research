@@ -42,10 +42,11 @@ for review, what's the next direction.
 | 9 | `research/twilio-segment-v1` | 2026-06-05 | 3 | · Merged to main | Twilio Segment customer stories (FOX, IBM, Vista) |
 | 10 | `research/cloudflare-v1` | 2026-06-05 | 5 | · Merged to main | Cloudflare customer stories (Fullscript, NYC Govt Financial Agency, Stack Overflow) |
 | 11 | `research/fastly-v1` | 2026-06-05 | 3 | · Merged to main | Fastly customer stories (The RealReal, Bukalapak, Shutterstock) |
+| 12 | `research/gitlab-servicenow-v1` | 2026-06-05 | 2 | · Merged to main | GitLab (Ericsson), ServiceNow (AstraZeneca) customer stories |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 63
+- **Total findings:** 65
 - **By category:**
   - Integration: 31
   - Security: 20
@@ -64,6 +65,8 @@ for review, what's the next direction.
   - Twilio Segment (CDP/integration): 3
   - Cloudflare (edge/security/CDN): 5
   - Fastly (edge cloud/CDN): 3
+  - GitLab (DevOps platform): 1
+  - ServiceNow (workflow automation): 1
 
 See `research/MEMORY.md` for the full per-finding detail.
 
@@ -75,7 +78,20 @@ the queue evolves.
 
 **Compliance / GRC:**
 - Drata · competitor to Vanta, likely similar pain
-- Tugboat Logic · compliance automation
+
+**Integration / iPaaS:**
+- Workato · enterprise iPaaS with customer stories
+- Tray.io · workflow automation with customer stories
+
+**Developer Security:**
+- Snyk · developer security, second-pass (borderline §6 from initial check)
+- Datadog · infrastructure monitoring, customer stories
+
+**Remaining queue:**
+- Atlassian (Jira, Confluence, Bitbucket) · enterprise collaboration
+- monday.com · project management customer stories
+- Asana · engineering PM tools
+- Miro · visual collaboration
 - Secureframe · compliance automation
 - Vanta (second pass for vertical-specific stories)
 
