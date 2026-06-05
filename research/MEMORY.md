@@ -76,6 +76,9 @@ Categories (per `AutoResearch.md` brief):
 | 58 | Integration | CDN migration complexity delays modernization: 1-month deadline vs 6-month realistic timeline; 33% cost reduction post-migration | Josh Zhang, Team Lead SRE, Stack Overflow |
 | 59 | Integration | Bot traffic now majority of inbound requests; AI crawlers turning content sites into high-value targets; manual management unscalable | Josh Zhang, Team Lead SRE, Stack Overflow |
 | 60 | Integration | Security rules deployment speed is a competitive differentiator: day-long rollouts → minutes (99.5% improvement) | Josh Zhang, Team Lead SRE, Stack Overflow |
+| 61 | Integration | Security vs developer velocity: change windows + late-night maintenance at legacy orgs; frictionless multi-deploy/day with Fastly | Kevin Ponds, Director Cybersecurity Engineering, The RealReal |
+| 62 | Security | Legacy security tooling: manual UI config vs IaC, poor attack visibility, fragmented tooling at 100+ domains scale | Sugandi Tio, VP Engineering, Bukalapak |
+| 63 | Integration | Multi-cloud storage costs at petabyte scale: 68% cost reduction, $100K/month object storage savings, $500K delivery savings | Jefferson Frazer, Director Cloud Infrastructure, Shutterstock |
 
 ---
 
