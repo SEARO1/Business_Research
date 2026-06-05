@@ -49,16 +49,17 @@ for review, what's the next direction.
 | 16 | `research/datadog-v1` | 2026-06-05 | 3 | · Merged to main | Datadog customer stories (Auth0, Porsche Informatik, Toyota) |
 | 17 | `research/shopify-v1` | 2026-06-05 | 3 | · Merged to main | Shopify customer stories (BODi, Le Petit Ballon, VIA VAI) |
 | 18 | `research/amplitude-v1` | 2026-06-05 | 3 | · Merged to main | Amplitude customer stories (The Economist, Coca-Cola FEMSA, Salt Bank) |
-| 19 | `research/yotpo-v1` | 2026-06-05 | 3 | · Pending merge | Yotpo customer stories (Third Love, Goodr, Revolution Beauty) |
+| 19 | `research/yotpo-v1` | 2026-06-05 | 3 | · Merged to main | Yotpo customer stories (Third Love, Goodr, Revolution Beauty) |
+| 20 | `research/notion-v1` | 2026-06-05 | 3 | · Pending merge | Notion customer stories (Ramp, Vercel, Equals Money) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 86
+- **Total findings:** 89
 - **By category:**
-  - Integration: 43
+  - Integration: 45
   - Security: 20
-  - Onboarding: 23
+  - Onboarding: 24
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -82,6 +83,7 @@ for review, what's the next direction.
   - Shopify (enterprise ecommerce): 3
   - Amplitude (product analytics): 3
   - Yotpo (loyalty & reviews): 3
+  - Notion (collaboration workspace): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
