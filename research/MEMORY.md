@@ -64,6 +64,10 @@ Categories (per `AutoResearch.md` brief):
 | 46 | Integration | 1Password as passwordless bridge: "bridge between the password and passwordless worlds"; Secrets Automation for CI/CD pipelines | 1Password/Airwallex |
 | 47 | Onboarding | 1Password as critical as MDM/IdM: "impact on par with identity management and MDM systems" | 1Password/Intercom |
 | 48 | Integration | Automation reduces project tasks from weeks to hours: 1Password + Terraform + AWS Parameter Store integration | 1Password/Flo |
+| 49 | Security | Static secrets create ungovernable exposure: 6-month GitHub leak of CISA GovCloud keys; 48h post-takedown validity | Brian Krebs/KrebsOnSecurity |
+| 50 | Security | PKI at scale is operationally broken: 114,000+ certs managed by 4 staff; 63% rely on MSPs; 56% have cert-caused outages | Ponemon Institute/CyberArk |
+| 51 | Security | Machine identities outnumber humans 96:1 in large banks; AI agent access paths are implicit, invisible to discovery tools | Andy Parsons/CyberArk |
+| 52 | Integration | Certificate lifetime compression (47-day rule) exposes legacy PKI brittleness; 50% of orgs accelerating modernization | Ponemon Institute/CyberArk |
 
 ---
 
@@ -826,3 +830,100 @@ esearch/doppler-secrets-v1 �X **Mode B session 6**
   - Akeyless (vaultless SaaS, named customers)
   - CyberArk Conjur (privileged-access M&A integration angle)
   - AWS Secrets Manager / Azure Key Vault (cloud-native defaults)
+
+### 49. Static secrets create ungovernable structural exposure (CISA case)
+- **Category:** Security
+- **Friction:** A CISA contractor maintained a public GitHub repo
+  ("Private-CISA") from November 2025 to May 2026, exposing
+  administrative AWS GovCloud keys, plaintext passwords for
+  internal systems, and kube-config credentials. The contractor
+  had explicitly disabled GitHub's default push-protection for
+  secrets. The exposed AWS keys remained valid for 48 hours after
+  the account was taken down. The architectural root cause: static
+  credentials that cannot be revoked before damage is done.
+- **Source:** https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
+- **Severity:** Critical. 6-month exposure window; 48h post-takedown
+  key validity. Named sources: Philippe Caturegli, Founder,
+  Seralys (tested and validated exposed keys); Guillaume Valadon,
+  Security Researcher, GitGuardian (discovered and reported the
+  leak). Via Brian Krebs, KrebsOnSecurity.
+
+### 50. PKI at enterprise scale is operationally broken
+- **Category:** Security
+- **Friction:** Organizations manage an average of 114,000+
+  internal certificates but dedicate only 4 full-time staff to
+  PKI operations (28,500:1 ratio). 63% turn to managed service
+  providers to keep up. 56% report unplanned downtime from expired
+  or misconfigured certificates. 60% experienced cryptographic
+  exploits tied to weak or poorly managed keys.
+- **Source:** https://www.cyberark.com/resources/blog/the-hidden-cost-of-pki-why-certificate-failures-arent-just-an-it-problem
+- **Severity:** Critical. Named source: Ponemon Institute (n≈2,000
+  global IT/security practitioners) via Kevin Bocek, SVP
+  Innovation, CyberArk.
+
+### 51. Machine identities outnumber humans 96:1; AI agent access is invisible
+- **Category:** Security
+- **Friction:** In large financial institutions, AI systems are
+  granted authority to trigger workflows, move data, and influence
+  outcomes — but access paths are created implicitly inside
+  AI-driven workflows. Authentication tokens, privilege drift, and
+  decision influence operate beyond human-scale visibility.
+  The ratio of machine identities to human identities is approaching
+  96:1 in large banks.
+- **Source:** https://www.cyberark.com/resources/blog/the-new-ai-access-problem-why-machine-identities-now-drive-trust-in-banking
+- **Severity:** High. Named source: Andy Parsons, Director of EMEA
+  Financial Services and Insurance, CyberArk.
+
+### 52. Certificate lifetime compression exposes PKI brittleness
+- **Category:** Integration
+- **Friction:** The new 47-day TLS certificate validity rule is
+  forcing organizations to confront operational PKI realities sooner
+  than planned. 50% of organizations say the rule is accelerating
+  PKI modernization efforts. Yet only 47% have practical insight
+  into how many certificates they manage or where they're deployed.
+  50% believe automation and AI would materially reduce outage risk.
+- **Source:** https://www.cyberark.com/resources/blog/the-hidden-cost-of-pki-why-certificate-failures-arent-just-an-it-problem
+- **Severity:** High. Named source: Ponemon Institute via Kevin
+  Bocek, SVP Innovation, CyberArk.
+
+### 2026-06-05 — Branch `research/aws-secrets-v1` — **Mode B session 8**
+- **Mode:** B (autonomous evaluation).
+- **Vendor families attempted:** Akeyless, CyberArk Conjur, AWS
+  Secrets Manager.
+- **Findings logged:** 4 (numbered 49-52).
+- **Search-quality notes:**
+  - **Akeyless:** No named customer case studies found on website.
+    Customer stories page returns 404. Blog content is
+    security-research-adjacent (CISA breach analysis by Refael
+    Angel). Does not meet §6 bar as vendor has no documented
+    customer story program.
+  - **CyberArk:** Customer stories exist (Carnival, Maximus, Webster
+    Bank, PDS Health, Panasonic, Healthfirst, Aflac) but are
+    PAM/identity-security-focused, not specifically Conjur secrets
+    management. Blog content (Ponemon PKI study, machine identity
+    research) has named execs and quantified metrics but is vendor
+    marketing — acceptable for industry-level data, not vendor
+    endorsement.
+  - **AWS Secrets Manager:** No dedicated customer story page found.
+    AWS case-studies page is general (Blue Origin, Pinterest, Phagos)
+    with no secrets-management-specific stories.
+  - **CISA breach (finding 49):** Primary source is Brian Krebs,
+    independent security journalist (not a vendor). Named execs:
+    Guillaume Valadon (GitGuardian researcher) and Philippe
+    Caturegli (Seralys founder). Quantified: 6-month exposure, 48h
+    key validity. Passes §6 bar.
+  - **PKI/machine identity findings (50-52):** Ponemon Institute
+    research cited via CyberArk blog. Named exec: Kevin Bocek,
+    SVP Innovation, CyberArk. Quantified: 114,000+ certs, 4 staff,
+    63%, 56%, 60%, 47-day rule. Passes §6 bar as industry research
+    with named exec and metrics.
+- **Saturation signal for secrets management vendors:**
+  Secrets management (machine-to-machine) vendors have significantly
+  weaker customer story programs than human credential managers
+  (1Password) or identity providers (Auth0/Okta). The machine identity
+  space is still early in building documented customer evidence.
+- **What's queued for session 9:**
+  - Drata (compliance automation, second-pass vertical stories)
+  - Workato or Tray.io (iPaaS customer stories)
+  - Wiz or Snyk (security posture / developer security)
+  - GitGuardian (direct, 2024 State of Secrets report)
