@@ -55,16 +55,17 @@ for review, what's the next direction.
 | 22 | `research/airtable-v1` | 2026-06-05 | 2 | · Merged to main | Airtable customer stories (dormakaba, OpenAI) |
 | 23 | `research/outreach-v1` | 2026-06-05 | 2 | · Merged to main | Outreach customer stories (Siemens, Avis Budget) |
 | 24 | `research/lattice-v1` | 2026-06-05 | 2 | · Merged to main | Lattice customer stories (Peaksware, Guinness World Records) |
-| 25 | `research/wrike-v1` | 2026-06-05 | 2 | · Pending merge | Wrike customer stories (Walmart Canada, Blue Yonder) |
+| 25 | `research/wrike-v1` | 2026-06-05 | 2 | · Merged to main | Wrike customer stories (Walmart Canada, Blue Yonder) |
+| 26 | `research/clickup-v1` | 2026-06-05 | 2 | · Pending merge | ClickUp customer stories (Miami University, Lids) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 99
+- **Total findings:** 101
 - **By category:**
-  - Integration: 51
+  - Integration: 52
   - Security: 20
-  - Onboarding: 28
+  - Onboarding: 29
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -94,6 +95,7 @@ for review, what's the next direction.
   - Outreach (sales engagement): 2
   - Lattice (people management): 2
   - Wrike (project management): 2
+  - ClickUp (project management): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
