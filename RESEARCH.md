@@ -70,11 +70,12 @@ for review, what's the next direction.
 | 37 | `research/fivetran-v1` | 2026-06-05 | 2 | · Merged to main | PlanetScale/Cash App (Aaron Young), PlanetScale/Barstool Sports (Andrew Barba) |
 | 38 | `research/planetscale-v1` | 2026-06-05 | 2 | · Merged to main | CockroachDB/Route (Bryan Call), CockroachDB/Netflix (Shengwei Wang) |
 | 39 | `research/cockroach-v1` | 2026-06-05 | 2 | · Merged to main | Vercel/Sonos (Jonathan Lemon), Vercel/Stripe (Sam McAllister) |
+| 40 | `research/vercel-v1` | 2026-06-05 | 2 | · Merged to main | Lattice/LiveRamp (Steven Pham), Lattice/Guinness World Records (Stephanie Lunn) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 127
+- **Total findings:** 129
 - **By category:**
   - Integration: 59
   - Security: 20
