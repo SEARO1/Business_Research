@@ -57,16 +57,17 @@ for review, what's the next direction.
 | 24 | `research/lattice-v1` | 2026-06-05 | 2 | · Merged to main | Lattice customer stories (Peaksware, Guinness World Records) |
 | 25 | `research/wrike-v1` | 2026-06-05 | 2 | · Merged to main | Wrike customer stories (Walmart Canada, Blue Yonder) |
 | 26 | `research/clickup-v1` | 2026-06-05 | 2 | · Merged to main | ClickUp customer stories (Miami University, Lids) |
-| 27 | `research/linear-v1` | 2026-06-05 | 2 | · Pending merge | Linear customer stories (Oscar Health, Scale AI) |
+| 27 | `research/linear-v1` | 2026-06-05 | 2 | · Merged to main | Linear customer stories (Oscar Health, Scale AI) |
+| 28 | `research/docusign-v1` | 2026-06-05 | 2 | · Pending merge | Docusign customer stories (Adeva, Goosehead Insurance) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 103
+- **Total findings:** 105
 - **By category:**
-  - Integration: 53
+  - Integration: 54
   - Security: 20
-  - Onboarding: 30
+  - Onboarding: 31
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -98,6 +99,7 @@ for review, what's the next direction.
   - Wrike (project management): 2
   - ClickUp (project management): 2
   - Linear (issue tracking): 2
+  - Docusign (agreement workflow): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
