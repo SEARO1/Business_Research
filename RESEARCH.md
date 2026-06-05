@@ -76,20 +76,29 @@ for review, what's the next direction.
 | 43 | `research/intercom-v1` | 2026-06-05 | 2 | · Merged to main | Salesforce/FedEx (Terrell Goldsmith, Carlos Gonzalez), Salesforce/FedEx Data (Carlos Gonzalez) |
 | 44 | `research/salesforce-v2` | 2026-06-05 | 2 | · Merged to main | Salesforce/Pandora (Baltazar Hasselsteen Ozonek, David Walmsley), Salesforce/PepsiCo (Dave Dohnalik) |
 | 45 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Snowflake/Penske (Vishwa Ram), Stripe/Twilio (Chris Nasson) |
-| 46 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Vanta/Samsara (Nick Hardy), Vanta/Snowflake (Josh McKibben) |
-| 47 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Vanta/GitHub (Megan Snyder), Vanta/Duolingo (Mandy Matthew) |
-| 48 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Twilio Segment/FOX (Daryl Bowden), Twilio Segment/Domino's (exec unknown) |
-| 49 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Twilio Segment/IBM (Nic Sauriol), Twilio Segment/Asana (Grace Liu) |
-| 50 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Twilio Segment/Vista (Drew Forster), Twilio Segment/Yesware (Inessa Luyre) |
+| 46 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Vanta/Samsara (Nick Hardy), Vanta/Snowflake (Josh McKibben) |
+| 47 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Vanta/GitHub (Megan Snyder), Vanta/Duolingo (Mandy Matthew) |
+| 48 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Twilio Segment/FOX (Daryl Bowden), Twilio Segment/Domino's (exec unknown) |
+| 49 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Twilio Segment/IBM (Nic Sauriol), Twilio Segment/Asana (Grace Liu) |
+| 50 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Twilio Segment/Vista (Drew Forster), Twilio Segment/Yesware (Inessa Luyre) |
+| 51 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | ServiceNow/AstraZeneca (Matt Port, VP Digital Enterprise), Intercom/solidcore (Shane McCarthy, CEO) |
+| 52 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Intercom/Gamma (Alex Yung, Head of Support), Intercom/Anthropic (Ben Adams, Customer Experience Lead) |
+| 53 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/Lightspeed (Yamine Gluchow, VP Information Systems), Intercom/Rocket Money (Michelle McGowan, Director of Operations) |
+| 54 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/WHOOP (Emily Shirley, Business Manager Growth Product), Intercom/MPB (Chris Beattie, Head of Global CX; Gideon Knight, Customer Ops Manager) |
+| 55 | `research/grab-v1` | 2026-06-06 | 2 | · Merged to main | Intercom/Topstep (Dennis O'Connor, Former Director of Support), Intercom/Consensys (Dror Avieli, Managing Director & VP CS; Yair Gal, Support Lead) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 138
+- **Total findings:** 148
 - **By category:**
-  - Integration: 65
+  - Integration: 67
   - Security: 24
-  - Onboarding: 32
+  - Onboarding: 40
+- **By source vendor family:**
+  - Vanta (compliance automation): 10
+  - Intercom (AI customer support agent): 14
+  - Twilio Segment (CDP/integration): 9
 - **By source vendor family:**
   - Vanta (compliance automation): 10
   - MuleSoft (integration): 4
@@ -103,6 +112,7 @@ for review, what's the next direction.
   - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
   - Twilio Segment (CDP/integration): 9
   - Cloudflare (edge/security/CDN): 5
+  - MuleSoft (integration): 4
   - Fastly (edge cloud/CDN): 3
   - GitLab (DevOps platform): 1
   - ServiceNow (workflow automation): 1
