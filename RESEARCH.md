@@ -52,16 +52,17 @@ for review, what's the next direction.
 | 19 | `research/yotpo-v1` | 2026-06-05 | 3 | · Merged to main | Yotpo customer stories (Third Love, Goodr, Revolution Beauty) |
 | 20 | `research/notion-v1` | 2026-06-05 | 3 | · Merged to main | Notion customer stories (Ramp, Vercel, Equals Money) |
 | 21 | `research/hubspot-v1` | 2026-06-05 | 2 | · Merged to main | HubSpot customer stories (Sticos, Morehouse College) |
-| 22 | `research/airtable-v1` | 2026-06-05 | 2 | · Pending merge | Airtable customer stories (dormakaba, OpenAI) |
+| 22 | `research/airtable-v1` | 2026-06-05 | 2 | · Merged to main | Airtable customer stories (dormakaba, OpenAI) |
+| 23 | `research/outreach-v1` | 2026-06-05 | 2 | · Pending merge | Outreach customer stories (Siemens, Avis Budget) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 93
+- **Total findings:** 95
 - **By category:**
-  - Integration: 48
+  - Integration: 49
   - Security: 20
-  - Onboarding: 25
+  - Onboarding: 26
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -88,6 +89,7 @@ for review, what's the next direction.
   - Notion (collaboration workspace): 3
   - HubSpot (marketing/sales CRM): 2
   - Airtable (no-code platform): 2
+  - Outreach (sales engagement): 2
 
 See `research/MEMORY.md` for the full per-finding detail.
 
