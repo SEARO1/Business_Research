@@ -63,11 +63,12 @@ for review, what's the next direction.
 | 30 | `research/braintrust-v1` | 2026-06-05 | 2 | · Merged to main | Braintrust (Morgane Palomares, Ankur Goyal), Brex/Boston Celtics (Patrick Lynch) |
 | 31 | `research/retool-v1` | 2026-06-05 | 2 | · Merged to main | Brex additional stories (Canva + ONEflight International) |
 | 32 | `research/freshbooks-v1` | 2026-06-05 | 2 | · Merged to main | Airtable/Wondery (Neel Ketkar, Marshall Lewy), TeamViewer/Henkel (Adrian van Zyl) |
+| 33 | `research/freshbooks-v2` | 2026-06-05 | 2 | · Merged to main | Sumo Logic/Endowus (Alvin Lim), Sumo Logic/Samsung (Youngjip Kim) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 113
+- **Total findings:** 115
 - **By category:**
   - Integration: 59
   - Security: 20
