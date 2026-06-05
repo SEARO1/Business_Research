@@ -46,16 +46,17 @@ for review, what's the next direction.
 | 13 | `research/asana-v1` | 2026-06-05 | 3 | · Merged to main | Asana customer stories (Parfums Christian Dior, DIRECTV, Morningstar) |
 | 14 | `research/figma-v1` | 2026-06-05 | 3 | · Merged to main | Figma customer stories (Grab, PhonePe, Accor) |
 | 15 | `research/salesforce-v1` | 2026-06-05 | 3 | · Merged to main | Salesforce customer stories (UChicago Medicine, Williams Sonoma, PepsiCo) |
-| 16 | `research/datadog-v1` | 2026-06-05 | 3 | · Pending merge | Datadog customer stories (Auth0, Porsche Informatik, Toyota) |
+| 16 | `research/datadog-v1` | 2026-06-05 | 3 | · Merged to main | Datadog customer stories (Auth0, Porsche Informatik, Toyota) |
+| 17 | `research/shopify-v1` | 2026-06-05 | 3 | · Pending merge | Shopify customer stories (BODi, Le Petit Ballon, VIA VAI) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 77
+- **Total findings:** 80
 - **By category:**
   - Integration: 40
   - Security: 20
-  - Onboarding: 17
+  - Onboarding: 20
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -76,6 +77,7 @@ for review, what's the next direction.
   - Figma (design collaboration): 3
   - Salesforce (enterprise CRM): 3
   - Datadog (infrastructure monitoring): 3
+  - Shopify (enterprise ecommerce): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
