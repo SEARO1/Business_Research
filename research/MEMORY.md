@@ -54,6 +54,11 @@ Categories (per `AutoResearch.md` brief):
 | 36 | Security | Multiple auth/authorization-bypass 0-days disclosed in widely-deployed secrets manager (Aug 2025) | Cyata disclosure |
 | 37 | Security | Codecov supply-chain breach exposed GPG signing key of a leading secrets-management vendor (2021) | BleepingComputer |
 | 38 | Security | Machine secrets outnumber human secrets 50:1; traditional vault models fail at NHI scale | KuppingerCole 2025 |
+| 39 | Integration | Homegrown secrets tools accumulate debt: configs across multiple projects, some copied, some referenced, some unused ??impossible to know what is being used or where | Doppler/Paradox |
+| 40 | Security | Homegrown secrets tools lack robust RBAC: "lacked robust role-based mechanisms, resulting in overly restrictive access policies that impacted development" | Doppler/Paradox |
+| 41 | Integration | Vault + AWS Secrets Manager require dedicated ops bandwidth: "both required a lot of manual configuration" ??small DevOps team supporting 250+ developers lacks capacity | Doppler/Paradox |
+| 42 | Integration | Vault K8s integration is overly opinionated; dynamic access is complex and configuration is cumbersome: "needed something that didn't require a dedicated team to manage it" | Doppler/Paradox |
+| 43 | Onboarding | Building own secrets solution with Vault would add 6-8 months to MVP + 1 year to full feature set; Doppler cut MVP time 50% and accelerated full feature set 75% | Doppler/Paradox |
 
 ---
 
@@ -606,3 +611,102 @@ watching it.
     angle paralleling Okta's)
   - AWS Secrets Manager / Azure Key Vault (cloud-native default
     choice â€” high deployment volume, different pain profile)
+
+### 39. Homegrown secrets tools accumulate organizational debt
+- **Category:** Integration
+- **Friction:** Paradox's homegrown secrets and configuration
+  management tool "evolved with the product and company, rather
+  than being intentionally built with proper architecture and
+  support." The team ended up with "secrets and configs across
+  multiple projects. Some configs were copied, some referenced,
+  and others were not needed at all. This made it impossible to
+  know what was being used or where." Any change risked impacting
+  other users and tenants, creating uncertainty and potential
+  issues. This is the structural cost of in-house secrets tools:
+  they accumulate technical debt silently.
+- **Source:** https://www.doppler.com/case-studies/paradox
+- **Severity:** High. Organizations with in-house secrets tools
+  face a compounding tax on every new integration.
+- Source: Dan Steen, VP of Infrastructure, Paradox.
+
+### 40. Homegrown secrets tools lack robust RBAC
+- **Category:** Security
+- **Friction:** Paradox's homegrown tool "lacked robust
+  role-based mechanisms, resulting in overly restrictive access
+  policies that impacted development." The result was a security
+  posture that was both too restrictive (blocking legitimate work)
+  and not granular enough (unable to enforce least-privilege at
+  the right level). Effective secrets management requires RBAC
+  that maps to real team structures, not a binary allow/deny.
+- **Source:** https://www.doppler.com/case-studies/paradox
+- **Severity:** High. Without fine-grained RBAC, organizations
+  either over-restrict or under-restrict ¡X both are security
+  failures.
+- Source: Dan Steen, VP of Infrastructure, Paradox.
+
+### 41. Vault + AWS Secrets Manager require dedicated ops bandwidth
+- **Category:** Integration
+- **Friction:** "In the past, I've used AWS Secrets Manager and
+  HashiCorp Vault, but both required a lot of manual configuration.
+  We are a small DevOps team supporting over 250 developers, and
+  we simply don't have the bandwidth to manage these tools
+  manually." Vault's operational model demands a dedicated team
+  even at mid-size orgs.
+- **Source:** https://www.doppler.com/case-studies/paradox
+- **Severity:** Critical. Vault's operational complexity is a
+  feature for large orgs, but a budget problem for the 10-50
+  person DevOps teams that are the majority of the market.
+- Source: Dan Steen, VP of Infrastructure, Paradox.
+
+### 42. Vault K8s integration is overly opinionated and complex
+- **Category:** Integration
+- **Friction:** Paradox evaluated Vault as part of their K8s
+  migration: "Vault's Kubernetes integration was overly
+  opinionated, dynamic access was complex, and the configuration
+  was cumbersome. We needed something that didn't require a
+  dedicated team to manage it." Specific pain points: mandatory
+  Kubernetes auth method, Vault agent sidecar management, and
+  complex dynamic secrets engine.
+- **Source:** https://www.doppler.com/case-studies/paradox
+- **Severity:** High. For teams migrating to K8s, Vault's
+  integration model adds a parallel operational burden on top of
+  the K8s learning curve.
+- Source: Dan Steen, VP of Infrastructure, Paradox.
+
+### 43. Building own secrets solution adds 6-8 months to MVP timeline
+- **Category:** Onboarding
+- **Friction:** Paradox estimated that building their own secrets
+  management solution using Vault or AWS Secrets Manager "would
+  have added 6-8 months to the MVP release and an additional year
+  for the full feature set." By adopting Doppler instead, they
+  reduced time-to-MVP by 50% and accelerated the full feature set
+  by 75%. The opportunity cost of Vault's complexity is not just
+  operational ¡X it is a direct delay to product delivery.
+- **Source:** https://www.doppler.com/case-studies/paradox
+- **Severity:** Critical. For startups and growth-stage companies,
+  a 6-8 month delay to MVP is a competitive existential risk.
+- Source: Dan Steen, VP of Infrastructure, Paradox.
+
+### 2026-06-05 ¡X Branch esearch/doppler-secrets-v1 ¡X **Mode B session 6**
+- **Mode:** B (autonomous evaluation).
+- **Vendor family:** Doppler (cloud-native secrets management).
+- **Customer case study:** Paradox (conversational AI hiring platform;
+  clients include McDonald's, 7-Eleven, Nestle, General Motors,
+  Marriott International).
+- **Findings logged:** 5 (numbered 39-43).
+- **Search-quality notes:**
+  - Doppler.com has a well-structured /case-studies/<name> path.
+    The Paradox case study is unusually rich: multiple named exec
+    quotes, quantified outcomes (50% MVP time reduction, 75%
+    feature acceleration, 75% faster K8s adoption), and distinct
+    pain points covering integration, security, and onboarding.
+  - 5 findings extracted from a single customer case study.
+    Other Doppler case studies likely yield another 10-15 findings.
+  - **Saturation signal:** None yet. Doppler appears to have a
+    healthy customer story program. Recommend 1-2 more Doppler
+    sessions before rotating to another vendor family.
+- **What's queued for session 7:**
+  - 1Password Business (human + machine secret hybrid)
+  - Akeyless (vaultless SaaS, named customers)
+  - CyberArk Conjur (privileged-access M&A integration angle)
+  - AWS Secrets Manager / Azure Key Vault (cloud-native defaults)
