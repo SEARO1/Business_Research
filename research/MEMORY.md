@@ -68,6 +68,14 @@ Categories (per `AutoResearch.md` brief):
 | 50 | Security | PKI at scale is operationally broken: 114,000+ certs managed by 4 staff; 63% rely on MSPs; 56% have cert-caused outages | Ponemon Institute/CyberArk |
 | 51 | Security | Machine identities outnumber humans 96:1 in large banks; AI agent access paths are implicit, invisible to discovery tools | Andy Parsons/CyberArk |
 | 52 | Integration | Certificate lifetime compression (47-day rule) exposes legacy PKI brittleness; 50% of orgs accelerating modernization | Ponemon Institute/CyberArk |
+| 53 | Integration | Data silos + 1,200 integrations bottleneck; 75% QA reduction, >$1.2M saved annually | Daryl Bowden, EVP Technology, FOX |
+| 54 | Integration | No single source of customer data across 150+ products; 70% cloud revenue increase post-unification | Nic Sauriol, Software Dev Leader, IBM Cloud Platform |
+| 55 | Integration | "Data in very strange shape" — fragmented data governance; 9x more experimentation post-consolidation | Peter Kutnik, Personalization Squad Lead, Vista |
+| 56 | Integration | Legacy tooling (VPNs, first-gen AWS WAF) creates operational bottlenecks: security rule changes 4+ hours; Friday night zero-day patches | Jeff Fouchard, VP Engineering, Fullscript |
+| 57 | Security | DDoS/credential-stuffing attacks at scale generate unsustainable manual response: 500M malicious requests/month blocked; 90% attack drop immediately | CISO, NYC Government Financial Agency |
+| 58 | Integration | CDN migration complexity delays modernization: 1-month deadline vs 6-month realistic timeline; 33% cost reduction post-migration | Josh Zhang, Team Lead SRE, Stack Overflow |
+| 59 | Integration | Bot traffic now majority of inbound requests; AI crawlers turning content sites into high-value targets; manual management unscalable | Josh Zhang, Team Lead SRE, Stack Overflow |
+| 60 | Integration | Security rules deployment speed is a competitive differentiator: day-long rollouts → minutes (99.5% improvement) | Josh Zhang, Team Lead SRE, Stack Overflow |
 
 ---
 
