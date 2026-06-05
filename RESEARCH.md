@@ -41,14 +41,15 @@ for review, what's the next direction.
 | 8 | `research/aws-secrets-v1` | 2026-06-05 | 4 | · Merged to main | Brian Krebs/KrebsOnSecurity (CISA breach), Ponemon Institute/CyberArk (PKI at scale, machine identity) |
 | 9 | `research/twilio-segment-v1` | 2026-06-05 | 3 | · Merged to main | Twilio Segment customer stories (FOX, IBM, Vista) |
 | 10 | `research/cloudflare-v1` | 2026-06-05 | 5 | · Merged to main | Cloudflare customer stories (Fullscript, NYC Govt Financial Agency, Stack Overflow) |
+| 11 | `research/fastly-v1` | 2026-06-05 | 3 | · Merged to main | Fastly customer stories (The RealReal, Bukalapak, Shutterstock) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 60
+- **Total findings:** 63
 - **By category:**
-  - Integration: 28
-  - Security: 19
-  - Onboarding: 13
+  - Integration: 31
+  - Security: 20
+  - Onboarding: 12
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -62,6 +63,7 @@ for review, what's the next direction.
   - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
   - Twilio Segment (CDP/integration): 3
   - Cloudflare (edge/security/CDN): 5
+  - Fastly (edge cloud/CDN): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
