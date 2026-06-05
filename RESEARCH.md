@@ -66,11 +66,12 @@ for review, what's the next direction.
 | 33 | `research/freshbooks-v2` | 2026-06-05 | 2 | · Merged to main | Sumo Logic/Endowus (Alvin Lim), Sumo Logic/Samsung (Youngjip Kim) |
 | 34 | `research/sumo-v1` | 2026-06-05 | 2 | · Merged to main | Sentry/Anthropic (Nova DasSarma), Sentry/Bolt (Albert Pai) |
 | 35 | `research/sentry-v1` | 2026-06-05 | 2 | · Merged to main | New Relic/William Hill (Stephen Wild), New Relic/Toyota (Mitsuhiro Mabuchi) |
+| 36 | `research/newrelic-v1` | 2026-06-05 | 2 | · Merged to main | Fivetran/HubSpot (Sandro Frattura), Fivetran/Group 1001 (Gu Xie) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 119
+- **Total findings:** 121
 - **By category:**
   - Integration: 59
   - Security: 20
