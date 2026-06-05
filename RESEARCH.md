@@ -36,14 +36,15 @@ for review, what's the next direction.
 | 3 | `research/linear-onboarding-v1` | 2026-06-05 | 6 | ??Merged to main | Linear customer stories (Brex, Scale AI) |
 | 4 | `research/notion-enterprise-v1` | 2026-06-05 | 6 | ??Merged to main | Notion customer story (Ramp) |
 | 5 | `research/vault-secrets-v1` | 2026-06-05 | 6 | ??Merged to main | GitGuardian 2022/2024, CVE-2025-6000, Cyata 0-day, Codecov, KuppingerCole 2025 |
+| 6 | `research/doppler-secrets-v1` | 2026-06-05 | 5 | ??Merged to main | Doppler customer story (Paradox/Dan Steen VP Infrastructure) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 38
+- **Total findings:** 43
 - **By category:**
-  - Integration: 12
-  - Security: 12
-  - Onboarding: 14
+  - Integration: 15
+  - Security: 13
+  - Onboarding: 15
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -52,6 +53,7 @@ for review, what's the next direction.
   - Linear (engineering PM): 6
   - Notion (workspace): 6
   - Secrets management ecosystem (GitGuardian, KuppingerCole, CVE/Cyata disclosures): 6
+  - Doppler (secrets management): 5
 
 See `research/MEMORY.md` for the full per-finding detail.
 
