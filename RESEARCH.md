@@ -75,18 +75,23 @@ for review, what's the next direction.
 | 42 | `research/zendesk-v1` | 2026-06-05 | 2 | · Merged to main | Intercom/solidcore (Shane McCarthy), Intercom/Vanta (Margarita Wilshire, Kelly Bray) |
 | 43 | `research/intercom-v1` | 2026-06-05 | 2 | · Merged to main | Salesforce/FedEx (Terrell Goldsmith, Carlos Gonzalez), Salesforce/FedEx Data (Carlos Gonzalez) |
 | 44 | `research/salesforce-v2` | 2026-06-05 | 2 | · Merged to main | Salesforce/Pandora (Baltazar Hasselsteen Ozonek, David Walmsley), Salesforce/PepsiCo (Dave Dohnalik) |
-| 45 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Snowflake/Penske (Vishwa Ram), Stripe/Twilio (Chris Nasson) |
+| 45 | `research/grab-v1` | 2026-06-05 | 2 | · Merged to main | Snowflake/Penske (Vishwa Ram), Stripe/Twilio (Chris Nasson) |
+| 46 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Vanta/Samsara (Nick Hardy), Vanta/Snowflake (Josh McKibben) |
+| 47 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Vanta/GitHub (Megan Snyder), Vanta/Duolingo (Mandy Matthew) |
+| 48 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Twilio Segment/FOX (Daryl Bowden), Twilio Segment/Domino's (exec unknown) |
+| 49 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Twilio Segment/IBM (Nic Sauriol), Twilio Segment/Asana (Grace Liu) |
+| 50 | `research/grab-v1` | 2026-06-05 | 2 | · Working | Twilio Segment/Vista (Drew Forster), Twilio Segment/Yesware (Inessa Luyre) |
 
 ## Findings Tally (all sessions)
 
 
-- **Total findings:** 128
+- **Total findings:** 138
 - **By category:**
-  - Integration: 59
-  - Security: 20
+  - Integration: 65
+  - Security: 24
   - Onboarding: 32
 - **By source vendor family:**
-  - Vanta (compliance automation): 6
+  - Vanta (compliance automation): 10
   - MuleSoft (integration): 4
   - Okta (identity): 5
   - Auth0 (CIAM): 5
@@ -96,7 +101,7 @@ for review, what's the next direction.
   - Doppler (secrets management): 5
   - 1Password (secrets/credential management): 5
   - Industry research / independent journalism (Brian Krebs, Ponemon Institute): 4
-  - Twilio Segment (CDP/integration): 3
+  - Twilio Segment (CDP/integration): 9
   - Cloudflare (edge/security/CDN): 5
   - Fastly (edge cloud/CDN): 3
   - GitLab (DevOps platform): 1
