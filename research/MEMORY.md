@@ -84,6 +84,9 @@ Categories (per `AutoResearch.md` brief):
 | 66 | Onboarding | Manual spreadsheets + disconnected email = delayed product launches, no cross-dept visibility at 350+ employee organizations | Thibault Delavault, Marketing Planning & Process Manager, Parfums Christian Dior (LVMH) |
 | 67 | Onboarding | Multiple intake forms + siloed PM model + constant 'where do we stand?' questions = operational chaos at 20+ teams scale | Amiena Murad (Sr Dir Business Ops) + Keeley Sylvester (Dir Customer Care PM), DIRECTV |
 | 68 | Integration | Siloed tools + complex tech stack + no standardized resource management = overworked resources, missed deadlines, leadership blind spots | Laura Kohl (CIO) + Michael Allen (Global Head of Retirement Tech/Product), Morningstar |
+| 69 | Integration | Siloed design files + 'picking and pecking' = inconsistent components across 170 designer + 380 engineer pod structure at scale | Suraj Swamy (Head of Engineering) + Patrick Jean (Head of Design), Grab |
+| 70 | Integration | 700M+ user fintech scaling with 3 design systems = alignment complexity; concept-to-clarity takes days not hours | Rahul Gonsalves (Head of Design) + Sindhu Shivaprasad + Sachin Kumar, PhonePe |
+| 71 | Onboarding | AI prototyping tools reduce concept-to-prototype from 2-3 weeks to 2 days; code gen 90-95% quality; QA >20% designer time | Thomas Vidal, VP Product Design, Accor |
 
 ---
 
@@ -993,17 +996,51 @@ esearch/gitlab-servicenow-v1 ï¿½X **Mode B session 12**
 
 
 
-### 2026-06-05 ¡X Branch esearch/asana-v1 ¡X **Mode B session 13**
+### 2026-06-05 ï¿½X Branch 
+esearch/asana-v1 ï¿½X **Mode B session 13**
 - **Mode:** B (autonomous evaluation).
 - **Vendor families attempted:** Asana.
 - **Findings logged:** 3 (numbered 66-68).
 - **Search-quality notes:**
-  - **Asana:** Excellent case study pages (asana.com/case-study/[name]). Discovered URL pattern via search. Case studies with strong ¡±6 passes: Parfums Christian Dior (LVMH), DIRECTV, Morningstar. All have named execs and quantified metrics. Key pain points across all three: manual spreadsheets, siloed tools, lack of cross-functional visibility, operational overhead at scale.
+  - **Asana:** Excellent case study pages (asana.com/case-study/[name]). Discovered URL pattern via search. Case studies with strong ï¿½ï¿½6 passes: Parfums Christian Dior (LVMH), DIRECTV, Morningstar. All have named execs and quantified metrics. Key pain points across all three: manual spreadsheets, siloed tools, lack of cross-functional visibility, operational overhead at scale.
   - **URL pattern:** asana.com/case-study/[company-name-lowercase]
-  - **Asana customer story page:** asana.com/customers ¡X lists 16 customer stories with headline metrics (FedEx 9x, Indeed , Morningstar , DIRECTV , Palo Alto Networks 40%). Individual case study URLs follow asana.com/case-study/[name] pattern.
+  - **Asana customer story page:** asana.com/customers ï¿½X lists 16 customer stories with headline metrics (FedEx 9x, Indeed , Morningstar , DIRECTV , Palo Alto Networks 40%). Individual case study URLs follow asana.com/case-study/[name] pattern.
 - **Saturation signal:** Work management / project orchestration platforms (Asana, Monday.com) have strong documented customer evidence. The 'spreadsheet to unified workspace' migration story is a consistent pattern across different company sizes and industries.
 - **What's queued for session 14:**
   - Monday.com (project management, Monday.com/customers page)
   - Drata (compliance automation, second attempt after search issues)
   - Snyk (developer security)
   - Datadog (infrastructure monitoring, individual case study URLs unknown)
+
+
+### 69. Siloed design files create inconsistency that compounds at scale across large pod structures
+- **Category:** Integration
+- **Friction:** Siloed design files create inconsistency that compounds at scale. When designers work in disconnected files with no shared system, components get rebuilt, specs diverge, and basics like font sizes or corner radii become inconsistent across teams. At organizations with 170+ designers and 380+ engineers organized in cross-functional pods, this siloed workflow creates 'picking and pecking and hunting' where engineers waste time chasing specs instead of building.
+- **Source:** https://www.figma.com/customers/how-grab-scales-hyperlocal-experiences-across-southeast-asia-with-figma-and-ai/
+- **Severity:** Critical. Named execs: Suraj Swamy (Head of Engineering and Core Experiences), Patrick Jean (Head of Design), Grab. Quantified: 50% adoption of Duxton design system across consumer app (built on 5M+ lines of code); 45% YoY increase in highly active Dev Mode users (244 to 353); 1.7K weekly users of AI plugin generating 210K+ events/week. 50M+ users across SE Asia.
+
+### 70. Scaling design systems across 700M+ users creates alignment complexity that slows concept-to-clarity
+- **Category:** Integration
+- **Friction:** Scaling design systems across 700+ million users and 50+ million merchants with multiple design systems creates alignment complexity. Without a unified platform, keeping design, strategy, and development aligned becomes increasingly difficult. Teams spend more time tracking down information than building. Concept-to-clarity takes days when it should take hours.
+- **Source:** https://www.figma.com/customers/how-phonepe-brings-speed-and-reliability-to-700-million-users-with-figma/
+- **Severity:** Critical. Named execs: Rahul Gonsalves (Head of Design), Sindhu Shivaprasad (Content Design and Design Communications Lead), Sachin Kumar (Software Engineer and App Excellence Team), PhonePe. Quantified: 700M+ users, 50M+ merchants; concept to 50% clarity in just a few hours; 3 design systems; handoffs happen twice as fast. Before Dev Mode: 'could only look at different variants' ¡X engineers chasing design context across files.
+
+### 71. QA overhead and slow prototyping cycles consume designer bandwidth that should go to strategy
+- **Category:** Onboarding
+- **Friction:** QA overhead consumes >20% of designer time, and traditional prototyping cycles take 2-3 weeks per concept. Designers spend more time on delivery logistics than on strategy and creativity. Without AI-powered prototyping tools, concept validation is slow, stakeholder alignment is difficult, and teams default to long iterative cycles that slow time-to-market.
+- **Source:** https://www.figma.com/customers/how-accor-uses-figmas-ai-tools-to-drive-efficiency-strategy-and-emotion/
+- **Severity:** High. Named exec: Thomas Vidal, VP of Product Design, Accor. Quantified: 5 designers generated 5 viable ideation tracks in 1 workshop (2-3 weeks conventional); interactive prototype in 2 days (down from 2-3 weeks); 90-95% quality in automated code generation; component creation from several days to a few dozen minutes; QA time goal: >20% to <10%; recurring templates from a day+ to a few minutes. 100+ digital products, ~15 brands.
+
+### 2026-06-05 ¡X Branch esearch/figma-v1 ¡X **Mode B session 14**
+- **Mode:** B (autonomous evaluation).
+- **Vendor families attempted:** Figma.
+- **Findings logged:** 3 (numbered 69-71).
+- **Search-quality notes:**
+  - **Figma:** Excellent customer stories page (figma.com/customers) with 117 case studies. URL pattern: figma.com/customers/[story-slug]. Strong ¡±6 passes: Grab (50M users, 50% design system adoption, 45% Dev Mode growth), PhonePe (700M users, concept-to-clarity in hours, 2x faster handoffs), Accor (AI prototyping 2 days vs 2-3 weeks, 90-95% code gen quality).
+  - **Monday.com:** Customer page returned JS-rendered shell (HTTP 200 but no content). Drata returned 403 (Cloudflare blocked). Datadog customer page returned minimal content (exec names only, no accessible case study URLs).
+- **Saturation signal:** Design collaboration and prototyping tools (Figma, Monday.com) have strong documented customer evidence. The 'siloed files to unified design system' migration story appears consistently across different company sizes and industries. AI-powered prototyping is a growing theme with specific velocity metrics.
+- **What's queued for session 15:**
+  - Snyk (developer security, second attempt)
+  - Datadog (infrastructure monitoring, try different URL pattern)
+  - Zapier (automation/iPaaS)
+  - Miro (visual collaboration)

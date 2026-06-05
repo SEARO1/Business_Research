@@ -44,14 +44,15 @@ for review, what's the next direction.
 | 11 | `research/fastly-v1` | 2026-06-05 | 3 | · Merged to main | Fastly customer stories (The RealReal, Bukalapak, Shutterstock) |
 | 12 | `research/gitlab-servicenow-v1` | 2026-06-05 | 2 | · Merged to main | GitLab (Ericsson), ServiceNow (AstraZeneca) customer stories |
 | 13 | `research/asana-v1` | 2026-06-05 | 3 | · Merged to main | Asana customer stories (Parfums Christian Dior, DIRECTV, Morningstar) |
+| 14 | `research/figma-v1` | 2026-06-05 | 3 | · Merged to main | Figma customer stories (Grab, PhonePe, Accor) |
 
 ## Findings Tally (all sessions)
 
-- **Total findings:** 68
+- **Total findings:** 71
 - **By category:**
-  - Integration: 32
+  - Integration: 34
   - Security: 20
-  - Onboarding: 16
+  - Onboarding: 17
 - **By source vendor family:**
   - Vanta (compliance automation): 6
   - MuleSoft (integration): 4
@@ -69,6 +70,7 @@ for review, what's the next direction.
   - GitLab (DevOps platform): 1
   - ServiceNow (workflow automation): 1
   - Asana (work management): 3
+  - Figma (design collaboration): 3
 
 See `research/MEMORY.md` for the full per-finding detail.
 
