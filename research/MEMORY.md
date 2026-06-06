@@ -4016,3 +4016,51 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/incident-io/
 
 
+### 572. Integration
+- **Category:** Integration
+- **Friction:** Kajabi (platform for entrepreneurs to build/Scale online businesses) switched from CircleCI to Harness for cost savings but faced stability issues - "The migration took three times longer than expected" and success rates dropped to low-to-mid 80s
+- **Source:** https://circleci.com/case-studies/kajabi/
+
+### 573. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** 17LIVE (Taiwan-based live streaming and social networking platform) faced CI/CD toil with infrastructure management - needed to reduce overhead as they developed more microservices
+- **Source:** https://circleci.com/case-studies/17live/
+
+### 574. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Baracoda (AIoT platform for consumer health products) had Jenkins issues where "one teammate was running Jenkins in the morning, checking, breaking everything, and asking us to fix the issues he introduced"
+- **Source:** https://circleci.com/case-studies/baracoda/
+
+
+### 575. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Bolt (checkout experience platform for retailers like Forever 21, Badgley Mischka) needed engineers to own and optimize build pipelines - "we don't want to build something that's not core to our business"
+- **Source:** https://circleci.com/case-studies/bolt/
+
+### 576. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Branch (deep-linking infrastructure for mobile apps) needed fast iterations with weekly releases while avoiding maintenance overhead - "CircleCI works perfectly for us" and new engineers can get started in minutes
+- **Source:** https://circleci.com/case-studies/branch/
+
+### 577. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Iterable (AI-powered MarTech platform, 1200+ customers in 50+ countries) struggled with flaky tests leading to lower confidence in releasing features and excess time rerunning tests
+- **Source:** https://circleci.com/case-studies/iterable/
+
+
+### 578. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Cinnamon AI (global enterprise AI company with offices in Tokyo, US, Vietnam, Taiwan) was using Jenkins requiring "tons of effort to maintain" - needed to reduce operational costs and prevent human mistakes while competing on price and quality
+- **Source:** https://circleci.com/case-studies/cinnamon/
+
+### 579. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Maze (product design platform) needed CI/CD to free up time for new feature development and more frequent code releases
+- **Source:** https://circleci.com/case-studies/maze/
+
+### 580. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Pantheon (website management platform for Drupal/WordPress, 150K+ websites, billions of pageviews/month) had engineers stop work on high-value projects to test sporadic WordPress/Drupal updates - security updates forced context switching
+- **Source:** https://circleci.com/case-studies/pantheon/
+
+
