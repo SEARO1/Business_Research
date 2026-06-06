@@ -3898,3 +3898,19 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://about.gitlab.com/customers/carfax/
 
 
+### 550. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Cube (40 employees, Netherlands tech company) needed to increase efficiency and speed in creating secure software using AI across the entire SDLC
+- **Source:** https://about.gitlab.com/customers/cube/
+
+### 551. Integration
+- **Category:** Integration
+- **Friction:** Bendigo and Adelaide Bank (7K employees, 2M+ customers) had complex toolchain with GitHub on-premise requiring significant operational resources - needed to replace GitHub, Jenkins, and Checkmarx with single platform
+- **Source:** https://about.gitlab.com/customers/bab/
+
+### 552. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Dunelm (3,300+ employees, 178 stores, 12M online transactions/year) had CI/CD tooling gaps for serverless/cloud-first architecture - needed to shift security left and accelerate deployment
+- **Source:** https://about.gitlab.com/customers/dunelm/
+
+
