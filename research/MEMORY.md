@@ -2946,3 +2946,82 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Feature flag management platforms with circular dependencies face a "high-stakes-circular-dependencies" crisis. "Like many developer tools, the company uses its own tool to run its product. The circular dependencies this creates mean the stakes are particularly high whenever code is pushed to production." The only path to hundreds of daily deploys and 4-5 minute test suites is CircleCI.
 - **Source:** https://circleci.com/case-studies/launchdarkly/
 - **Severity:** High. Named execs: Adam Zimman (VP Platform, LaunchDarkly); Andrew Brown (Senior Software Engineer, LaunchDarkly). Quantified: Microsoft/IBM/Atlassian customers; 1,000+ organizations; deploys hundreds of times daily; test suites run in 4-5 minutes; "LaunchDarkly was built on CircleCI"; released CircleCI orb for Code References; ease of use the main reason for choosing CircleCI.
+
+
+### 388. QSR platforms facing "ddos-attacks-lean-team" crisis where Stack Overflow faced layer 7 DDoS attacks repeatedly disrupting availability for millions of users, with a lean SRE team needing bot management that would normally require two giant teams at another company, and the only path to eliminating DDoS impact entirely was Cloudflare where migrated from Fastly in just one month and cost savings come from blocking undesired requests at the edge before they hit origin
+- **Category:** Security and Governance
+- **Friction:** Stack Overflow faced layer 7 DDoS attacks that repeatedly disrupted availability for millions of users, with a lean SRE team that needed bot management capabilities that would normally require two giant teams at another company - migrated from Fastly in just one month
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+- **Severity:** High. Named exec: Zhang (Team Lead, Site Reliability, Stack Overflow). Quantified: migrated in one month; small team handling bot management that would take two giant teams elsewhere; cost savings from blocking undesired requests at edge.
+
+### 389. Betting/gaming platforms facing "websocket-scaling-global-users" crisis where Kaizen Gaming (Betano platform, 1.5 million users) faced WebSocket scaling challenges where every end-user device established dedicated persistent connections creating efficiency problems during high-pressure moments like World Cup when half of Brazil logs in simultaneously, and the only path to reliable real-time betting updates is Cloudflare for connectivity that handles peak demand without pre-provisioning capacity
+- **Category:** Legacy System Integration
+- **Friction:** Kaizen Gaming (Betano platform, 1.5 million users) faced WebSocket scaling challenges where every end-user device established a dedicated persistent connection, creating efficiency and scale problems during high-pressure moments like World Cup when half of Brazil decides to log in
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+- **Severity:** High. Named exec: Kostas Stefanopoulos (Principal Site Reliability Engineer, Kaizen Gaming). Quantified: 1.5 million users; Betano platform; World Cup peak scenarios; had to be prepared for worst-case scenarios.
+
+### 390. Travel search platforms facing "on-prem-vpn-latency" crisis where Skyscanner on-premises infrastructure required huge amounts of time and resources just keeping everything online with legacy VPN causing frequent manual interventions and late-night incident responses, and the only path to eliminating VPN-related operational inefficiencies is Cloudflare ZTNA which cut Asia-Europe connection times to under 200ms and engineers no longer fight fires and manage infrastructure
+- **Category:** Onboarding & Deployment
+- **Friction:** Skyscanner's on-premises infrastructure required huge amounts of time and resources just keeping everything online with legacy VPN causing frequent manual interventions and late-night incident responses - eliminated VPN and cut Asia-Europe connection times to under 200ms
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+- **Severity:** High. Named exec: Leonardo Almeida (Senior Engineer, Skyscanner). Quantified: Asia-Europe latency under 200ms; eliminated all painful aspects of infrastructure management; engineers no longer fighting fires.
+
+### 391. Government agencies facing "credential-stuffing-attack" crisis where NYC Government Agency was targeted by multi-week password-guessing attack using scraped user IDs for 300,000+ users including active government employees, and the only path to immediate attack mitigation was Cloudflare which was deployed within hours and immediately dropped attack traffic by over 76%
+- **Category:** Security and Governance
+- **Friction:** NYC Government Agency faced a multi-week password-guessing attack using scraped user IDs, with the CISO stating several other CISOs recommended Cloudflare - deployed within hours and immediately blocked 76% of attack traffic
+- **Source:** https://www.cloudflare.com/case-studies/nyc-government-financial-agency/
+- **Severity:** Critical. Named exec: CISO for the NYC Government Agency. Quantified: 300,000+ users including active NYC government employees; over 76% of attack traffic blocked immediately; deployed in hours.
+
+### 392. SaaS platforms facing "aws-waf-inadequate-traffic-doubling" crisis where Fullscript traffic doubled annually for five consecutive years straining infrastructure and AWS WAF provided almost no information when something went wrong, and the only path to visibility and security is Cloudflare where during a major security crisis with tens of thousands in losses the dashboard identified bad traffic source within 15 minutes
+- **Category:** Onboarding & Deployment
+- **Friction:** Fullscript's traffic doubled annually for five consecutive years, straining infrastructure - AWS WAF provided almost no information when something went wrong and during a security crisis with tens of thousands in losses, Cloudflare's dashboard identified the bad traffic source within 15 minutes
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+- **Severity:** High. Named exec: Jeff Fouchard (VP Engineering, Fullscript). Quantified: traffic doubled annually for five consecutive years; tens of thousands in losses during security crisis; identified bad traffic within 15 minutes of Cloudflare deployment.
+
+### 393. Platform-as-a-service providers facing "vpn-concentrator-complexity" crisis where Intility (650 customers, 50,000 users, 2,500 locations) faced inadequate traditional VPN model requiring multiple VPN concentrators per customer hindering rapid reaction to changing network conditions, and the only path to simplified multi-tenant operations is Cloudflare which handles over 1000 different web applications for multiple clients across multiple verticals
+- **Category:** Legacy System Integration
+- **Friction:** Intility (650 customers, 50,000 users, 2,500 locations) faced inadequate traditional VPN model requiring multiple VPN concentrators per customer, hindering rapid reaction to changing network conditions and meeting customer requirements
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+- **Severity:** High. Named exec: (Intility platform team). Quantified: 650 customers; 50,000 users; 2,500 locations in Scandinavia; hosting over 1000 different web applications.
+
+### 394. Manufacturing companies facing "network-complexity-speed" crisis where Anadolu Efes network structure had become too complex to support the speed the business required as they digitized sales, logistics and customer engagement across 70+ countries, and the only path to simplified architecture and strengthened security is Cloudflare which consolidates application security and performance
+- **Category:** Legacy System Integration
+- **Friction:** Anadolu Efes network structure had become too complex to support the speed the business required as they digitized sales, logistics and customer engagement across 70+ countries - needed to strengthen application security and resilience
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+- **Severity:** High. Named exec: Simge Güngör (Information Systems Division, Anadolu Efes). Quantified: exports to more than 70 countries; 57-year heritage company; digitizing sales, logistics and customer engagement.
+
+### 395. Chemical manufacturers facing "prior-security-solutions-costly-complex" crisis where Mitsubishi Gas Chemical prior solutions (Netskope, Zscaler) were costly and complex to operate with one provider unable to issue a global egress IP causing remote employees to be blocked, and the only path to simplified global security is Cloudflare which avoids vendor complexity and ensures consistent protection
+- **Category:** Security and Governance
+- **Friction:** Mitsubishi Gas Chemical's prior security solutions (Netskope, Zscaler) were costly and complex to operate - one provider couldn't issue a global egress IP causing remote employees to be blocked, and employees sometimes forgot to start security clients leaving web traffic unprotected
+- **Source:** https://www.cloudflare.com/case-studies/mitsubishi-gas-chemical/
+- **Severity:** High. Named exec: Manager of Information Systems Division, Mitsubishi Gas Chemical. Quantified: prior solutions costly and complex; global egress IP issues; employees forgetting to start security client.
+
+### 396. Healthcare consortia facing "targeted-cyberattacks-fragmented-security" crisis where Taiwan's national medical institutions consortium faced targeted cyberattacks with healthcare delivery and emergency response systems at stake, regulatory restrictions preventing data traffic from transiting certain infrastructure, and each regional institution having designed its own security program in isolation, and the only path to unified protection is Cloudflare anycast-based architecture
+- **Category:** Security and Governance
+- **Friction:** Taiwan's national medical institutions consortium faced targeted cyberattacks with healthcare delivery and emergency response systems at stake - regulatory restrictions prevented data traffic from transiting certain infrastructure, and each regional institution had designed its own security program in isolation
+- **Source:** https://www.cloudflare.com/case-studies/taiwans-national-medical-institutions/
+- **Severity:** Critical. Quantified: healthcare delivery and emergency response systems at stake; consortium spanning hospitals, research facilities, and public health centers; each regional institution with isolated security programs.
+
+### 397. B2B SaaS platforms facing "infrastructure-complexity" crisis where Tightknit (community platform for B2B SaaS companies) wanted to avoid the headaches of managing servers, complicated Docker files, and inherent risks of infrastructure, and the only path to launching TypeScript at scale globally without worrying about complications or scale concerns is Cloudflare Developer Platform
+- **Category:** Onboarding & Deployment
+- **Friction:** Tightknit (B2B SaaS community platform) wanted to avoid the headaches of managing servers, complicated Docker files, and inherent risks of infrastructure - used Cloudflare Developer Platform to launch TypeScript at scale globally without worrying about complications or scale concerns
+- **Source:** https://www.cloudflare.com/case-studies/tightknit/
+- **Severity:** Medium. Named exec: Zach Hawtof (Tightknit). Quantified: launched TypeScript at scale globally; no worry about complications or scale concerns.
+
+### 398. Telecom companies facing "multi-vendor-security-fragmentation" crisis where Hutchison Telecom Hong Kong relied on a mix of on-premise security appliances and multiple CDN vendors, and as traffic volumes and security threats evolved ensuring consistent service availability became increasingly difficult, and the only path to simpler more resilient model is Cloudflare consolidating application security and performance on a single globally distributed platform
+- **Category:** Legacy System Integration
+- **Friction:** Hutchison Telecom HK relied on a mix of on-premise security appliances and multiple CDN vendors - as traffic volumes and security threats evolved, ensuring consistent service availability became increasingly difficult, needing a simpler more resilient model
+- **Source:** https://www.cloudflare.com/case-studies/hutchison-telecom-hong-kong/
+- **Severity:** High. Quantified: demanding digital environment; 5G and AI-enabled services expectations; multiple CDN vendors consolidated.
+
+### 399. Design platforms facing "microservices-legacy-traffic-complexity" crisis where Canva runs hundreds of microservices across dozens of teams with legacy traffic that needed cleanup, and the only path to abstracting complexity, enforcing consistency, and minimizing origin load is Cloudflare Workers which blurs the line between edge and internal network promoting developer velocity
+- **Category:** Legacy System Integration
+- **Friction:** Canva runs hundreds of microservices across dozens of teams with legacy traffic that needed cleanup - used Cloudflare Workers to abstract complexity, enforce consistency, minimize load on origin systems, and blur the line between the edge and internal network to promote developer velocity
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+- **Severity:** High. Named exec: Tyrrell; Narraway (Canva). Quantified: hundreds of microservices; dozens of teams; legacy traffic cleanup; offloading Layer 7 logic like redirects and security at the edge.
+
+### 400. Design platforms facing "image-theft-client-side-protection" crisis where Canva received complaints from upset users and content partners who found their images on other sites but lacked the capacity to stop them, and the only path to protecting content creators is Cloudflare Page Shield for client-side protection monitoring and mitigation of image theft
+- **Category:** Security and Governance
+- **Friction:** Canva received complaints from upset users and content partners who found their images on other sites but lacked the capacity to stop them - implemented Cloudflare Page Shield for client-side protection monitoring and mitigation
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+- **Severity:** High. Named exec: Tyrrell; Narraway (Canva). Quantified: upset users and content partners finding images on other sites; implemented Page Shield for client-side protection.
