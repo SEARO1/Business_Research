@@ -3775,3 +3775,27 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Agricultural intelligence companies managing billions of data points every hour across growing seasons and weather with small team facing 'data-infrastructure-scale' crisis where robust data infrastructure needed to support agricultural intelligence platform, and the only path is...
 - **Source:** https://www.elastic.co/customers/corvian
 
+
+
+## Session 12 - More Confluent Findings (2026-06-07)
+
+### 528. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Vehicle logistics companies with 66 hub and prep locations across US and Canada managing vehicle movement, storage, and title processing facing 'monolith-data-systems-acquisition' crisis where data systems from acquired companies were not well integrated causing cumbersome handof...
+- **Source:** https://www.confluent.io/customers/acertus/
+
+### 529. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** UK electrical retailers selling 9,000+ products to millions of customers facing 'covid-shopping-habit-shift' crisis where pandemic caused dramatic shift in consumer shopping habits and sharp increase in growth, and the only path to hyper-personalized approach with measurable resu...
+- **Source:** https://www.confluent.io/customers/ao/
+
+### 530. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Asset management firms with RM 80 billion under management and 200,000 clients facing 'different-versions-of-truth' crisis where data sat in various systems and relied on batch processing, and the only path to digitization is Confluent with ksqlDB transforming JSON data as it tra...
+- **Source:** https://www.confluent.io/customers/affin-hwang-asset-management/
+
+### 531. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Italian logistics companies operating road, freight, air, and sea services worldwide in highly competitive market with very low margins facing 'legacy-tms-track-trace' crisis where it took 45-50 minutes to give customers track-and-trace data, and the only path to competitive diff...
+- **Source:** https://www.confluent.io/customers/arcese/
+
