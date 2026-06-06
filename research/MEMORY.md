@@ -3687,3 +3687,62 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Bakery companies with 200+ plants in 35 countries protecting sites and people and rapidly securing newly acquired businesses face 'impossible-cybersecurity-goals' crisis where Zero Trust security strategy for OT devices needed to support uninterrupted baking, and direct-to-app co...
 - **Source:** https://www.paloaltonetworks.com/customers/grupo-bimbo-protects-its-global-connected-supply-chain-with-palo-alto-networks
 
+
+
+## Session 11 - Elastic + Confluent Case Studies (2026-06-07)
+
+### 512. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Brazilian online media giants with 8 out of 10 Brazilian internet users accessing monthly and managing 200+ applications face 'incident-resolution-time' crisis where large IT team oversaw thousands of cloud resources, containers, and on-premises infrastructure, and the only path ...
+- **Source:** https://www.elastic.co/customers/uol
+
+### 513. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Agreement cloud platforms serving millions globally facing 'multiple-platform-search' crisis where users had to search across multiple platforms like Google Drive, SharePoint, and email to locate agreements, and the only path to generative AI-powered agreement search is Elastic...
+- **Source:** https://www.elastic.co/customers/docusign
+
+### 514. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Media companies with 150-year history and 200 million documents in database facing 'on-premises-scaling-cost' crisis where 200 servers required fundamental review of labor and costs for scaling on-premises, and the only path to scalable search infrastructure is Elastic Cloud with...
+- **Source:** https://www.elastic.co/customers/nikkei
+
+### 515. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Deep observability companies with customers facing 'siloed-dataset-security' crisis where security analysts spent days manually piecing together siloed datasets before identifying vulnerabilities, and the only path to faster resolution is Elastic with generative AI allowing users...
+- **Source:** https://www.elastic.co/customers/gigamon
+
+### 516. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Global food and beverage companies with diverse observability tools tailored to individual applications facing 'tool-sprawl-monitoring' crisis where absence of unified platform created fragmented monitoring, and the only path to 30% MTTR reduction and 99.9% uptime is Elastic Obse...
+- **Source:** https://www.elastic.co/customers/pepsico
+
+### 517. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Code hosting platforms with billions of documents and natural language search queries facing 'keyword-search-limitations' crisis where natural-language queries returned poor or zero results and AI-driven workflows struggled to generate precise keyword queries, and the only path t...
+- **Source:** https://www.elastic.co/customers/github
+
+### 518. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Digital core banking platforms founded by former Barclays CEO facing 'legacy-monolithic-banking' crisis where large banks have found it difficult to make better customer experiences happen with legacy infrastructure, and the only path to cloud-native data streaming platform is Co...
+- **Source:** https://www.confluent.io/customers/10x-banking/
+
+### 519. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** World's largest direct-selling companies with $8 billion annual sales operating in 100+ countries facing 'tightly-coupled-legacy-it' crisis where tightly-coupled legacy IT architecture slowed delivery of new capabilities to customers and independent business owners, and the only ...
+- **Source:** https://www.confluent.io/customers/amway/
+
+### 520. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** HR and benefits administration companies integrating back-end information within web portals and mobile apps facing 'costly-mainframe-demand' crisis where prior approach had drawbacks in performance and simplified consumer-facing application development, and the only path to fast...
+- **Source:** https://www.confluent.io/customers/alight/
+
+### 521. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Audio content companies operating broadcasts and digital platforms facing 'legacy-data-architecture-scale' crisis where legacy data architecture struggled to scale with growing listener demands for personalized content and real-time engagement and required large teams of develope...
+- **Source:** https://www.confluent.io/customers/audacy/
+
+### 522. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** India's largest hiring platforms with 470 million workforce facing 'monolithic-architecture-scale' crisis where monolithic back-end architecture became unsustainable as platform users grew, and the only path from monolith to microservices is Confluent Apache Kafka with less time ...
+- **Source:** https://www.confluent.io/customers/apna/
+
