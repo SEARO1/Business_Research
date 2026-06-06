@@ -3574,3 +3574,87 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Defense and federal civilian technology companies for more than 55 years facing 'cmmc-audit-legacy-systems' crisis where decades of technical debt in rigid legacy systems made it manual and time-consuming to locate identity-related information and Cybersecurity Maturity Model Cer...
 - **Source:** https://www.okta.com/customers/mantech/
 
+
+
+## Session 10 - Splunk + Veracode + Palo Alto Networks (2026-06-06 evening)
+
+### 491. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Global retailers with significant resources maintaining legacy infrastructure and detecting security events face 'multi-channel-experience-complex' crisis where providing multi-channel experience customers expect is complicated, and the only path to 3x faster security threat resp...
+- **Source:** https://www.splunk.com/en_us/customers/success-stories/carrefour.html
+
+### 492. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Insurance companies needing to expand visibility into security, IT, and engineering environments face 'costly-outages-prevention' crisis where preventing costly outages and safeguarding customers ability to access critical information during emergencies is challenging, and the on...
+- **Source:** https://www.splunk.com/en_us/customers/success-stories/progressive-insurance.html
+
+### 493. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Global optical retailers with tool sprawl spanning global operations face 'data-silos-mtttr' crisis where data silos delayed incident response and risked outages impacting critical customer care, and the only path to 10x faster MTTR is Splunk...
+- **Source:** https://www.splunk.com/en_us/customers/success-stories/specsavers.html
+
+### 494. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Award-winning airlines needing continuous high service availability across complex systems to support digital transformation efforts and improve passenger experience face 'complex-systems-availability' crisis where maintaining high service availability across complex systems is c...
+- **Source:** https://www.splunk.com/en_us/customers/success-stories/singapore-airlines.html
+
+### 495. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Children's hospitals needing to expand visibility into threat environment and increase detection rates face 'devastating-threats-patient-care' crisis where responding faster to devastating threats and disruptions that could compromise medical systems and jeopardize patient care i...
+- **Source:** https://www.splunk.com/en_us/customers/success-stories/childrens-national-hospital.html
+
+### 496. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Daily fantasy sports and betting platforms facing intense seasonal traffic with 'gronk-spike' events where fans open and refresh apps doubling platform traffic within seconds face 'key-people-bottleneck' crisis where startup relied on few key people tied to laptops monitoring sys...
+- **Source:** https://www.pagerduty.com/customer/draftkings/
+
+### 497. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Automotive service providers involved in nearly every aspect of the automotive industry face 'slow-appserc-previous-provider' crisis where previous AppSec provider was slow drastically impacting the speed of development processes and preventing keeping up with competitors, and th...
+- **Source:** https://www.veracode.com/customers/cox-automotive/
+
+### 498. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Supply chain and omnichannel commerce software companies over 25+ years in industry facing 'cloud-native-security' crisis where rearchitecting solutions to be cloud-native required reassessing how to assure safety of customer data in the cloud, and centralized security team and s...
+- **Source:** https://www.veracode.com/customers/manhattan-associates/
+
+### 499. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Global enterprises with commitment to craftsmanship at business, architecture, and development levels facing 'appserc-vendor-lacking-reporting' crisis where previous application security testing vendor lacked required reporting features for meeting company's vision for automated ...
+- **Source:** https://www.veracode.com/customers/hdi-global-se/
+
+### 500. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Auto retailers with growing number of locations face 'legacy-store-networks-mpls' crisis where legacy store networks relied on MPLS connectivity which was expensive and cumbersome, and branch locations experienced frequent outages and performance and scalability issues, and the o...
+- **Source:** https://www.paloaltonetworks.com/customers/autonation
+
+### 501. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Global IT leaders facing 'application-blind-spots-end-to-end-encryption' challenges where overcoming application blind spots and end-to-end encryption challenges was critical, and the only path to securing the last mile is Prisma Browser delivering true Zero Trust security as the...
+- **Source:** https://www.paloaltonetworks.com/customers/wipro
+
+### 502. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Digital banks with 40 million customers and 34 billion banking app activities per month face 'soc-struggling-growth' crisis where security operations center was struggling with growth and data volumes, and the only path to modern cloud-based SOC is Cortex XSIAM with 98% faster ca...
+- **Source:** https://www.paloaltonetworks.com/customers/banco-inter-resolves-cases-faster-with-cortex-xsiam
+
+### 503. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Global consumer goods companies with manufacturing facilities and offices across hundreds of locations face 'scattered-security-solutions' crisis where CISO needed to raise standard of security across all locations, and the only path to unified security platform is Prisma SASE de...
+- **Source:** https://www.paloaltonetworks.com/customers/colgate-palmolive-powers-secure-manufacturing-with-palo-alto-networks
+
+### 504. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Global construction and concessions companies with 280,000 people across 120+ countries and 7,000+ locations facing 'decentralised-endpoint-protection' crisis where no standard global approach to endpoint protection existed across different lines of business, and the only path to...
+- **Source:** https://www.paloaltonetworks.com/customers/vinci-standardises-on-cortex-xdr
+
+### 505. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Sports teams that on gamedays operate like a small city facing 'midsize-enterprise-gameday-scale' crisis where for events 600,000 people came to Green Bay and security team had limited internal resources and condensed timeline, and the only path to winning on defense is Palo Alto...
+- **Source:** https://www.paloaltonetworks.com/customers/securing-the-green-bay-packers-through-an-ai-driven-platform-approach
+
+### 506. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Professional sports leagues with 100+ year brand reputation facing 'cyberattack-reputation-risk' crisis where cyberattack could pose serious harm to image and security team needs maximum preparedness to minimize risk to reputation, and the only path to SOC efficiency is XSIAM dri...
+- **Source:** https://www.paloaltonetworks.com/customers/nhl-stays-ahead-of-the-game-with-palo-alto-networks
+
