@@ -4139,3 +4139,19 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/pitch/
 
 
+### 595. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Wave Financial (finance startup, subsidiary of H&R Block) needed best-in-class CI/CD to handle rapid scaling through acquisition stages
+- **Source:** https://circleci.com/case-studies/wave-financial/
+
+### 596. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** SaleCycle (UK-based behavioral marketing firm) had legacy infrastructure slowing down development - needed to ship features faster
+- **Source:** https://circleci.com/case-studies/salecycle/
+
+### 597. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Brandfolder (digital asset management platform) needed quick turnaround on integration testing to respond rapidly to customer feedback about features or bugs
+- **Source:** https://circleci.com/case-studies/brandfolder/
+
+
