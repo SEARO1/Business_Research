@@ -4064,3 +4064,35 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/pantheon/
 
 
+### 581. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Netguru (600+ world-class developers, software consultancy) needed to help clients navigate digital transformations - needed cutting-edge CI/CD for innovation
+- **Source:** https://circleci.com/case-studies/netguru/
+
+### 582. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Outfit7 (multinational mobile gaming company behind popular mobile games) needed to increase code quality and dev productivity - had too many internal support requests slowing down developers
+- **Source:** https://circleci.com/case-studies/outfit7/
+
+### 583. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Joy (online wedding planning platform) faced pent-up demand for weddings post-pandemic - needed to scale efficiently with rapid deployments
+- **Source:** https://circleci.com/case-studies/joy/
+
+
+### 584. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Adwerx (digital advertising platform, 25 engineers) needed consistent CI/CD features and performance as team grew from a few people - previously used Codeship but needed better test parallelization
+- **Source:** https://circleci.com/case-studies/adwerx/
+
+### 585. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Procurify (business spending management solutions) needed to bring DevOps culture to their engineering team and slash deployment times during rapid growth
+- **Source:** https://circleci.com/case-studies/procurify/
+
+### 586. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Rollbar (error tracking/monitoring software for developers) was mid-technical transformation and needed to turn around fixes faster while improving customer satisfaction
+- **Source:** https://circleci.com/case-studies/rollbar/
+
+
