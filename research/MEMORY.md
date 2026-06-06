@@ -3941,3 +3941,78 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://newrelic.com/customers/mercadolibre
 
 
+### 558. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Discord (2.4M concurrent users, 25M+ registrations) faced constant DDoS attacks from gamers targeting each other during matches - engineers were constantly dealing with attacks that caused customer churn and poor retention
+- **Source:** https://www.cloudflare.com/case-studies/discord/
+
+### 559. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Shutterstock (700M+ content items, 1,300+ employees) engineers spent hours generating reports on fraud patterns from logs - needed faster visibility into security threats and better monitoring across complex tech stack
+- **Source:** https://newrelic.com/customers/shutterstock
+
+
+### 560. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Contentful (30% of Fortune 500, thousands of brands) had growing complexity as they replaced monolithic apps with microservices - needed solid CI/CD practices to onboard new engineers and deploy confidently across larger teams
+- **Source:** https://circleci.com/case-studies/contentful/
+
+### 561. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** LaunchDarkly (feature flag management platform, deploys multiple times per day, hundreds of tests daily) needed CI to handle circular dependencies between their own product and testing - as a developer tool maker, any production issue directly impacts their credibility
+- **Source:** https://circleci.com/case-studies/launchdarkly/
+
+### 562. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Outreach ($1B+ valuation, 150+ engineers across a dozen teams) needed to maintain efficiency across projects with different data stores, frameworks, and languages while supporting explosive COVID-driven growth
+- **Source:** https://circleci.com/case-studies/outreach/
+
+
+### 563. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Toss (Korea-based personal finance app) had tens of thousands of files in their repository requiring concurrency and parallelism for code deployment - needed to speed up testing which was taking hours
+- **Source:** https://circleci.com/case-studies/toss/
+
+### 564. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Procore (250+ developers, construction management platform) experienced queuing at peak times with their test suite taking about an hour to run - "that means that your minimum incident resolution time can't be faster than an hour"
+- **Source:** https://circleci.com/case-studies/procore/
+
+### 565. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Snyk (developer security platform) needed to ship quickly while maintaining security standards across their CI/CD pipeline - their team builds the Snyk deployment orb for other teams to deploy to production
+- **Source:** https://circleci.com/case-studies/snyk/
+
+
+### 566. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Voiceflow (AI agent software for building conversational AI, founded 2018) needed to bring CI/CD to their entire company while protecting data for their AI/ML models - engineers were working on ML models and needed DevOps integrated without security risks
+- **Source:** https://circleci.com/case-studies/voiceflow/
+
+### 567. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Axios (digital media company) faced massive disruption in how people consume news and needed to standardize build processes to stay competitive - needed efficient CI/CD for rapid news delivery
+- **Source:** https://circleci.com/case-studies/axios/
+
+### 568. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Tessian (Boston-based cloud email security company) was overwhelmed by infrastructure overhead from running their own Concourse CI/CD - "It was overwhelming, and it wasn't scalable"
+- **Source:** https://circleci.com/case-studies/tessian/
+
+
+### 569. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Honeycomb (observability tool founded 2016) needed to simplify their build, test, and deploy process as they scaled - needed major improvements in speed, scale, and cost-savings
+- **Source:** https://circleci.com/case-studies/honeycomb/
+
+### 570. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Greenhouse (popular hiring platform) needed to manage hyper-growth while keeping developers from context switching - needed to innovate quickly and manage their monolith
+- **Source:** https://circleci.com/case-studies/greenhouse/
+
+### 571. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** incident.io (incident management platform, 7 engineers) needed to spend as much time as possible on customer features rather than infrastructure - small team with tight timelines
+- **Source:** https://circleci.com/case-studies/incident-io/
+
+
