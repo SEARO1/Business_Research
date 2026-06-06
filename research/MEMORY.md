@@ -4178,3 +4178,500 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://about.gitlab.com/customers/hilti/
 
 
+
+
+### 602. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** DoorDash (millions of merchants across 30+ countries) needed to shorten email campaign production time by 3 days using HubSpot marketing automation
+- **Source:** https://www.hubspot.com/case-studies/doordash
+
+### 603. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** DraftKings (daily fantasy sports and betting platform) faced 'gronk-spike' events where fans open and refresh apps doubling platform traffic within seconds, requiring real-time incident response for peak traffic events
+- **Source:** https://www.pagerduty.com/customer/draftkings/
+
+### 604. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Australian Bank needed to automate compliance measures and supercharge deployments while managing10,000+ employees across regulated financial services
+- **Source:** https://www.pagerduty.com/customer/australian-bank/
+
+### 605. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Zendesk (100K+ customers, 4M agents, 160+ countries) needed incident analysis that was less manual and more informative for their customer service operations across billions of interactions
+- **Source:** https://www.pagerduty.com/customer/zendesk/
+
+### 606. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** FOX Corporation (10,000+ employees, media & entertainment, Los Angeles) needed digital operational transformation across legacy systems to achieve operational integrity, reduce costs, and accelerate innovation
+- **Source:** https://www.pagerduty.com/customer/fox/
+
+### 607. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Vodafone (global telecom with millions of customers) needed real-time operational visibility to better understand their operations across multiple countries and network infrastructure
+- **Source:** https://www.pagerduty.com/customer/vodafone/
+
+### 608. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** TUI Group (world's leading tourism group) needed outstanding digital experience for customers while managing complex travel operations across hundreds of aircraft and cruise ships
+- **Source:** https://www.pagerduty.com/customer/tui/
+
+### 609. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Remote (2,800 employees, global HR platform for distributed workforces) switched from a complicated tool to Linear to move faster as they scaled from startup to 1,000 person company - their old tool 'couldn't manage their scale or workload and started to slow them down'
+- **Source:** https://linear.app/customers/remote
+
+### 610. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Coinbase (3,800 employees, crypto exchange) discovered that 'asking costs nothing but answering is very expensive' - context switching and scattered knowledge across Slack, meeting notes, and spreadsheets created coordination headwind that made companies slow despite fast developers
+- **Source:** https://linear.app/customers/coinbase
+
+### 611. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Shopify (millions of merchants across 175+ countries) faced escalating automated attacks including bots, data scraping, credential harvesting, and DDoS attacks that could compromise millions of storefronts - needed simple way to achieve something very complex at scale
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 612. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Discord (2.4M concurrent users, 25M+ registrations) faced constant DDoS attacks from gamers targeting each other during matches - engineers were constantly dealing with attacks that caused customer churn and poor retention
+- **Source:** https://www.cloudflare.com/case-studies/discord/
+
+### 613. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Stack Overflow (largest developer community with100M+ monthly visitors) needed protection from bots and scraping while maintaining fast page loads for millions of developers
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 614. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Canva (100M+ users, 190 countries, 60M+ monthly active users) needed fast, reliable, and secure global content delivery for design platform used by non-technical users
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 615. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Skyscanner (travel search engine used by 100M+ people) needed DDoS protection, API security, and bot management for travel data aggregation across thousands of airline and hotel partners
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+
+### 616. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Kaizen Gaming (high-traffic gaming and betting platform) faced constant DDoS and bot attacks targeting their platform and had architectural challenges with origin servers
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 617. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Intility (IT infrastructure provider managing thousands of endpoints) needed unified security and performance solution for their customers across multiple industries
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 618. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Anadolu Efes (Turkey's largest brewer with operations across multiple countries) needed protection from cyber threats while maintaining fast digital operations for beer and beverage distribution
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 619. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Fullscript (online supplement platform serving70K+ practitioners) needed bot protection, DDoS mitigation, and performance optimization for health supplement e-commerce platform
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 620. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Tightknit (social platform for communities) needed DDoS protection and security for building community spaces online while scaling rapidly
+- **Source:** https://www.cloudflare.com/case-studies/tightknit/
+
+### 621. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Dropbox (700M+ users, billions of content items, 1,300+ employees) used Airtable to manage operations at scale - needed connected workspaces to replace disconnected spreadsheets
+- **Source:** https://www.airtable.com/customer-stories/dropbox
+
+### 622. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Stack Overflow faced 'AI-era-traffic-shift' where human traffic declined but automated scraping surged - AI bots turned Stack Overflow content into highly valuable target, requiring edge security that could eliminate DDoS impact and block bots at scale
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 623. Integration
+- **Category:** Integration
+- **Friction:** Canva (260M monthly users, 190 countries) faced 'acquisition-infra-mismatch' where integrating new acquisitions brought cloud-native tech startups alongside organizations with legacy VPNs and on-premise infrastructure - needed single platform to apply modern security standards across heterogeneous environments
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 624. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Skyscanner (100M monthly users, 80B prices/day, 30 languages) faced 'vpn-complexity-drag' where traditional on-premises architecture strained under hybrid work, with teams expending huge amounts of time and resources just keeping everything online and managing all the infrastructure behind the scenes
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+
+### 625. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Kaizen Gaming (13M customers, Betano sports betting platform) faced 'websocket-scale-bottleneck' where 600K concurrent WebSocket connections required ~300 custom servers just for real-time data, with routing global traffic back to Europe causing high latency during live betting
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 626. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Intility (650+ customers, 50K users, 2,500 locations in Scandinavia) faced 'multi-tenant-app-sprawl' where hosting1,000+ different web applications for multiple clients across multiple verticals with unique security requirements created mounting pressure from global DDoS and sophisticated automated threats
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 627. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Fullscript (healthcare SaaS platform, traffic doubling annually for 5 consecutive years) faced 'aws-waf-false-positives' where AWS first-gen WAF generated false positives, security rule changes consumed4+ hours per modification, and a3-person team wore multiple hats with mounting operational friction
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 628. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Tightknit (lean startup, community platform for B2B SaaS) faced 'infrastructure-vs-product-tradeoff' where lean teams wanted to focus on building great products and features rather than managing servers, Docker files, and traditional cloud provider complexity
+- **Source:** https://www.cloudflare.com/case-studies/tightknit/
+
+### 629. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Australian Bank needed to supercharge deployments and automate compliance measures while operating as a large financial institution with complex regulatory requirements across multiple systems
+- **Source:** https://www.pagerduty.com/customer/australian-bank/
+
+### 630. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** TUI Group (world's leading tourism company) needed outstanding digital experience for customers while managing complex travel operations across hundreds of aircraft, cruise ships, and hotels
+- **Source:** https://www.pagerduty.com/customer/tui/
+
+### 631. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** FOX Corporation (10,000+ employees, media & entertainment) needed operational integrity transformation to reduce costs, accelerate innovation, and drive revenue growth at scale across legacy media systems
+- **Source:** https://www.pagerduty.com/customer/fox/
+
+### 632. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Vodafone (global telecom with millions of customers) needed better understanding of real-time operations to manage complex network infrastructure across multiple countries with increasing security threats
+- **Source:** https://www.pagerduty.com/customer/vodafone/
+
+### 633. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** DraftKings (daily fantasy sports and betting platform) faced 'gronk-spike' events where fans open and refresh apps within seconds of events starting, often doubling platform traffic and stressing infrastructure - key people were tied to laptops monitoring systems all day
+- **Source:** https://www.pagerduty.com/customer/draftkings/
+
+### 634. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Zendesk (5,000+ employees, San Francisco) incident managers spent 5-6 hours manually analyzing incidents by combing through countless Slack channels, watching Zoom recordings, checking logs, and putting tiny pieces together into long Word docs
+- **Source:** https://www.pagerduty.com/customer/zendesk/
+
+### 635. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** DoorDash (millions of merchants, food delivery platform) needed to shorten time to produce email campaigns by 3 days using HubSpot marketing automation but marketing teams often lack direct developer access making campaign changes slow
+- **Source:** https://www.hubspot.com/case-studies/doordash
+
+### 636. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Anadolu Efes (10th largest beer producer globally, 750M+ consumers, 70+ countries) faced 'network-complexity-drag' where their network structure had become too complex to support the speed the business required - when connectivity slowed, it directly affected sales operations and business continuity
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 637. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Kaizen Gaming (Betano sports betting, 13M customers, 19 markets) faced 'real-time-betting-pressure' where 'if you see a goal scored and you want to bet, there is no time to lose, so everything has to be real-time' - creating major traffic load for their software with 600K concurrent connections
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 638. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Coinbase (3,800 employees, crypto exchange) discovered 'coordination-headwind' where asking questions is free but answering is very expensive - context switching burns focus that is hard to recover, and at companies of thousands, small rituals compress time available for deep work
+- **Source:** https://linear.app/customers/coinbase
+
+### 639. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Remote (2,800 employees, global HR platform for distributed workforces) faced 'tool-scale-mismatch' where their old issue tracking tool couldn't manage their scale or workload and started to slow them down as they grew from startup to 1,000 person company
+- **Source:** https://linear.app/customers/remote
+
+### 640. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** DoorDash shortened time to produce email campaigns by 3 days with HubSpot marketing automation, addressing the common pain of marketing teams lacking direct developer access for campaign changes
+- **Source:** https://www.hubspot.com/case-studies/doordash
+
+### 641. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Hutchison Telecommunications (Hong Kong) consolidated security and performance to reduce attacks, save costs, and deliver faster digital experiences across multiple markets
+- **Source:** https://www.cloudflare.com/case-studies/hutchison-telecom/
+
+### 642. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Mitsubishi Gas Chemical streamlined secure global access with Cloudflare Zero Trust, gaining dedicated egress IPs and simplifying day-to-day operations across global operations
+- **Source:** https://www.cloudflare.com/case-studies/mitsubishi-gas-chemical/
+
+### 643. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** NYC government agency faced multi-week password-guessing attack with 500M malicious requests blocked and platform stability disrupted - needed unified security to restore operations quickly
+- **Source:** https://www.cloudflare.com/case-studies/nyc-government/
+
+### 644. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Taiwan National Medical Institutions needed to raise defenses against increasing cyber threats and unify security posture across multiple hospital systems and healthcare networks
+- **Source:** https://www.cloudflare.com/case-studies/taiwan-medical/
+
+### 645. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Mitsubishi Gas Chemical (Japanese multinational, specialty chemicals) needed secure global access with dedicated egress IPs and simplified day-to-day operations across their global operations spanning multiple countries
+- **Source:** https://www.cloudflare.com/case-studies/mitsubishi-gas-chemical/
+
+### 646. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** HubSpot (marketing SaaS platform with millions of users) used Cloudflare to protect their marketing platform infrastructure from DDoS attacks and bots while maintaining fast page loads for customers
+- **Source:** https://www.cloudflare.com/case-studies/hubspot/
+
+### 647. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Mitsubishi Gas Chemical (Japanese specialty chemicals manufacturer with global operations) faced 'egress-ip-frustration' where previous security provider couldn't issue a global egress IP, forcing employees to route through corporate network or use unprotected residential connections, and sometimes go to the office just to reach work-specific websites
+- **Source:** https://www.cloudflare.com/case-studies/mitsubishi-gas-chemical/
+
+### 648. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Mitsubishi Gas Chemical faced 'security-client-neglect' where employees forgot to start the security client after boot, leaving web traffic temporarily unprotected and generating higher volume of support tickets
+- **Source:** https://www.cloudflare.com/case-studies/mitsubishi-gas-chemical/
+
+### 649. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** HubSpot (40,000+ customers, 90+ countries) faced 'ssl-provisioning-bottleneck' where manually bundling SSL certificates for each customer took as long as 5 days from request to deployment, creating massive operational burden for marketing platform at scale
+- **Source:** https://www.cloudflare.com/case-studies/hubspot/
+
+### 650. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** HubSpot needed SSL for 40,000+ domains before Google Chrome deadline but manually bundling certificates took 5 days per customer - Cloudflare's edge SSL propagated in 90 seconds enabling automatic SSL provisioning for 47,000 sites in just 5 days
+- **Source:** https://www.cloudflare.com/case-studies/hubspot/
+
+### 651. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Shopify (millions of merchants across 175+ countries) faced escalating bot/DDoS attacks, credential stuffing, and data scraping that could compromise millions of storefronts - needed protection for e-commerce platform where even slight delay or complication leads to lost opportunities
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 652. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Shopify faced 'complexity-paradox' where 'the real challenge is not about how many different pieces of complex technology we can use but the opposite - Cloudflare helps us find a simple way to achieve something very complex that we can scale and maintain'
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 653. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Shopify (13,000+ third-party apps, millions of merchants) needed to simplify merchant onboarding and automating essential services like provisioning customer DNS and SSL certificates for e-commerce platform
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 654. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Shopify faced 'chrome-encryption-urgency' when Google Chrome began flagging unencrypted sites - Shopify needed to secure millions of storefronts across 175 countries before the deadline to avoid reputation damage to merchants
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 655. Integration
+- **Category:** Integration
+- **Friction:** Shopify (13,000+ apps in app store, global commerce platform) used 'engineering-first-partnership' approach with Cloudflare to drive innovation - Mattie Toia VP Infrastructure: 'It is great to have a partner as invested in their infrastructure as we are in our product'
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 656. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Canva (260M monthly users, 190 countries) faced 'AI-asset-scraping-paradox' where upset users and content partners reported finding their images on other sites scraped by AI bots, but Canva lacked the internal capacity to stop the problem - needed bot management to protect visual assets at scale
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 657. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Canva (acquiring multiple companies, cloud-native to legacy VPN) faced 'acquisition-infrastructure-mismatch' where each acquisition had different starting points - from cloud-native tech startups to organizations with legacy VPNs and on-premise infrastructure, making unified security difficult
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 658. Developer Experience
+- **Category:** Developer Experience
+- **Friction:** Canva (hundreds of microservices across dozens of teams) needed 'edge-routing-control' for Layer 7 logic like redirects, security headers, and filters - Cloudflare Workers lets them blur the line between edge and internal network, promoting developer velocity without coordinating complex backend changes
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 659. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Canva deployed Cloudflare Bot Management to stop malicious scraping and asset appropriation - bandwidth consumption dropped overnight without affecting legitimate traffic, solving a problem they had no internal capacity to address before
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 660. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Discord (2.4M concurrent users, online gaming platform) faced 'gamer-DDoS-paradox' where gamers love to DDoS each other during game matches - as Discord grew more popular the intensity and occurrences of DDoS attacks increased to the point where engineers were constantly dealing with them
+- **Source:** https://www.cloudflare.com/case-studies/discord/
+
+### 661. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Discord faced 'outage-retention-damage' where every single outage resulted in frustrated customers - new customers who signed up during issues retained poorly due to very bad first impressions, pushing Discord further from goal of becoming de-facto communication app for gamers
+- **Source:** https://www.cloudflare.com/case-studies/discord/
+
+### 662. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Discord (gaming communication platform, Google Cloud customer) saves over $100,000 monthly on Google Cloud bill by using Cloudflare CDN - over 2 Pb of Discord's traffic per month is served directly from Cloudflare's edge-side cache
+- **Source:** https://www.cloudflare.com/case-studies/discord/
+
+### 663. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Stack Overflow (millions of engineers, AI era) faced 'AI-scraping-surge' where human traffic declined but automated scraping surged as their content became highly valuable target for bots and AI crawlers - content that took years to create now being stolen at scale
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 664. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Stack Overflow (SaaS knowledge platform) faced 'CDN-delay-blips' where previous CDN's local agents at each ingress point introduced delays as distributed systems attempted to block attacks - traffic spikes caused visible site 'blips' lasting several seconds for users
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 665. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Stack Overflow needed to migrate CDN from Fastly in just 1 month when it normally takes 6 months - included translating Fastly VCL (Varnish Configuration Language) logic to Terraform while DDoS attacks were escalating
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 666. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Stack Overflow (small SRE team of3) faced 'bot-management-scale-mismatch' where bot traffic grew to represent most inbound requests - Cloudflare Bot Management lets their team of 3 handle what requires 'two giant teams' of 25-30 people at other companies
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 667. Developer Experience
+- **Category:** Developer Experience
+- **Friction:** Skyscanner (100M customers monthly, hybrid work) faced 'VPN-firefighting-drain' where engineers spent huge amounts of time keeping everything online and every vulnerability exposure required immediate out-of-hours action - complexity of managing infrastructure behind scenes slowed down product development
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+
+### 668. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Kaizen Gaming (13M customers, real-time sports betting on Betano) faced 'real-time-latency-paradox' where routing global traffic (Brazil to Europe) resulted in high latency around one second and10-second delay could cause bet cancellation or rejection, directly impacting core business metrics
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 669. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Kaizen Gaming needed ~300 custom servers just for SignalR WebSocket connections (each pod handles ~2,000 connections, 600,000 concurrent clients at peak) - 'We had to be prepared for the worst, imagine if half of Brazil decides to log in at the same time, there's no room for autoscaling'
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 670. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Intility (650 customers, 50,000 users, 2,500 locations) faced 'multi-tenant-security-complexity' where hosting1000+ web applications for multiple clients across multiple verticals each with unique security and authentication requirements created mounting security challenges
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 671. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Intility faced 'VPN-maintenance-drain' where traditional VPN model required maintaining multiple VPN concentrators for each customer across data centers demanding constant patching and scaling - administrative burdens distracted SOC and engineering teams from strategic product development
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 672. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Anadolu Efes (750M consumers, 70+ countries, 3,500 employees) faced 'legacy-network-speed-paradox' where network structure had become too complex to support the speed the business required - when connectivity slowed it directly affected sales operations and business continuity
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 673. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Fullscript (healthcare SaaS, traffic doubling annually for 5 consecutive years) faced 'AWS-WAF-opacity' where AWS WAF gave almost no data when something went wrong - 'We'd have a blocked request and barely any data to figure out why it happened', creating false positives and operational bottlenecks
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 674. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Fullscript faced 'security-rule-change-overhead' where security rule changes consumed more than 4 hours per modification due to unintuitive UI and cumbersome Terraform state management - even simple changes required extensive manual work for healthcare SaaS platform
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 675. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Fullscript (healthcare SaaS platform) faced 'malicious-traffic-cost-surge' during major security crisis when malicious traffic overwhelmed their platform incurring tens of thousands of dollars daily in infrastructure costs - needed immediate threat identification and mitigation
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 676. Developer Experience
+- **Category:** Developer Experience
+- **Friction:** Tightknit (lean B2B SaaS startup for community platforms on Slack) faced 'infra-distraction-paradox' where team was determined to avoid headaches of managing servers, complicated Docker files, and risks of running global app on large traditional cloud provider - 'We like solving business problems, not infrastructure'
+- **Source:** https://www.cloudflare.com/case-studies/tightknit/
+
+### 677. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Fullscript (healthcare SaaS platform,3-person infrastructure team) faced 'security-crisis-response-delay' where during major security crisis they couldn't identify where bad traffic was coming from - Cloudflare Security Analytics Dashboard found and blocked bad traffic within 15 minutes saving days of expensive downtime
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 678. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Intility (650 customers, 50,000 users, Scandinavia) faced 'shift-to-automated-traffic' where clear shift in traffic towards automated agents particularly bots and AI crawlers put pressure on origin services and security operations - needed advanced bot management to distinguish good automation from malicious scraping, credential stuffing, L7 DDoS, and API abuse
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 679. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Anadolu Efes (10th largest beer producer globally, 750M consumers, 70+ countries) consolidated web application security, workforce security, and cloud networking on Cloudflare to address modern attacks and reduce complexity of legacy IT network infrastructure that had become too slow for business requirements
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 680. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Anadolu Efes reduced deployment times from days to mere minutes by using Cloudflare - seasonal warehouse in Izmir integrated into network without any hardware investment using SIM-enabled handheld terminals with WARP agent and AD authentication
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 681. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Fullscript (healthcare SaaS,3-person infrastructure team) achieved8x deployment efficiency improvement reducing security rule changes from more than 4 hours to under 30 seconds after migrating from AWS WAF to Cloudflare
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 682. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Tightknit (lean startup, B2B SaaS community platform on Slack) built nearly entire application on Cloudflare Developer Platform - 'We were able to launch our TypeScript at scale globally without having to worry about complications or scale concerns' and 'local development experience is identical to production environment'
+- **Source:** https://www.cloudflare.com/case-studies/tightknit/
+
+### 683. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Goldman Sachs (72,000 people, 10,000+ developers) faced 'microservice-scale-complexity' with1,000+ microservices and 30+ million lines of code - needed to deploy to multiple environments (dev, test, prod) with hundreds of deploys per day while maintaining stability for financial trading operations
+- **Source:** https://about.gitlab.com/customers/goldman-sachs/
+
+### 684. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Goldman Sachs faced 'compliance-at-scale' where 72,000 people including developers, traders, and compliance officers all need to work together - shipping software in regulated environment requires rigorous controls across all deployments
+- **Source:** https://about.gitlab.com/customers/goldman-sachs/
+
+### 685. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** CERN (particle physics research, 100,000 users) faced 'legacy-CI-startup-latency' where job startup was slow due to legacy infrastructure - needed90x faster job startup to handle massive particle collision data processing workloads
+- **Source:** https://about.gitlab.com/customers/cern/
+
+### 686. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** CERN faced 'scale-gap-paradox' where 'when you have 100 users you can manage that yourself, when you have 100,000 users you cannot' - computing resources at particle physics labs require massive scale that outgrows traditional management approaches
+- **Source:** https://about.gitlab.com/customers/cern/
+
+### 687. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** CERN (particle physics research lab) runs large hadron collider producing petabytes of data from particle collisions that must be processed quickly - computing grid must handle extreme workloads from physics experiments
+- **Source:** https://about.gitlab.com/customers/cern/
+
+### 688. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Goldman Sachs (35,000+ employees, financial services) faced 'toolchain-complexity-paradox' where the firm had built its own complex toolchain but needed modern toolset for managing code that developers coming into the firm would already be familiar with - wanted to demolish toolchain complexity to increase concurrent development
+- **Source:** https://about.gitlab.com/customers/goldman-sachs/
+
+### 689. Developer Experience
+- **Category:** Developer Experience
+- **Friction:** Goldman Sachs faced 'developer-adoption-paradox' where 'We're bringing into the firm a platform that our engineers actually want to use – which helps drive adoption across multiple teams and increase productivity without having to force anyone to adopt it' - engineers wanted to use GitLab voluntarily
+- **Source:** https://about.gitlab.com/customers/goldman-sachs/
+
+### 690. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Goldman Sachs (engineering division, 35,000+ employees) went from '1 build every 2 weeks to over 1,000 per day' using GitLab - some teams now run and merge 1,000+ CI feature branch builds a day enabling daily production deployments
+- **Source:** https://about.gitlab.com/customers/goldman-sachs/
+
+### 691. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** CERN (Large Hadron Collider, 10,000 associated members) achieved 90x faster job startups using GitLab runners and 3x more concurrent jobs - enabling faster particle collision data processing for physics research
+- **Source:** https://about.gitlab.com/customers/cern/
+
+### 692. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** CERN (particle physics research lab, European intergovernmental organization) upgraded to GitLab Ultimate to take advantage of its advanced security framework for software running the Large Hadron Collider and creating collisions
+- **Source:** https://about.gitlab.com/customers/cern/
+
+### 693. Integration
+- **Category:** Integration
+- **Friction:** CERN faced 'global-collaboration-complexity' where physicists and engineers from 24 member states study fundamental structure of particles - needed platform to securely and efficiently run world's largest particle accelerator while processing vast amounts of data from particle collisions
+- **Source:** https://about.gitlab.com/customers/cern/
+
+### 694. Integration
+- **Category:** Integration
+- **Friction:** Intility (650 customers, 50,000 users across Scandinavia) faced 'multi-vendor-tool-sprawl' where fragmented multi-vendor security tools across diverse customer base created complexity - consolidated onto Cloudflare's connectivity cloud running WAF, DDoS protection, Bot Management, CDN, DNS, and Zero Trust on single platform
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 695. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Fullscript (healthcare SaaS, millions of practitioners) faced 'traffic-doubling-dilemma' where web application traffic doubled annually for5 consecutive years - legacy infrastructure unable to support explosive growth demands of healthcare technology sector
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 696. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Skyscanner (100M customers monthly, travel metasearch) faced 'VPN-backhaul-latency' where with hybrid work policy, VPN backhauled traffic through regional servers leading to inconsistent performance and latency - employees needed safe and scalable access from anywhere in the world
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+
+### 697. Integration
+- **Category:** Integration
+- **Friction:** Skyscanner (travel aggregator, 30+ languages, 80B prices daily) used Cloudflare as 'connective tissue' to automate and scale protections across global workforce - engineers now manage access and security through same CI/CD pipelines used for application development
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+
+### 698. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Kaizen Gaming (real-time sports betting, 400,000 events livestreamed, 1.5M events/year) faced 'websocket-scale-bottleneck' where at peak 600,000 concurrent client connections needed ~300 custom servers (each pod handles ~2,000 SignalR connections) just for WebSocket connections - created unwieldy resource-intensive configuration
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 699. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Anadolu Efes (10th largest beer producer globally, 750M consumers, 70+ countries) faced 'legacy-network-security-gap' where 'Attackers only see Cloudflare IPs, they cannot see our internal infrastructure, which limits what they can attack' - needed unified security for sales operations, logistics, and analytics platforms
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 700. Performance and Reliability
+- **Category:** Performance and Reliability
+- **Friction:** Discord (2.4M concurrent users, Google Cloud customer) faced 'websocket-outage-cost' where every single outage resulted in frustrated customers and new customers retained poorly due to bad first impressions - Cloudflare serves over 2 Pb of Discord's traffic per month from edge cache and handles websocket spikes up to 2 million/second
+- **Source:** https://www.cloudflare.com/case-studies/discord/
+
