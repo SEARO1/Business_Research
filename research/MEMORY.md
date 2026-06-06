@@ -3925,3 +3925,19 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://newrelic.com/customers/william-hill
 
 
+### 555. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Verizon 5G Edge (AWS Wavelength Zones) had developers unable to debug workloads on edge nodes due to architectural constraints of traditional APM tools in resource-constrained edge environments requiring three-level architecture
+- **Source:** https://newrelic.com/customers/verizon
+
+### 556. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Toyota (once-in-century transformation from car manufacturer to mobility company) had software projects accelerating across the entire company but no standard environment for all teams to quickly develop and launch services
+- **Source:** https://newrelic.com/customers/toyota
+
+### 557. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** MercadoLibre (550M people market, 13 countries, MercadoPago with 500 engineers) faced scalability, performance, and downtime issues as rapid growth stressed decentralized application architecture with hundreds of deployments per week
+- **Source:** https://newrelic.com/customers/mercadolibre
+
+
