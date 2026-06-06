@@ -4155,3 +4155,26 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/brandfolder/
 
 
+### 598. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Siemens (global technology powerhouse, 25,000+ employees, 190 countries) needed to transform collaboration and organizational workflow - previously lacked open source DevOps culture
+- **Source:** https://about.gitlab.com/customers/siemens/
+
+
+### 599. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** CERN (European Laboratory for Particle Physics, 10,000 associated members, 24 member states) needed to connect scientists distributed worldwide and securely run the world's largest particle accelerator - previously faced complex security and efficiency challenges
+- **Source:** https://about.gitlab.com/customers/cern/
+
+
+### 600. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Cube (European tech company, 40 employees, Netherlands) needed to drive secure software with AI across the entire SDLC - was using GitLab but wanted AI features to increase efficiency and speed
+- **Source:** https://about.gitlab.com/customers/cube/
+
+### 601. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Hilti (global construction services provider, 30,000 employees, Liechtenstein) needed to bring code in-house with proper SCM, CI/CD, and security scanning - previously lacked streamlined code management and delivery
+- **Source:** https://about.gitlab.com/customers/hilti/
+
+
