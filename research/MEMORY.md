@@ -3025,3 +3025,52 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Canva received complaints from upset users and content partners who found their images on other sites but lacked the capacity to stop them - implemented Cloudflare Page Shield for client-side protection monitoring and mitigation
 - **Source:** https://www.cloudflare.com/case-studies/canva/
 - **Severity:** High. Named exec: Tyrrell; Narraway (Canva). Quantified: upset users and content partners finding images on other sites; implemented Page Shield for client-side protection.
+
+### 401. Automotive manufacturers facing "inconsistent-monitoring-limits-visibility" crisis where Toyota Motor North America lacked consistent monitoring tool across 1,600 applications (300 in cloud) and 100+ teams, creating efficiencies and reliability concerns with mission-critical apps where downtime can cost millions in revenue
+- **Category:** Legacy System Integration
+- **Friction:** Toyota Motor North America lacked a consistent monitoring tool across 1,600 applications (300 in cloud) and 100+ teams, creating efficiencies and reliability concerns with mission-critical apps where downtime can cost millions in revenue
+- **Source:** https://www.datadoghq.com/case-studies/toyota/
+- **Severity:** Critical. Named exec: Jonnalagedda (Toyota). Quantified: 1,600 apps (300 cloud), 100+ teams, 99.9% uptime; MTTD 6h to 15min; MTTR 7 days to 2 hours; $10M savings/2 years.
+
+### 402. Analytics platforms facing "fragmented-observability-microservices" crisis where SAS runs 100+ microservices on Viya platform and without unified observability engineers spent too much time piecing together information just to understand where problems started
+- **Category:** Legacy System Integration
+- **Friction:** SAS runs 100+ microservices on Viya platform where without unified observability, engineers spent too much time piecing together information just to understand where a problem started
+- **Source:** https://www.datadoghq.com/case-studies/sas/
+- **Severity:** High. Named execs: Joe Flynn (Principal Software Developer, SAS); Dharmita Lutz (Principal Performance Engineer, SAS). Quantified: 4x CPU reduction; 75% lower costs; N+1 pattern 300x efficiency improvement.
+
+### 403. Media companies facing "siloed-observability-incumbent-limits" crisis where Forbes had observability data siloed with incumbent tool that was challenging to set up and navigate, limiting visibility into Google Cloud stack
+- **Category:** Onboarding & Deployment
+- **Friction:** Forbes had observability data siloed with incumbent tool that was challenging to set up and navigate, limiting visibility into Google Cloud stack - setup took 1 day vs quarter of time of previous solution, reduced homepage load time by 33%, GKE costs by 33%, MTTD from 5 to 88 minutes
+- **Source:** https://www.datadoghq.com/case-studies/forbes/
+- **Severity:** High. Named execs: JD Weiner (Director of DevOps, Forbes); Sameer Patwardhan (SVP Technology, Forbes). Quantified: homepage load time -33%; GKE costs -33%; MTTD 5 min to 88 min; onboard in minutes vs weeks.
+
+### 404. E-commerce platforms facing "hybrid-cloud-monitoring-gaps" crisis where MercadoLibre (largest Latin American e-commerce marketplace) faced operational issues where constant changes by separate teams in shared hybrid cloud environment were too dynamic for basic monitoring tools
+- **Category:** Legacy System Integration
+- **Friction:** MercadoLibre (largest Latin American e-commerce marketplace) faced operational issues where constant changes by separate teams in a shared hybrid cloud environment were too dynamic for basic monitoring tools - most teams had no idea how application changes might affect others
+- **Source:** https://www.datadoghq.com/case-studies/mercadolibre/
+- **Severity:** High. Named exec: Dario (Architecture Lead, MercadoLibre). Quantified: largest LatAm marketplace; payments service as complex interaction example; teams now understand cross-team impact.
+
+### 405. Consumer electronics companies facing "ci-pipeline-complexity-jenkins" crisis where Sonos managed 2,000 Jenkins jobs daily across complex build/test/deploy pipeline where debugging failures across vast test runs was time-consuming
+- **Category:** Onboarding & Deployment
+- **Friction:** Sonos managed 2,000 Jenkins jobs daily across complex build/test/deploy pipeline where debugging failures across vast test runs was time-consuming, and multiple tools and manual processes including spreadsheets made it difficult to track CI executions
+- **Source:** https://www.datadoghq.com/case-studies/sonos/
+- **Severity:** High. Named exec: Gudimella (Sonos). Quantified: approximately 50% improvement; 2,000 Jenkins jobs/day; CI-related engineering costs reduced; consolidated multiple tools into one.
+
+### 406. Work management platforms facing "homegrown-cost-management-slow" crisis where Asana homegrown cost-management tooling resulted in slow queries and slow follow-up on cost changes, making it difficult for teams to keep up with cloud spend
+- **Category:** Legacy System Integration
+- **Friction:** Asana homegrown cost-management tooling resulted in slow queries and slow follow-up on cost changes, making it difficult for teams to keep up with cloud spend - within weeks of Datadog CCM adoption, identified optimization opportunities driving cost and resource savings
+- **Source:** https://www.datadoghq.com/case-studies/asana/
+- **Severity:** Medium. Named exec: Yannis Spiliopoulos (Tech Lead, Production Infrastructure, Asana). Quantified: identified optimization opportunities within first few weeks; accurate savings estimates from high-fidelity cost data.
+
+### 407. Customer service platforms facing "multiple-solutions-silos" crisis where Zendesk had multiple monitoring solutions creating silos between teams, and old setup where developers had to wait for IT to order hardware before scaling was too slow
+- **Category:** Legacy System Integration
+- **Friction:** Zendesk had multiple monitoring solutions creating silos between teams, and the old setup where developers had to wait for IT to order hardware before scaling was too slow - migrated to Kubernetes on AWS with Datadog as sole monitoring solution
+- **Source:** https://www.datadoghq.com/case-studies/zendesk/
+- **Severity:** High. Named exec: Jon Moter (Senior Principal Engineer, Zendesk). Quantified: multiple solutions creating silos; interactive UI for application-specific metrics per container; developer self-service.
+
+### 408. Infrastructure automation platforms facing "poor-usability-self-hosted-monitoring" crisis where HashiCorp preparing for Terraform Enterprise public release needed organization-wide visibility as team grew, but poor usability of self-hosted monitoring tools left engineers ill-equipped
+- **Category:** Onboarding & Deployment
+- **Friction:** HashiCorp preparing for Terraform Enterprise public release needed organization-wide visibility into their platform as team grew, but poor usability of self-hosted monitoring tools left engineers ill-equipped to effectively monitor
+- **Source:** https://www.datadoghq.com/case-studies/hashicorp/
+- **Severity:** High. Quantified: Terraform Enterprise public release 2017; SLOs for platform performance; remote workforce collaboration via Datadog.
+
