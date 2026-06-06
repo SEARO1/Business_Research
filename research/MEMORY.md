@@ -3746,3 +3746,32 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** India's largest hiring platforms with 470 million workforce facing 'monolithic-architecture-scale' crisis where monolithic back-end architecture became unsustainable as platform users grew, and the only path from monolith to microservices is Confluent Apache Kafka with less time ...
 - **Source:** https://www.confluent.io/customers/apna/
 
+
+
+## Session 11b - More Elastic Findings (2026-06-07)
+
+### 523. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Insurance companies serving churches and related ministries for over a century facing 'technology-reliability-monitoring' crisis where expanded systems created monitoring and alert challenges, and the only path to technology reliability is Elastic Observability with clearer insig...
+- **Source:** https://www.elastic.co/customers/brotherhood-mutual
+
+### 524. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** AI search startups that grew from 10 to 70 employees part of Nebius team facing 'ai-agents-web-access' crisis where AI agents need completely different search than humans and require a secure reliable web access layer, and the only path is Elastic providing that secure reliable w...
+- **Source:** https://www.elastic.co/customers/tavily
+
+### 525. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Cities with thousands of web pages across 10+ websites where residents couldn't find answers online and emailed departments directly or called 311 hotline face 'information-access-311' crisis where improving search would free up hours of employee time, and the only path to AI sea...
+- **Source:** https://www.elastic.co/customers/city-of-sacramento
+
+### 526. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Manufacturing companies with two main operating systems (PLM and ERP) managing drawings and documents across product lifecycle facing 'term-matching-search-limitations' crisis where traditional search systems couldn't handle free search of historical data, and the only path to hi...
+- **Source:** https://www.elastic.co/customers/caddi
+
+### 527. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Agricultural intelligence companies managing billions of data points every hour across growing seasons and weather with small team facing 'data-infrastructure-scale' crisis where robust data infrastructure needed to support agricultural intelligence platform, and the only path is...
+- **Source:** https://www.elastic.co/customers/corvian
+
