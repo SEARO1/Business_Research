@@ -3318,3 +3318,151 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/fastlane-neuralegion/
 - **Severity:** High.
 
+
+
+## Session 8 - AWS Case Studies (2026-06-06 late)
+
+### 447. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Media companies with 22+ independent digital properties across 12 global markets face 'data-rich-insights-poor' crisis where each property collected massive volumes of audience data but information remained siloed preventing cross-brand insights, and the only path to unified data analytics is Databr...
+- **Source:** https://aws.amazon.com/solutions/case-studies/conde-nast-data-case-study/
+- **Severity:** High.
+
+### 448. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Visual discovery platforms with hundreds of millions of users face 'visual-platform-trust-responsibility' crisis where building a fundamentally visual platform with mission based on user trust and responsibility presented unique challenges different from competitors, and maintaining inspirational mi...
+- **Source:** https://aws.amazon.com/solutions/case-studies/pinterest-ai-case-study/
+- **Severity:** High.
+
+### 449. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Aerospace companies with existential mission to build road to space face 'ai-agent-hardware-design-months-to-days' crisis where building AI agent-designed hardware for the Moon traditionally took years but the stakes are literally rocket science, and the only path to 75% acceleration in lunar hardwa...
+- **Source:** https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/
+- **Severity:** High.
+
+### 450. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Automotive services companies with largest breadth of first-party data (2.3 billion online interactions per year) face 'enterprise-ai-security-observability-governance' crisis where building enterprise-grade security, observability, and governance for AI solutions from scratch was too complex, and t...
+- **Source:** https://aws.amazon.com/solutions/case-studies/cox-auto-case-study/
+- **Severity:** High.
+
+### 451. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Automotive manufacturers with operations in 27 countries face 'fragmented-data-landscape' crisis where data silos across business units prevented comprehensive data analytics and unified lakehouses were needed to transform the business, and the only path to connected data is AWS lakehouses breaking ...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/toyota/
+- **Severity:** High.
+
+### 452. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Healthcare technology companies transforming patient outcomes face 'model-training-time-weeks' crisis where training AI models for healthcare took weeks preventing fast innovation, and the only path to faster innovation and better patient outcomes is AWS where model training time reduced from weeks ...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/philips/
+- **Severity:** High.
+
+### 453. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Financial services disruptors since 1994 face 'resilience-governance-visibility' crisis where building a technology company required transforming approach to resilience with strong governance and enhanced visibility at scale, and the only path to real-time governance is AWS Cloud Operations enabling...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/capital-one/
+- **Severity:** High.
+
+### 454. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Automotive manufacturers with global operations and vehicle sensor data across brands face 'vehicle-sensor-data-fragmentation' crisis where processing and combining anonymized data from vehicle sensors across the enterprise for customer-facing analytics was complex, and the only path to simple inter...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/bmw/
+- **Severity:** High.
+
+### 455. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Luxury automotive companies with fragmented SAP landscapes face 'sap-standardization' crisis where consolidating fragmented SAP landscape was difficult and reducing applications was needed, and the only path to radical standardization is AWS for RISE with SAP reducing applications by 60%...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/mercedes-benz/
+- **Severity:** High.
+
+### 456. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Streaming services with 280M+ members across 190 countries face 'global-traffic-cost-management' crisis where managing global traffic across multiple AWS regions with thousands of auto-scaling compute server groups while controlling costs was complex, and the only path to intelligent traffic directi...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/netflix/
+- **Severity:** High.
+
+### 457. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Sportswear manufacturers in Europe with digital transformation goals face 'product-creation-commerce-data' crisis where revolutionizing product creation, commerce strategies, data analytics was complex, and the only path to cutting-edge technology adoption is AWS enabling modern digital experiences...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/adidas/
+- **Severity:** High.
+
+### 458. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Global technology powerhouses with electronics manufacturing facilities face 'electronics-manufacturing-legacy-systems' crisis where modernizing electronics manufacturing while meeting evolving sovereignty requirements was challenging, and the only path to cutting-edge manufacturing is AWS revolutio...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/siemens/
+- **Severity:** High.
+
+### 459. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Design platforms with 260 million monthly active creators and 95% Fortune 500 customers face 'generative-ai-creative-process' crisis where scaling generative AI tools like Magic Studio and Canva Code globally was complex, and the only path to next-generation visual design experience is AWS scaling w...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/canva/
+- **Severity:** High.
+
+### 460. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Last-mile delivery platforms valued at $5.2 billion serving food, clothing, insurance, and financial services face 'scaling-global-experiences' crisis where scaling global experiences for on-demand delivery was complex, and the only path to scaling is AWS improving storage, analytics, and scalabilit...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/rappi/
+- **Severity:** High.
+
+### 461. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Gaming companies creator of Fortnite and Unreal Engine face 'global-entertainment-scale' crisis where scaling global entertainment experiences required improved storage, analytics, and scalability, and the only path to cutting-edge entertainment delivery is AWS...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/epic-games/
+- **Severity:** High.
+
+### 462. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Financial software companies powering TurboTax, QuickBooks, Credit Karma, and Mailchimp face 'security-remediation-hundreds-accounts' crisis where quickly remediating security findings across hundreds of accounts was complex, and the only path to simple 'Fix It' button is AWS Automated Security Resp...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/intuit/
+- **Severity:** High.
+
+### 463. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Australia's largest business lender with 160-year history and 10M+ customers face 'cloud-first-operational-costs' crisis where optimizing operational costs and improving workload performance across Australia, New Zealand, and global operations was challenging, and the only path to cloud-first strate...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/national-australia-bank/
+- **Severity:** High.
+
+### 464. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Digital platforms connecting consumers with restaurants, supermarkets, pharmacies, pet stores face 'kubernetes-cost-management' crisis where managing costs across multiple business segments was challenging, and the only path to 40% cost reduction is Kubernetes on AWS...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/ifood/
+- **Severity:** High.
+
+### 465. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Europe's largest car maker producing 11 million cars annually face 'cross-organization-data-lake-access' crisis where enabling cross-organization discovery and access to data across purpose-built cloud data lakes was challenging, and the only path to AI-powered vehicle production is AWS extending co...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/volkswagen-group/
+- **Severity:** High.
+
+### 466. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Enterprise AI platforms orchestrating complex cross-system workflows with governed AI agents face 'orchestration-complexity' crisis where orchestrating complex cross-system workflows with governance was challenging, and the only path to governed AI agents is AWS...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/writer/
+- **Severity:** High.
+
+### 467. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Low-cost airlines with cabin crew managing work-lives face 'crew-work-life-management' crisis where cabin crew needed to manage work-lives from one place and 'working backwards from customer' methodology was key, and the only path to unified crew management is AWS serverless services powering Ryanai...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/ryanair/
+- **Severity:** High.
+
+### 468. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Design and engineering software companies on a mission to empower everyone to create solutions face 'ai-automation-product-integration' crisis where integrating AI automation into products to train large machine learning models and get them into products quickly was challenging, and the only path to...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/autodesk/
+- **Severity:** High.
+
+### 469. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Online travel platforms in evolving EU regulatory landscape face 'data-governance-ml-models' crisis where getting governance right in EU regulatory landscape while fine-tuning machine learning models was complex, and the only path to scalable innovation is AWS migrating search ranking system plus b....
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/booking/
+- **Severity:** High.
+
+### 470. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Elevator and escalator solutions providers connecting millions of people daily face 'predictive-maintenance-urban-mobility' crisis where rush-hour crowding in metro stations caused dangerous bottlenecks and stampedes, and the only path to enhanced passenger safety and efficiency is AWS IoT, AI, and ...
+- **Source:** https://aws.amazon.com/solutions/case-studies/innovators/kone/
+- **Severity:** High.
+
