@@ -4096,3 +4096,35 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/rollbar/
 
 
+### 587. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** SevenRooms (hospitality management platform) needed to manage complexity of software as they rapidly scaled after pandemic recovery
+- **Source:** https://circleci.com/case-studies/sevenrooms/
+
+### 588. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** PolicyMe (Toronto insurance provider) needed to uncomplicate life insurance buying while accelerating product innovation
+- **Source:** https://circleci.com/case-studies/policyme/
+
+### 589. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Travelex (foreign currency exchange company, founded 1976 in England) needed scale and speed for digital transformation
+- **Source:** https://circleci.com/case-studies/travelex/
+
+
+### 590. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** RepairPal (auto repair platform) was using Jenkins for CI/CD which came with plenty of frustrations - needed customizable compute for more testing options
+- **Source:** https://circleci.com/case-studies/repairpal/
+
+### 591. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Returnalyze (Boston-based retail returns analytics) previously had no streamlined release process - went as long as 2 months without a release, preventing rapid incorporation of user feedback
+- **Source:** https://circleci.com/case-studies/returnalyze/
+
+### 592. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Tunaiku (largest fintech lending platform in Indonesia) previously using Jenkins required a week to set up a new project and a month of iterative testing - "too much time and too much complexity in managing CI/CD"
+- **Source:** https://circleci.com/case-studies/tunaiku/
+
+
