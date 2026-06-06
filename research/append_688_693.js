@@ -1,0 +1,15 @@
+const fs = require('fs');
+const lines = [
+  JSON.stringify({finding: 688, category: "Onboarding & Deployment", friction: "Goldman Sachs (35,000+ employees, financial services) faced 'toolchain-complexity-paradox' where the firm had built its own complex toolchain but needed modern toolset for managing code that developers coming into the firm would already be familiar with - wanted to demolish toolchain complexity to increase concurrent development", url: "https://about.gitlab.com/customers/goldman-sachs/", severity: "High", company: "Goldman Sachs"}),
+  JSON.stringify({finding: 689, category: "Developer Experience", friction: "Goldman Sachs faced 'developer-adoption-paradox' where 'We're bringing into the firm a platform that our engineers actually want to use – which helps drive adoption across multiple teams and increase productivity without having to force anyone to adopt it' - engineers wanted to use GitLab voluntarily", url: "https://about.gitlab.com/customers/goldman-sachs/", severity: "High", company: "Goldman Sachs"}),
+  JSON.stringify({finding: 690, category: "Performance and Reliability", friction: "Goldman Sachs (engineering division, 35,000+ employees) went from '1 build every 2 weeks to over 1,000 per day' using GitLab - some teams now run and merge 1,000+ CI feature branch builds a day enabling daily production deployments", url: "https://about.gitlab.com/customers/goldman-sachs/", severity: "High", company: "Goldman Sachs"}),
+  JSON.stringify({finding: 691, category: "Performance and Reliability", friction: "CERN (Large Hadron Collider, 10,000 associated members) achieved 90x faster job startups using GitLab runners and 3x more concurrent jobs - enabling faster particle collision data processing for physics research", url: "https://about.gitlab.com/customers/cern/", severity: "High", company: "CERN"}),
+  JSON.stringify({finding: 692, category: "Security and Governance", friction: "CERN (particle physics research lab, European intergovernmental organization) upgraded to GitLab Ultimate to take advantage of its advanced security framework for software running the Large Hadron Collider and creating collisions", url: "https://about.gitlab.com/customers/cern/", severity: "High", company: "CERN"}),
+  JSON.stringify({finding: 693, category: "Integration", friction: "CERN faced 'global-collaboration-complexity' where physicists and engineers from 24 member states study fundamental structure of particles - needed platform to securely and efficiently run world's largest particle accelerator while processing vast amounts of data from particle collisions", url: "https://about.gitlab.com/customers/cern/", severity: "High", company: "CERN"})
+];
+lines.forEach((l, i) => {
+  fs.appendFileSync('research_log.jsonl', l + '\n');
+  console.log('Written finding', 688 + i);
+});
+const after = fs.readFileSync('research_log.jsonl', 'utf8').split('\n').filter(l => l.trim()).length;
+console.log('After:', after);

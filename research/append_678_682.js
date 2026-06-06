@@ -1,0 +1,14 @@
+const fs = require('fs');
+const lines = [
+  JSON.stringify({finding: 678, category: "Performance and Reliability", friction: "Intility (650 customers, 50,000 users, Scandinavia) faced 'shift-to-automated-traffic' where clear shift in traffic towards automated agents particularly bots and AI crawlers put pressure on origin services and security operations - needed advanced bot management to distinguish good automation from malicious scraping, credential stuffing, L7 DDoS, and API abuse", url: "https://www.cloudflare.com/case-studies/intility/", severity: "High", company: "Intility"}),
+  JSON.stringify({finding: 679, category: "Security and Governance", friction: "Anadolu Efes (10th largest beer producer globally, 750M consumers, 70+ countries) consolidated web application security, workforce security, and cloud networking on Cloudflare to address modern attacks and reduce complexity of legacy IT network infrastructure that had become too slow for business requirements", url: "https://www.cloudflare.com/case-studies/anadolu-efes/", severity: "High", company: "Anadolu Efes"}),
+  JSON.stringify({finding: 680, category: "Onboarding & Deployment", friction: "Anadolu Efes reduced deployment times from days to mere minutes by using Cloudflare - seasonal warehouse in Izmir integrated into network without any hardware investment using SIM-enabled handheld terminals with WARP agent and AD authentication", url: "https://www.cloudflare.com/case-studies/anadolu-efes/", severity: "High", company: "Anadolu Efes"}),
+  JSON.stringify({finding: 681, category: "Performance and Reliability", friction: "Fullscript (healthcare SaaS,3-person infrastructure team) achieved8x deployment efficiency improvement reducing security rule changes from more than 4 hours to under 30 seconds after migrating from AWS WAF to Cloudflare", url: "https://www.cloudflare.com/case-studies/fullscript/", severity: "High", company: "Fullscript"}),
+  JSON.stringify({finding: 682, category: "Legacy System Integration", friction: "Tightknit (lean startup, B2B SaaS community platform on Slack) built nearly entire application on Cloudflare Developer Platform - 'We were able to launch our TypeScript at scale globally without having to worry about complications or scale concerns' and 'local development experience is identical to production environment'", url: "https://www.cloudflare.com/case-studies/tightknit/", severity: "Medium", company: "Tightknit"})
+];
+lines.forEach((l, i) => {
+  fs.appendFileSync('research_log.jsonl', l + '\n');
+  console.log('Written finding', 678 + i);
+});
+const after = fs.readFileSync('research_log.jsonl', 'utf8').split('\n').filter(l => l.trim()).length;
+console.log('After:', after);
