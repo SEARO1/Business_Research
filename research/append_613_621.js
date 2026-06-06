@@ -1,0 +1,18 @@
+const fs = require('fs');
+const lines = [
+  JSON.stringify({finding: 613, category: "Security and Governance", friction: "Stack Overflow (largest developer community with100M+ monthly visitors) needed protection from bots and scraping while maintaining fast page loads for millions of developers", url: "https://www.cloudflare.com/case-studies/stack-overflow/", severity: "High", company: "Stack Overflow"}),
+  JSON.stringify({finding: 614, category: "Onboarding & Deployment", friction: "Canva (100M+ users, 190 countries, 60M+ monthly active users) needed fast, reliable, and secure global content delivery for design platform used by non-technical users", url: "https://www.cloudflare.com/case-studies/canva/", severity: "High", company: "Canva"}),
+  JSON.stringify({finding: 615, category: "Security and Governance", friction: "Skyscanner (travel search engine used by 100M+ people) needed DDoS protection, API security, and bot management for travel data aggregation across thousands of airline and hotel partners", url: "https://www.cloudflare.com/case-studies/skyscanner/", severity: "High", company: "Skyscanner"}),
+  JSON.stringify({finding: 616, category: "Security and Governance", friction: "Kaizen Gaming (high-traffic gaming and betting platform) faced constant DDoS and bot attacks targeting their platform and had architectural challenges with origin servers", url: "https://www.cloudflare.com/case-studies/kaizen-gaming/", severity: "High", company: "Kaizen Gaming"}),
+  JSON.stringify({finding: 617, category: "Security and Governance", friction: "Intility (IT infrastructure provider managing thousands of endpoints) needed unified security and performance solution for their customers across multiple industries", url: "https://www.cloudflare.com/case-studies/intility/", severity: "High", company: "Intility"}),
+  JSON.stringify({finding: 618, category: "Security and Governance", friction: "Anadolu Efes (Turkey's largest brewer with operations across multiple countries) needed protection from cyber threats while maintaining fast digital operations for beer and beverage distribution", url: "https://www.cloudflare.com/case-studies/anadolu-efes/", severity: "High", company: "Anadolu Efes"}),
+  JSON.stringify({finding: 619, category: "Security and Governance", friction: "Fullscript (online supplement platform serving70K+ practitioners) needed bot protection, DDoS mitigation, and performance optimization for health supplement e-commerce platform", url: "https://www.cloudflare.com/case-studies/fullscript/", severity: "Medium", company: "Fullscript"}),
+  JSON.stringify({finding: 620, category: "Security and Governance", friction: "Tightknit (social platform for communities) needed DDoS protection and security for building community spaces online while scaling rapidly", url: "https://www.cloudflare.com/case-studies/tightknit/", severity: "Medium", company: "Tightknit"}),
+  JSON.stringify({finding: 621, category: "Onboarding & Deployment", friction: "Dropbox (700M+ users, billions of content items, 1,300+ employees) used Airtable to manage operations at scale - needed connected workspaces to replace disconnected spreadsheets", url: "https://www.airtable.com/customer-stories/dropbox", severity: "High", company: "Dropbox"})
+];
+lines.forEach((l, i) => {
+  fs.appendFileSync('research_log.jsonl', l + '\n');
+  console.log('Written finding', 613 + i);
+});
+const after = fs.readFileSync('research_log.jsonl', 'utf8').split('\n').filter(l => l.trim()).length;
+console.log('After:', after);
