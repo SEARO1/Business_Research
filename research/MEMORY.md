@@ -4128,3 +4128,14 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://circleci.com/case-studies/tunaiku/
 
 
+### 593. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** SolarWinds (observability product) needed to standardize security processes with self-hosted runners and private orbs - "Secure by design is our guiding principle"
+- **Source:** https://circleci.com/case-studies/solarwinds/
+
+### 594. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Pitch (presentation SaaS for Slack, Framer, MetaLab) had 60+ developers in a monorepo with feedback cycles getting longer using Travis - bottlenecks slowed down feedback and innovation
+- **Source:** https://circleci.com/case-studies/pitch/
+
+
