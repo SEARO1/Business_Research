@@ -1,0 +1,39 @@
+const fs = require('fs');
+
+const memPath = 'C:/Users/cheun/.openclaw/workspace/Business_Research/research/MEMORY.md';
+let memData = fs.readFileSync(memPath, 'utf8');
+
+const newFindings = `
+### 317. Global conglomerates with ~480,000 identities, ~100 on-premise Active Directory servers, and frequent M&A activity face a "nearly-100-AD-servers-and-6-month-M&A-identity-integration" crisis where legacy identity infrastructure lags cloud tech and forces companies to replace acquired companies' IT environments, and the only path to 41 tons CO2 reduction/year and 1-3 month M&A identity integration is Okta with cloud-native identity that links platforms instead of absorbing infrastructure
+- **Category:** Integration
+- **Friction:** Global conglomerates with ~480,000 identities, ~100 on-premise AD servers, and frequent M&A face a "nearly-100-AD-servers-and-6-month-M&A-identity-integration" crisis. "We have reduced the number of Active Directory authentication servers running on-premise and integrated authentication with Okta. We used to have nearly 100 AD authentication servers." "When integrating on-premise identity infrastructure, it can take six months just to pull the network. But with Okta, identity integration can be done in one to three months." The only path to 41-ton CO2 reduction is Okta + cloud-native identity platform.
+- **Source:** https://www.okta.com/customers/hitachi
+- **Severity:** Critical. Named execs: Hitoshi Tanaka (General Manager, Global Solutions 2nd Office, IT Strategy & Digital Integration Division, Hitachi); Ono (IT Strategy & Digital Integration Division, Hitachi). Quantified: ~480,000 identities (employees + business partners); ~100 AD servers → cloud; 41 tons CO2 reduction/year expected; 6 months → 1-3 months M&A identity integration; Zero Trust with MFA + Device Trust; Okta Identity Governance for480K identity inventory.
+
+### 318. Sports racing organizations with 50+ brand partners and millions of F1 fans at peak race moments face a "manual-partner-profile-management-and-inability-to-handle-race-day-traffic-spikes" crisis where partners had to contact the McLaren team to get portal access and the platform couldn't handle peaks during car launches and Grand Prix races, and the only path to doubling partner users and handling millions of fan interactions is Auth0 that auto-scales during traffic spikes and automates partner on/offboarding
+- **Category:** Onboarding & Deployment
+- **Friction:** Sports racing organizations with 50+ brand partners and millions of F1 fans face a "manual-partner-profile-management-and-inability-to-handle-race-day-traffic-spikes" crisis. "To access the portal, partners previously had to contact the McLaren team, who managed user profiles manually." "With just 1% of F1 fans likely to ever attend a physical race, McLaren Racing is determined to ensure they get the most from their digital interactions." The only path to doubling partner users and race-scale fan handling is Auth0 with auto-scaling and automated onboarding.
+- **Source:** https://www.okta.com/customers/mclaren
+- **Severity:** High. Named execs: Zadie Bayston (Digital and Technology Lead, McLaren Racing). Quantified: 50+ brand partners; 500 → 1,000 active partner users goal; millions of fans during races; Auth0 scales to handle large traffic peaks; Enterprise SSO automates partner account management; self-serve partner portal; compliance automation.
+### 319. T&E platforms collecting PII, payment information, and sensitive data that grew from startup to hypergrowth face an "in-house-IAM-inadequate-for-PII-and-identity-attacks" crisis where in-house customer identity solution proves inadequate and friction between security and access creates business risk, and the only path to end-to-end identity visibility and customer trust is Okta + Auth0 unified platform that resolves security issues much faster via a single data set
+- **Category:** Security and Governance
+- **Friction:** T&E platforms collecting PII, payment information, and sensitive data that grew from startup to hypergrowth face an "in-house-IAM-inadequate-for-PII-and-identity-attacks" crisis. "Because Navan collects payment information, personal identifying information (PII), and other sensitive data, its in-house customer identity and access management (IAM) solution soon proved inadequate." "Every customer has different needs and requirements, and our job is to recognize and meet those needs wherever they are, on whatever device they are using." The only path to customer trust and zero friction is Okta + Auth0 unified.
+- **Source:** https://www.okta.com/customers/navan
+- **Severity:** Critical. Named execs: Kim Huffman (CIO, Navan); Kelly Soderlund (Senior Director of Corporate Communications, Navan); Chris Price (head of business technology, Navan); Prabhath Karanth (head of customer trust and security, Navan). Quantified: 2,900+ employees across 40 markets; PII + payment info collection; identity-first approach; single data set for end-to-end identity visibility; "Normally, the tension between security and access creates a lot of friction, but with Okta and Auth0 together, that's gone"; Auth0 Organizations for highly regulated vs high-risk-tolerance customers.
+`;
+
+fs.writeFileSync(memPath, memData + newFindings);
+console.log('Appended 3 findings (317-319) to MEMORY.md');
+
+const jsonlPath = 'C:/Users/cheun/.openclaw/workspace/Business_Research/research/research_log.jsonl';
+let jsonlData = fs.readFileSync(jsonlPath, 'utf8');
+
+const newLines = [
+  '{"Pain_Point_Category":"Integration","Specific_Friction":"Global conglomerates with480K identities and100 on-premise AD servers face nearly-100-AD-servers-and-6-month-MA-identity-integration crisis. The only path to 41-ton CO2 reduction and 1-3 month M&A integration is Okta cloud-native identity linking platforms.","Source_URL":"https://www.okta.com/customers/hitachi","Severity_Impact":"Critical. Named execs: Hitoshi Tanaka (GM, IT Strategy & Digital Integration); Ono (IT Strategy & Digital Integration, Hitachi). Quantified:480K identities; ~100 AD servers reduced; 41 tons CO2/year; 6 months to 1-3 months M&A identity integration; Zero Trust + MFA + Device Trust; Okta Identity Governance."}',
+  '{"Pain_Point_Category":"Onboarding & Deployment","Specific_Friction":"Sports racing orgs with50+ brand partners and millions of F1 fans face manual-partner-management-and-race-day-traffic-spikes crisis. The only path to doubling partner users and race-scale fan handling is Auth0 auto-scaling.","Source_URL":"https://www.okta.com/customers/mclaren","Severity_Impact":"High. Named exec: Zadie Bayston (Digital and Technology Lead, McLaren Racing). Quantified: 50+ brand partners; 500 to 1,000 partner users goal; millions of fans during races; Enterprise SSO automates partner onboarding; self-serve partner portal; compliance automation."}',
+  '{"Pain_Point_Category":"Security and Governance","Specific_Friction":"T&E platforms collecting PII and payment data face in-house-IAM-inadequate crisis. The only path to end-to-end identity visibility and customer trust is Okta + Auth0 unified platform.","Source_URL":"https://www.okta.com/customers/navan","Severity_Impact":"Critical. Named execs: Kim Huffman (CIO); Kelly Soderlund (Sr Director Corp Comms); Chris Price (head of biz technology); Prabhath Karanth (head of customer trust and security, Navan). Quantified: 2,900+ employees/40 markets; PII + payment info; single data set for identity visibility; security-access friction eliminated."}'
+];
+
+fs.writeFileSync(jsonlPath, jsonlData.trim() + '\n' + newLines.join('\n') + '\n');
+console.log('Appended 3 findings (317-319) to jsonl');
+console.log('jsonl now: ' + (jsonlData.trim().split('\n').length + 3) + ' lines');
