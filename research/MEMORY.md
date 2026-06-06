@@ -3799,3 +3799,102 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Italian logistics companies operating road, freight, air, and sea services worldwide in highly competitive market with very low margins facing 'legacy-tms-track-trace' crisis where it took 45-50 minutes to give customers track-and-trace data, and the only path to competitive diff...
 - **Source:** https://www.confluent.io/customers/arcese/
 
+
+## Session 13 - CircleCI + GitLab Case Studies (2026-06-06)
+
+### 532. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Eventbrite platform developers (6 people serving 250-engineer org) faced 90 min/developer/week CI/CD downtime with Jenkins, requiring them to wait around when systems were down
+- **Source:** https://circleci.com/case-studies/eventbrite/
+
+### 533. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Dollar Shave Club engineers ran single spec files instead of whole test suites before committing code with Jenkins because managing multiple environments on the Jenkins box required significant time and effort - one buggy commit could break entire suite
+- **Source:** https://circleci.com/case-studies/dollar-shave-club/
+
+### 534. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Cruise Automation (GM subsidiary building self-driving cars) needed CI/CD capable of handling complex testing for autonomous vehicle software that must obey traffic laws, follow map directions, and respond instantaneously to road situations
+- **Source:** https://circleci.com/case-studies/cruise/
+
+### 535. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Hilti (global construction services, 30K employees) needed to bring code in-house with proper SDLC governance, security scanning, and compliance across different regions - required robust SCM, CI/CD, and security scanning in one suite
+- **Source:** https://about.gitlab.com/customers/hilti/
+
+### 536. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Ericsson OSS/BSS (100K employees, Stockholm Sweden) had deployment cycles of 3-4 months for telecom billing systems that must never fail - cloud-native architecture demanded faster innovation cycles but legacy methodology was optimized for stability
+- **Source:** https://about.gitlab.com/customers/ericsson/
+
+### 537. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Siemens Smart Infrastructure (25K+ employees, 190 countries) needed to create open source DevOps culture across massive global organization with millions of builds per month
+- **Source:** https://about.gitlab.com/customers/siemens/
+
+
+### 538. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Goldman Sachs engineering teams (35K+ employees) were constrained by toolchain complexity and could only do 1 build every 2 weeks - needed to accelerate DevOps adoption and enable self-service daily builds across dozens of teams
+- **Source:** https://about.gitlab.com/customers/goldman-sachs/
+
+### 539. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** NVIDIA (11K+ employees, 50+ offices worldwide) with distributed teams needed GitLab Geo for stability, security, and scalable development across multiple geographic locations without wasting engineering time on individual servers
+- **Source:** https://about.gitlab.com/customers/nvidia/
+
+
+### 540. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** HubSpot (40K+ customers, 90+ countries) faced manual SSL provisioning that took 5 days per customer site - Google Chrome flagging unencrypted sites created urgency to deploy SSL for 40,000 domains before deadline
+- **Source:** https://www.cloudflare.com/case-studies/hubspot/
+
+
+### 541. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Shopify (millions of merchants, 175+ countries) needed to protect e-commerce from bot/DDoS attacks while maintaining fast page loads and simple merchant experience - complex technology creates friction in commerce
+- **Source:** https://www.cloudflare.com/case-studies/shopify/
+
+### 542. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Zendesk (100K+ customers, 4M agents, 160+ countries) serving billions of customer interactions faced increasingly virulent attacks threatening to disrupt services - needed dynamic threat detection and response
+- **Source:** https://www.cloudflare.com/case-studies/zendesk/
+
+
+### 543. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Thales (81K employees, 68 countries, 5K+ DevSecOps members) faced thousands of work silos preventing collaboration - needed single DevSecOps platform to break down silos for in-flight entertainment systems on 2,300 aircraft serving 1.6M passengers/day
+- **Source:** https://about.gitlab.com/customers/thales/
+
+### 544. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Deutsche Telekom (216K employees, 240M mobile customers) had release cycles of nearly 18 months in some cases - needed to dramatically reduce time to market while maintaining security
+- **Source:** https://about.gitlab.com/customers/deutsche-telekom/
+
+### 545. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Lockheed Martin (114K employees, $26.7B sales) defense contractor had thousands of programs with fragmented toolchains - needed to shrink toolchains, speed production, and improve security for aerospace/defense software
+- **Source:** https://about.gitlab.com/customers/lockheed-martin/
+
+### 546. Integration
+- **Category:** Integration
+- **Friction:** Fujitsu Cloud Technologies (8K customers, Tokyo Japan) had separate Git and SVN tools per project with external developers brought in project-by-project - difficult to share knowledge and manage authorization across projects
+- **Source:** https://about.gitlab.com/customers/fujitsu/
+
+### 547. Integration
+- **Category:** Integration
+- **Friction:** Iron Mountain (25K+ employees, 225K customers worldwide) had fragmented DevOps tooling with no single view - needed foundation for scaled Agile framework with visibility across enterprise IT teams
+- **Source:** https://about.gitlab.com/customers/iron-mountain/
+
+
+### 548. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Fanatics cloud team (20 members, 10K employees) was burdened with ongoing CI issues, patches, and firefighting - previous CI tool had poor support and required constant maintenance for 300+ online/offline stores
+- **Source:** https://about.gitlab.com/customers/fanatics/
+
+### 549. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** CARFAX (1,200 employees, 31B records, 139K+ data sources) was spending too much time and money supporting DevOps toolchain instead of delivering features - needed to trim toolchain while improving security
+- **Source:** https://about.gitlab.com/customers/carfax/
+
+
