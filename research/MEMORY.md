@@ -3658,3 +3658,32 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Professional sports leagues with 100+ year brand reputation facing 'cyberattack-reputation-risk' crisis where cyberattack could pose serious harm to image and security team needs maximum preparedness to minimize risk to reputation, and the only path to SOC efficiency is XSIAM dri...
 - **Source:** https://www.paloaltonetworks.com/customers/nhl-stays-ahead-of-the-game-with-palo-alto-networks
 
+
+
+## Session 10b - Palo Alto Networks More Findings (2026-06-06 late)
+
+### 507. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Ministry of Justice facing 'soc-resolution-capacity' crisis where SOC was resolving around 600 incidents a day and needed six-to-twelvefold increase in capacity, and incidents were detected in minutes with significant increase in threat visibility, and the only path to digital ju...
+- **Source:** https://www.paloaltonetworks.com/customers/mojs-network-and-security-transformation-with-palo-alto-networks
+
+### 508. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Entertainment conglomerates operating major theme parks with 5,000 employees serving 13 million annual guests and securing over 100 million digital interactions per year face 'legacy-infrastructure-burden' crisis where legacy infrastructure burdened the company and vendor consoli...
+- **Source:** https://www.paloaltonetworks.com/customers/village-roadshow-fortifies-entertainment-empire-with-ai-powered-cybersecurity
+
+### 509. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Global semiconductor companies with operations in 30+ countries serving automotive, industrial, IoT, mobile, and communications infrastructure face 'ai-ready-security' challenges where securing IT operations with AI-ready solutions is critical, and the only path is Palo Alto Netw...
+- **Source:** https://www.paloaltonetworks.com/customers/nxp-secures-it-operations-with-palo-alto-networks
+
+### 510. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Travel technology companies moving millions of travelers and terabytes of data across vast digital ecosystem where single vulnerability can have global ripple effects face 'complex-vpn-mixed-access' crisis where mobile workers accessed network through complex mix of VPN solutions...
+- **Source:** https://www.paloaltonetworks.com/customers/sabre-secures-every-leg-of-the-journey
+
+### 511. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Bakery companies with 200+ plants in 35 countries protecting sites and people and rapidly securing newly acquired businesses face 'impossible-cybersecurity-goals' crisis where Zero Trust security strategy for OT devices needed to support uninterrupted baking, and direct-to-app co...
+- **Source:** https://www.paloaltonetworks.com/customers/grupo-bimbo-protects-its-global-connected-supply-chain-with-palo-alto-networks
+
