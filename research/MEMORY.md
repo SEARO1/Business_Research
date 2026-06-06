@@ -3530,3 +3530,47 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Friction:** Leading digital operators in one of world's most demanding digital environments facing 'multiple-cdn-vendors-complexity' crisis where mix of on-premise security appliances and multiple CDN vendors was hard to manage and expensive, and large-scale DDoS attacks threatened availabil...
 - **Source:** https://www.cloudflare.com/case-studies/hutchison-telecom-hong-kong/
 
+
+
+## Session 9b - Okta Case Studies (2026-06-06 late)
+
+### 483. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** F1 racing teams with 50+ brand partners and millions of fans engaging during popular events face 'partner-onboarding-scale' crisis where doubling active partner users from 500 to 1,000 required secure identity platform that would make it faster and easier to onboard users, and th...
+- **Source:** https://www.okta.com/customers/mclaren/
+
+### 484. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Hotel chains with 22 iconic brands serving 100 million users face '100-million-user-digital-experience' crisis where digital experience at scale needed secure identity management, and the only path to unforgettable digital experience is Okta...
+- **Source:** https://www.okta.com/customers/wyndham-hotels/
+
+### 485. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Enterprise companies managing ~480,000 global users across consolidated corporate employees and business partners face 'zero-trust-identity-inventory' crisis where Zero Trust security requires periodic inventory of identities and leaving unused identities in place can be target o...
+- **Source:** https://www.okta.com/customers/hitachi/
+
+### 486. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Travel and expense platforms collecting payment information and personal identity data facing 'identity-based-attacks-increase' crisis where company growth required central identity strategy to protect against evolving threats, and the only path to customer trust is Auth0 with Wo...
+- **Source:** https://www.okta.com/customers/navan/
+
+### 487. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Insurance companies as publicly traded entities facing 'access-certification-nightmare' crisis where 500+ IT help desk tickets per month for access requests and quarterly access certification across 12 critical systems using spreadsheets was eating up tons of time and resources, ...
+- **Source:** https://www.okta.com/customers/root-insurance/
+
+### 488. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Visitor, identity, and risk management software companies face 'outsourced-24-7-soc-cost' crisis where previously outsourcing 24/7 security operations center was costly and inefficient and couldn't scale to accommodate new users and applications as company grew, and the only path...
+- **Source:** https://www.okta.com/customers/sign-in-solutions/
+
+### 489. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Revenue execution companies facing 'identity-sprawl-remediation' crisis where consolidating all Identity Security use cases across multiple solutions was needed, and the only path to reduced identity sprawl and fast remediation is Okta Identity Security Posture Management...
+- **Source:** https://www.okta.com/customers/xactly/
+
+### 490. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Defense and federal civilian technology companies for more than 55 years facing 'cmmc-audit-legacy-systems' crisis where decades of technical debt in rigid legacy systems made it manual and time-consuming to locate identity-related information and Cybersecurity Maturity Model Cer...
+- **Source:** https://www.okta.com/customers/mantech/
+
