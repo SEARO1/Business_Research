@@ -3466,3 +3466,67 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://aws.amazon.com/solutions/case-studies/innovators/kone/
 - **Severity:** High.
 
+
+
+## Session 9 - Cloudflare Case Studies (2026-06-06 evening)
+
+### 471. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Engineering Q&A platforms serving millions of engineers face 'layer-7-ddos-attacks-cdn' crisis where layer 7 DDoS attacks repeatedly disrupted availability and blocking those attacks was difficult with existing CDN, and the only path to availability is Cloudflare where they migra...
+- **Source:** https://www.cloudflare.com/case-studies/stack-overflow/
+
+### 472. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Global travel search platforms with mission to be world's number one travel ally face 'on-premises-services-keeping-online' crisis where expending huge amounts of time and resources just keeping everything online was overwhelming, and every time they expanded it was a challenge, ...
+- **Source:** https://www.cloudflare.com/case-studies/skyscanner/
+
+### 473. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Design platforms with rapid growth and AI-driven acquisitions face 'edge-internal-network-blur' crisis where maintaining development velocity without losing control was challenging, and the only path to secure innovation across growing product suite is Cloudflare Workers blurring...
+- **Source:** https://www.cloudflare.com/case-studies/canva/
+
+### 474. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Game technology companies with 1.5 million events per year and 400,000 livestreams facing real-time betting data challenges face 'websocket-connections-scale' crisis where every end-user's device established dedicated persistent WebSocket connection back to origin servers in Euro...
+- **Source:** https://www.cloudflare.com/case-studies/kaizen-gaming/
+
+### 475. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Platform-as-a-service providers with 650+ customers and 50,000 users across 2,500 locations face 'legacy-vpn-inadequate' crisis where traditional VPN model was increasingly inadequate with multiple VPN concentrators for each customer requiring constant patching and scaling, and m...
+- **Source:** https://www.cloudflare.com/case-studies/intility/
+
+### 476. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Government financial agencies serving 300,000+ active NYC government employees face 'multi-week-password-guessing-attack' crisis where attacker with scraped user IDs targeted remote employees in a sustained attack, and the only path to 76% attack reduction is Cloudflare blocking ...
+- **Source:** https://www.cloudflare.com/case-studies/nyc-government-financial-agency/
+
+### 477. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** Brewing companies with 57-year heritage exporting to 70+ countries employing 3,500 people facing network complexity crisis where network structure had become too complex to support business speed and connectivity slowed productivity, and the only path to business-required speed i...
+- **Source:** https://www.cloudflare.com/case-studies/anadolu-efes/
+
+### 478. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Technology-oriented manufacturers producing 90%+ products with proprietary technologies face 'remote-access-security-costs' crisis where prior solutions (Netskope, Zscaler) were costly and complex to operate and caused access difficulties, and employees sometimes routed through c...
+- **Source:** https://www.cloudflare.com/case-studies/mitsubishi-gas-chemical/
+
+### 479. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Consortium of Taiwan national medical institutions spanning hospitals, research facilities, and public health centers facing geopolitical cyber threats and regulatory restrictions preventing data transit through China, Hong Kong, or Macau, and the only path to public safety is Cl...
+- **Source:** https://www.cloudflare.com/case-studies/taiwans-national-medical-institutions/
+
+### 480. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** SaaS platforms for healthcare practitioners with traffic doubling annually for five consecutive years facing 'fragmented-legacy-infrastructure' crisis where AWS WAF gave almost no information when something went wrong and interface was incredibly difficult to use, and the only pa...
+- **Source:** https://www.cloudflare.com/case-studies/fullscript/
+
+### 481. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Community platforms for B2B SaaS companies wanting to build on Slack face 'traditional-infrastructure-complexity' crisis where managing servers, complicated Docker files, and running on large traditional cloud provider created headaches, and the only path to simple scaling is Clo...
+- **Source:** https://www.cloudflare.com/case-studies/tightknit/
+
+### 482. Security and Governance
+- **Category:** Security and Governance
+- **Friction:** Leading digital operators in one of world's most demanding digital environments facing 'multiple-cdn-vendors-complexity' crisis where mix of on-premise security appliances and multiple CDN vendors was hard to manage and expensive, and large-scale DDoS attacks threatened availabil...
+- **Source:** https://www.cloudflare.com/case-studies/hutchison-telecom-hong-kong/
+
