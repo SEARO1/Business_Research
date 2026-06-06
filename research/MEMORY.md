@@ -3074,3 +3074,247 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://www.datadoghq.com/case-studies/hashicorp/
 - **Severity:** High. Quantified: Terraform Enterprise public release 2017; SLOs for platform performance; remote workforce collaboration via Datadog.
 
+
+
+## Session 7 - Snyk, SonarSource, CircleCI Additional (2026-06-06)
+
+### 407. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Toyota Motor North America lacked a consistent monitoring tool across 1,600 applications (300 in cloud) and 100+ teams, creating inefficiencies and reliability concerns with mission-critical apps where downtime can cost 'millions' in revenue - achieved 99.9% uptime, MTTD from 6 hours to 15 minutes, ...
+- **Source:** https://www.datadoghq.com/case-studies/toyota/
+- **Severity:** High.
+
+### 408. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** SAS runs 100+ microservices on Viya platform where without unified observability, engineers spent too much time piecing together information just to understand where a problem started - achieved 4x CPU reduction (75% lower costs), identified N+1 query pattern delivering 300x efficiency improvement, ...
+- **Source:** https://www.datadoghq.com/case-studies/sas/
+- **Severity:** High.
+
+### 409. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Forbes had observability data siloed with incumbent tool that was challenging to set up and navigate, limiting visibility into Google Cloud stack - setup took 1 day vs quarter of time of previous solution, reduced homepage load time by 33%, GKE costs by 33%, and MTTD from 5 to 88 minutes while democ...
+- **Source:** https://www.datadoghq.com/case-studies/forbes/
+- **Severity:** High.
+
+### 410. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** MercadoLibre (largest Latin American e-commerce marketplace) faced operational issues where constant changes by separate teams in a shared hybrid cloud environment were too dynamic for basic monitoring tools - most teams had no idea how application changes might affect others, payments service compl...
+- **Source:** https://www.datadoghq.com/case-studies/mercadolibre/
+- **Severity:** High.
+
+### 411. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Sonos managed 2,000 Jenkins jobs daily across complex build/test/deploy pipeline where debugging failures across vast test runs was time-consuming, and multiple tools and manual processes including spreadsheets made it difficult to track CI executions - consolidated to Datadog and reduced CI-related...
+- **Source:** https://www.datadoghq.com/case-studies/sonos/
+- **Severity:** High.
+
+### 412. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Asana's homegrown cost-management tooling resulted in slow queries and slow follow-up on cost changes, making it difficult for teams to keep up with cloud spend - within weeks of Datadog CCM adoption, identified optimization opportunities driving cost and resource savings with accurate savings estim...
+- **Source:** https://www.datadoghq.com/case-studies/asana/
+- **Severity:** High.
+
+### 413. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Zendesk had multiple monitoring solutions creating silos between teams, and the old setup where developers had to wait for IT to order hardware before scaling was too slow - migrated to Kubernetes on AWS with Datadog as sole monitoring solution, reducing friction and empowering developer self-servic...
+- **Source:** https://www.datadoghq.com/case-studies/zendesk/
+- **Severity:** High.
+
+### 414. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** HashiCorp preparing for Terraform Enterprise public release needed organization-wide visibility into their platform as team grew, but poor usability of self-hosted monitoring tools left engineers ill-equipped to effectively monitor - adopted Datadog for user-friendly platform with SLOs, real-time al...
+- **Source:** https://www.datadoghq.com/case-studies/hashicorp/
+- **Severity:** High.
+
+### 415. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Enterprise SaaS companies with .NET majority codebases and multiple platforms (Node.js, Python, Go) face 'legacy-tooling-noise-and-coverage-gaps' crisis where homegrown tools were too narrow in scope with no tooling for new platforms, reports showed 'thousands of days of tech debt' with false positi...
+- **Source:** https://snyk.io/case-studies/technologyone/
+- **Severity:** High.
+
+### 416. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** E-commerce companies with 1,500 applications and thousands of projects face 'scaling-security-without-visibility' crisis where finding a single project is 'like trying to find a needle in a haystack' and manual security management doesn't scale, and the only path to enterprise-wide coverage is Snyk ...
+- **Source:** https://snyk.io/case-studies/overstock/
+- **Severity:** High.
+
+### 417. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Database platforms with hundreds of developers face 'manual-package-checks-slow' crisis where before Snyk the security team did manual checks of packages before releases (lots of googling and bookmarks), using different processes for different products, with only a few security engineers for the who...
+- **Source:** https://snyk.io/case-studies/mongodb/
+- **Severity:** High.
+
+### 418. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Fintech companies with growth focus face 'log4j-vulnerability-visibility' crisis where when a vulnerability like Log4j is introduced everyone scrambles to understand 'where are our exposures' and analyzing which projects are affected across multiple regions is very difficult, and the only path to su...
+- **Source:** https://snyk.io/case-studies/shopback/
+- **Severity:** High.
+
+### 419. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Payments platforms with 250K+ business customers and 300 developers face 'slow-scans-false-positives' crisis where existing security scanning solutions had slow scan times, cumbersome UI, lack of clear actionable dashboard, and high volume of false positives that burdened developers with time-consum...
+- **Source:** https://snyk.io/case-studies/mollie/
+- **Severity:** High.
+
+### 420. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Neobanks with small teams face 'compliance-and-vulnerability-visibility' crisis where as a startup with only 120+ employees, developers have responsibility for security and compliance, and previously had2,000 high vulnerabilities making it hard to prioritize, and the only path to regulatory complian...
+- **Source:** https://snyk.io/case-studies/lunar/
+- **Severity:** High.
+
+### 421. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Digital banking companies with hundreds of repositories face 'pci-compliance-scale' crisis where manually reviewing every open source library is impossible at scale, PCI compliance must be maintained as standards evolve, and developers need automated monitoring integrated into their workflow via Sla...
+- **Source:** https://snyk.io/case-studies/revolut/
+- **Severity:** High.
+
+### 422. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Insurance companies on cloud migration journey face 'no-cloud-experience-security-visibility' crisis where team lacks AWS or Azure cloud experience and needed overview of application health and runtime security on new cloud infrastructure, and the only path to security during cloud migration is Snyk...
+- **Source:** https://snyk.io/case-studies/helvetia/
+- **Severity:** High.
+
+### 423. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Logistics companies with 150-year history and multiple divisions (ferry/logistics) face 'supply-chain-observability-gaps' crisis where full audit of development pipeline uncovered significant security visibility gaps with different teams and tribes having different security practices, and the only p...
+- **Source:** https://snyk.io/case-studies/dfds/
+- **Severity:** High.
+
+### 424. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Fintech companies offering card and digital account solutions face 'multi-language-visibility' crisis where variety of languages made it challenging to gain big-picture view of entire security program without the right tooling, and the only path to full application coverage from code to production i...
+- **Source:** https://snyk.io/case-studies/pomelo/
+- **Severity:** High.
+
+### 425. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** AI platform companies providing personalized digital experiences face 'container-security-cost' crisis where original solution for container security became increasingly expensive and developers needed autonomous vulnerability management, and the only path to 'trust but verify' approach with develop...
+- **Source:** https://snyk.io/case-studies/coveo/
+- **Severity:** High.
+
+### 426. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Women's health apps during hypergrowth face 'manual-pentest-feedback-loop' crisis where manual approach meant fixes could take months, external penetration testing was every six months and internal assessment every quarter creating long feedback loop for finding issues, and the only path to150% incr...
+- **Source:** https://snyk.io/case-studies/flo-health/
+- **Severity:** High.
+
+### 427. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Enterprise software companies with open source pipeline face 'manual-oss-review-hours' crisis where manual security reviews for open source requests are time-consuming and security engineers have multiple responsibilities making it difficult to keep pace, and the only path to automated scanning is S...
+- **Source:** https://snyk.io/case-studies/salesforce/
+- **Severity:** High.
+
+### 428. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** SIEM/security providers with growing customer base face 'manual-security-practices-scale' crisis where manual security practices are difficult to maintain at scale and customers want proof of data protection with code and open source libraries actively monitored, and the only path to engineering-cen...
+- **Source:** https://snyk.io/case-studies/panther-labs/
+- **Severity:** High.
+
+### 429. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Telecom companies with 50 developers face 'log4shell-response-scale' crisis where critical Log4Shell vulnerability affected many applications and devices globally but only one development team was using Snyk initially making it difficult to get organization-wide visibility, and the only path to proa...
+- **Source:** https://snyk.io/case-studies/telenor/
+- **Severity:** High.
+
+### 430. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Biotech companies with FDA quality system requirements face 'manual-false-positives-bottleneck' crisis where manual security reviews created pull request bottlenecks with developers sifting through pages of false positives, and the only path to DevSecOps automation is Snyk with IDE implementation st...
+- **Source:** https://snyk.io/case-studies/natera/
+- **Severity:** High.
+
+### 431. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Education companies with 300 development teams face 'security-team-scale' crisis where only six security engineers must support entire organization making it impossible to configure and maintain tooling for each team, and the only path to company-wide self-service security with centralized oversight...
+- **Source:** https://snyk.io/case-studies/pearson/
+- **Severity:** High.
+
+### 432. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Social commerce apps with microservices architecture built primarily in Scala face 'visibility-across-many-repos' crisis where each service has separate code repository with varying levels of active development making it hard to get unified security visibility, and the only path to thousands of vuln...
+- **Source:** https://snyk.io/case-studies/depop/
+- **Severity:** High.
+
+### 433. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Tech companies with scaling product development face 'security-kept-up-reactive' crisis where product teams have free rein over application stacks but security struggled to keep up leading to lack of visibility and reactive approach, and the only path to complete product security visibility is Snyk-...
+- **Source:** https://snyk.io/case-studies/asurion/
+- **Severity:** High.
+
+### 434. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Enterprise automation companies with 12 products face 'scanning-single-app-limits' crisis where previous security scanning tool could only scan one application at a time and required extensive accreditation, and the only path to 100% portfolio coverage with hundreds of scans per day is Snyk where vu...
+- **Source:** https://snyk.io/case-studies/blue-prism/
+- **Severity:** High.
+
+### 435. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** FinTech providers with long history face 'open-source-vulnerability-accumulation' crisis where over years of using open source libraries and frameworks, vulnerabilities accumulated and teams had high number of issues from third-party packages, and the only path to improved security posture with off-...
+- **Source:** https://snyk.io/case-studies/origo/
+- **Severity:** High.
+
+### 436. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** Financial services firms with global development teams building customer-facing apps face 'security-job-zero' crisis where security is essentially job zero for the firm but old approach was build-and-fix-later, and the only path to building security into development process from start is Snyk with V...
+- **Source:** https://snyk.io/case-studies/acuity-knowledge-partners/
+- **Severity:** High.
+
+### 437. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Enterprise companies with massive codebases and thousands of developers face 'ai-coding-assistants-introduce-risk' crisis where AI coding assistants promise velocity but introduce risk of unintended code quality and security issues, and traditional code quality checks have reached breaking point wit...
+- **Source:** https://www.sonarsource.com/customer-stories/cisco/
+- **Severity:** High.
+
+### 438. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Enterprise SaaS companies with 2,000+ repositories face 'manual-enforcement-not-feasible' crisis where fragmented toolset created gaps in governance and manual enforcement isn't feasible at scale, and the only path to consistent standards is SonarQube embedded in standard CI templates so every pull ...
+- **Source:** https://www.sonarsource.com/customer-stories/freshworks/
+- **Severity:** High.
+
+### 439. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Accounting platforms with 3,500 repositories managing code reliability on premises for seven years face 'infrastructure-maintenance-manual-overhead' crisis where on-premises setup created technical hurdles and manual overhead as platform scaled, and the only path to greater confidence in production ...
+- **Source:** https://www.sonarsource.com/customer-stories/xero/
+- **Severity:** High.
+
+### 440. Security and Governance platforms facing various challenges
+- **Category:** Security and Governance
+- **Friction:** AI-native digital agencies managing engineering standards across global scaling organization face 'code-quality-landscape-fragmentation' crisis where managing engineering standards across rapidly scaling global teams is difficult and increasing code generation without quality assurance leads to inco...
+- **Source:** https://www.sonarsource.com/customer-stories/dept/
+- **Severity:** High.
+
+### 441. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Banking subsidiaries of major finance groups face 'technical-debt-communication-gap' crisis where DevOps teams struggle to communicate need for strategic technical investments to business stakeholders, and the only path to garnering support for technical investments is SonarQube quantifying technica...
+- **Source:** https://www.sonarsource.com/customer-stories/findomestic/
+- **Severity:** High.
+
+### 442. Legacy System Integration platforms facing various challenges
+- **Category:** Legacy System Integration
+- **Friction:** Health insurance IT providers managing complex diverse technology landscape face 'no-objective-code-evaluation' crisis where mix of modern Java/JavaScript alongside legacy COBOL and C code that is decades old made it difficult to maintain consistent standards and there was no ability to evaluate cod...
+- **Source:** https://www.sonarsource.com/customer-stories/imsa/
+- **Severity:** High.
+
+### 443. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Mobile-first companies with 225+ enterprise brands and 10,000+ Ruby on Rails specs face 'single-mac-mini-30min-builds-star-wars-siren' crisis where builds ran on a single Mac mini using TeamCity taking 30+ minutes with no real-time feedback (failure announced by Imperial siren from Star Wars), and t...
+- **Source:** https://circleci.com/case-studies/gospotcheck/
+- **Severity:** High.
+
+### 444. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** 3D customization e-commerce platforms for cycling/triathlon/football/soccer founded in 2019 face 'need-to-deploy-quickly-before-having-product' crisis where from day one the company needed to move fast and test the market even before having a product available, and the only path to every update cove...
+- **Source:** https://circleci.com/case-studies/brikl/
+- **Severity:** High.
+
+### 445. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** COVID testing companies doing 10% of US PCR tests with small software team face 'bad-deploy-outage-means-cars-back-up' crisis where software outages mean testing sites back up on streets, labs can't process samples, and people can't make appointments, and the only path to trusted complex workflows i...
+- **Source:** https://circleci.com/case-studies/curative/
+- **Severity:** High.
+
+### 446. Onboarding & Deployment platforms facing various challenges
+- **Category:** Onboarding & Deployment
+- **Friction:** Auto insurance fintech with small dev teams face '30-day-manual-process' crisis where settling totaled claims used to take as long as 30 days and engineers spent time troubleshooting code instead of building features, and the only path to deploying features without worrying about infrastructure is C...
+- **Source:** https://circleci.com/case-studies/fastlane-neuralegion/
+- **Severity:** High.
+
