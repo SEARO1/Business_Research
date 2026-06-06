@@ -3914,3 +3914,14 @@ esearch/figma-v1 �X **Mode B session 14**
 - **Source:** https://about.gitlab.com/customers/dunelm/
 
 
+### 553. Onboarding & Deployment
+- **Category:** Onboarding & Deployment
+- **Friction:** Domino's UK (high-technology digital platform business) needed to future-proof with composable architecture and best-in-breed technologies - needed observability to track SLI/SLO compliance
+- **Source:** https://newrelic.com/customers/dominos
+
+### 554. Legacy System Integration
+- **Category:** Legacy System Integration
+- **Friction:** William Hill (5.2M online transactions/day, 5.1M price changes/day) had multiple failing monitoring tools - needed real-time observability because "if we lose a minute, we lose thousands of customers"
+- **Source:** https://newrelic.com/customers/william-hill
+
+
